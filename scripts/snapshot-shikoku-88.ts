@@ -49,7 +49,7 @@ function buildStages(fc: FeatureCollection): RouteStage[] {
       );
     }
     const [lon, lat] = feature.geometry.coordinates;
-    const coords: Coords = [lat, lon];
+    const coords: Coords = [lon, lat];
     stages.push({ index: p.templeNumber as number, name, coords });
   }
   stages.sort((a, b) => a.index - b.index);
@@ -83,12 +83,12 @@ function main(): void {
     stages,
     closure: {
       name: "Kōya-san Okunoin",
-      coords: [34.2167, 135.589],
+      coords: [135.589, 34.2167],
       transitStages: [
-        { index: 1, name: "Tokushima port", coords: [34.067, 134.555] },
-        { index: 2, name: "Wakayama", coords: [34.23, 135.17] },
-        { index: 3, name: "Hashimoto", coords: [34.312, 135.604] },
-        { index: 4, name: "Kōya-san Okunoin", coords: [34.2167, 135.589] },
+        { index: 1, name: "Tokushima port", coords: [134.555, 34.067] },
+        { index: 2, name: "Wakayama", coords: [135.17, 34.23] },
+        { index: 3, name: "Hashimoto", coords: [135.604, 34.312] },
+        { index: 4, name: "Kōya-san Okunoin", coords: [135.589, 34.2167] },
       ],
     },
   };

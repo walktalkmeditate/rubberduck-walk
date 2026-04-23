@@ -2,7 +2,7 @@ export type DuckMode = "walking" | "completing" | "resting" | "beginning";
 
 export type EntryKind = "offering" | "notice" | "silence" | "threshold" | "letter";
 
-export type Coords = [number, number]; // [latitude, longitude]
+export type Coords = [number, number]; // [longitude, latitude] — GeoJSON convention
 
 export interface State {
   route: string;
