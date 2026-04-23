@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T21:41:19.650Z",
+  "generatedAt": "2026-04-23T21:54:22.113Z",
   "duck": {
     "route": "shikoku-88",
     "routeName": "Shikoku Henro",
@@ -12,7 +12,40 @@
     "mode": "walking",
     "progress": 0.011363636363636364
   },
-  "entries": [],
+  "entries": [
+    {
+      "date": "2026-04-24",
+      "route": "shikoku-88",
+      "stage": 2,
+      "stageName": "Gokuraku-ji",
+      "coords": [
+        134.49,
+        34.156
+      ],
+      "kind": "offering",
+      "glyph": "🪨",
+      "paragraphs": [
+        "A stone by the door. No one had moved it. No one needed to."
+      ],
+      "ageDays": -1
+    },
+    {
+      "date": "2026-04-23",
+      "route": "shikoku-88",
+      "stage": 1,
+      "stageName": "Ryozen-ji",
+      "coords": [
+        134.503,
+        34.16
+      ],
+      "kind": "offering",
+      "glyph": "⛩️",
+      "paragraphs": [
+        "The gate. The gate was always going to be open."
+      ],
+      "ageDays": 0
+    }
+  ],
   "routePath": {
     "shikoku-88": [
       [
