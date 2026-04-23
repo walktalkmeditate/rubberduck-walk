@@ -83,3 +83,19 @@ export function advance(state: State, route: Route, today: string): State {
 
   throw new Error(`Unknown mode: ${state.mode}`);
 }
+
+export function beginRoute(state: State, nextRoute: Route, today: string): State {
+  if (state.mode !== "resting") {
+    throw new Error(`Cannot begin a new route while mode=${state.mode}`);
+  }
+  const first = nextRoute.stages[0];
+  return {
+    route: nextRoute.id,
+    stage: first.index,
+    stageName: first.name,
+    coords: first.coords,
+    mode: "beginning",
+    modeEnteredAt: today,
+    lastAdvancedAt: today,
+  };
+}
