@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { parseEntry } from "../src/entries.ts";
+import { parseEntry, computeAgeDays } from "../src/entries.ts";
 
 test("parseEntry reads frontmatter and body as paragraphs", () => {
   const raw = `---
@@ -83,4 +83,10 @@ glyph: 🪨
 `;
   const result = parseEntry(raw, "/fake/p.md");
   assert.deepEqual(result.paragraphs, ["A stone."]);
+});
+
+test("computeAgeDays returns whole days between two dates", () => {
+  assert.equal(computeAgeDays("2026-04-23", "2026-04-23"), 0);
+  assert.equal(computeAgeDays("2026-04-22", "2026-04-23"), 1);
+  assert.equal(computeAgeDays("2026-01-23", "2026-04-23"), 90);
 });
