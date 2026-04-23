@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { advance } from "../src/advance.ts";
+import { advance, beginRoute } from "../src/advance.ts";
 import type { State, Route } from "../src/types.ts";
 
 const shikoku: Route = {
@@ -89,8 +89,6 @@ test("advance does not move during resting", () => {
   assert.equal(next.stageName, "Kōya-san");
   assert.equal(next.lastAdvancedAt, "2026-04-24"); // unchanged
 });
-
-import { beginRoute } from "../src/advance.ts";
 
 const kumano: Route = {
   id: "kumano-kodo",
