@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 1,
-  "stageName": "Ryozen-ji",
+  "stage": 2,
+  "stageName": "Gokuraku-ji",
   "coords": [
-    134.503,
-    34.16
+    134.49,
+    34.156
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-23",
-  "lastAdvancedAt": "2026-04-22"
+  "lastAdvancedAt": "2026-04-23"
 }

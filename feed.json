@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-04-23T22:17:51.783Z",
+  "generatedAt": "2026-04-23T22:50:32.150Z",
   "duck": {
     "route": "shikoku-88",
     "routeName": "Shikoku Henro",
-    "stage": 1,
-    "stageName": "Ryozen-ji",
+    "stage": 2,
+    "stageName": "Gokuraku-ji",
     "coords": [
-      134.503,
-      34.16
+      134.49,
+      34.156
     ],
     "mode": "walking",
-    "progress": 0.011363636363636364
+    "progress": 0.022727272727272728
   },
   "entries": [
     {
@@ -28,6 +28,22 @@
         "A stone by the door. No one had moved it. No one needed to."
       ],
       "ageDays": -1
+    },
+    {
+      "date": "2026-04-23",
+      "route": "shikoku-88",
+      "stage": 2,
+      "stageName": "Gokuraku-ji",
+      "coords": [
+        134.49,
+        34.156
+      ],
+      "kind": "offering",
+      "glyph": "🌿",
+      "paragraphs": [
+        "Moss on the step. Older than the step."
+      ],
+      "ageDays": 0
     },
     {
       "date": "2026-04-23",
