@@ -11,7 +11,7 @@ interface BuildFeedOpts {
 
 export function buildFeed({ state, route, entries, today }: BuildFeedOpts): Feed {
   const fresh = entries
-    .filter((e) => e.ageDays < MAX_AGE_DAYS)
+    .filter((e) => e.ageDays <= MAX_AGE_DAYS)
     .sort((a, b) => (a.date < b.date ? 1 : -1));
 
   const feedEntries: FeedEntry[] = fresh.map((e) => ({

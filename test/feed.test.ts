@@ -40,9 +40,9 @@ const recentEntry: Entry = {
 
 const oldEntry: Entry = {
   ...recentEntry,
-  date: "2025-04-23",
+  date: "2025-04-22",
   filePath: "/fake/b.md",
-  ageDays: 365,
+  ageDays: 366,
 };
 
 test("buildFeed includes recent entries", () => {
