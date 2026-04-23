@@ -24,6 +24,8 @@ When invoked by the daily `/schedule` cron, follow this sequence exactly:
 
 5. **Self-review** against the checklist. If fails, redraft. Up to 2 regenerations. If still failing after 3 attempts: emit a `kind: silence` entry via `./duck silence` instead.
 
+5a. **Programmatic voice lint** — run `npm run voice-lint -- entries/<new-entry>.md`. If non-zero exit, the entry failed the hard rules; delete it and emit silence via `./duck silence`.
+
 6. **Rebuild feed** — `./duck build-feed`.
 
 7. **Commit, push, purge** (in that order):
@@ -90,6 +92,10 @@ Before publishing a drafted entry (kinds: offering / notice / threshold), verify
 - [ ] Glyph is in the 27-symbol palette
 - [ ] Reads as child / fool / sage, not generic mindfulness bot
 - [ ] If 3 drafts fail this checklist: emit silence entry instead
+
+## Programmatic enforcement
+
+The self-review checklist above is aspirational — the model does it to itself, and the model is wrong sometimes. The authoritative gate is `npm run voice-lint -- entries/<file>.md`, run in step 5a of the daily flow. It enforces the hard rules (no "I/me/my/we", ≤20 words, no digits, no "!", no banned abstractions, no advice verbs, glyph in palette) as a non-zero exit. If the linter rejects an entry, do not try to fix it — delete the file and emit silence. The checklist stays because it shapes the draft; the linter stays because it stops a bad draft from reaching the feed.
 
 ## Writing an entry to disk
 
