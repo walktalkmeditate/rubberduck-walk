@@ -1,0 +1,25 @@
+{
+  "name": "rubberduck-walk",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "duck": "./duck"
+  },
+  "scripts": {
+    "test": "node --import tsx --test 'test/**/*.test.ts'",
+    "advance": "tsx scripts/advance.ts",
+    "build-feed": "tsx scripts/build-feed.ts",
+    "weather": "tsx scripts/weather.ts",
+    "purge": "bash scripts/purge.sh"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.12.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0"
+  }
+}
