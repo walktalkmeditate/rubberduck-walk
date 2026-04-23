@@ -90,3 +90,61 @@ test("computeAgeDays returns whole days between two dates", () => {
   assert.equal(computeAgeDays("2026-04-22", "2026-04-23"), 1);
   assert.equal(computeAgeDays("2026-01-23", "2026-04-23"), 90);
 });
+
+test("parseEntry throws when coords is missing", () => {
+  const raw = `---
+date: 2026-04-23
+route: shikoku-88
+stage: 1
+stageName: Ryozen-ji
+kind: offering
+glyph: 🪨
+---
+
+A stone.
+`;
+  assert.throws(() => parseEntry(raw, "/fake/no-coords.md"), /coords/);
+});
+
+test("parseEntry throws when stage is missing", () => {
+  const raw = `---
+date: 2026-04-23
+route: shikoku-88
+stageName: Ryozen-ji
+coords: [134.537, 34.128]
+kind: offering
+glyph: 🪨
+---
+
+A stone.
+`;
+  assert.throws(() => parseEntry(raw, "/fake/no-stage.md"), /stage/);
+});
+
+test("parseEntry throws when glyph is missing", () => {
+  const raw = `---
+date: 2026-04-23
+route: shikoku-88
+stage: 1
+stageName: Ryozen-ji
+coords: [134.537, 34.128]
+kind: offering
+---
+
+A stone.
+`;
+  assert.throws(() => parseEntry(raw, "/fake/no-glyph.md"), /glyph/);
+});
+
+test("parseEntry error lists all missing fields at once", () => {
+  const raw = `---
+date: 2026-04-23
+route: shikoku-88
+kind: offering
+---
+`;
+  assert.throws(
+    () => parseEntry(raw, "/fake/sparse.md"),
+    /stage.*stageName.*coords.*glyph/s,
+  );
+});

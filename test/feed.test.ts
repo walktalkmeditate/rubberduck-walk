@@ -96,3 +96,57 @@ test("buildFeed copies author from letter entries", () => {
   const feed = buildFeed({ state, route: shikoku, entries: [letter], today: "2026-04-23" });
   assert.equal(feed.entries[0].author, "— the pilgrim");
 });
+
+test("buildFeed progress is 1 when mode is completing (transit stage index)", () => {
+  // duck is on closure transit, stage=1 of 4 transit stages — but has already
+  // walked the full 2-stage route, so progress should read 1 not 1/2.
+  const completing: State = {
+    ...state,
+    stage: 1,
+    stageName: "Wakayama",
+    coords: [135.17, 34.23],
+    mode: "completing",
+  };
+  const feed = buildFeed({
+    state: completing,
+    route: shikoku,
+    entries: [],
+    today: "2026-04-23",
+  });
+  assert.equal(feed.duck.progress, 1);
+  assert.equal(feed.duck.mode, "completing");
+});
+
+test("buildFeed progress is 1 when mode is resting", () => {
+  const resting: State = {
+    ...state,
+    stage: 4,
+    stageName: "Kōya-san",
+    coords: [135.589, 34.216],
+    mode: "resting",
+  };
+  const feed = buildFeed({
+    state: resting,
+    route: shikoku,
+    entries: [],
+    today: "2026-04-23",
+  });
+  assert.equal(feed.duck.progress, 1);
+});
+
+test("buildFeed progress reflects stage/total when mode is beginning", () => {
+  const beginning: State = {
+    ...state,
+    stage: 1,
+    stageName: "Ryōzenji",
+    coords: [134.537, 34.128],
+    mode: "beginning",
+  };
+  const feed = buildFeed({
+    state: beginning,
+    route: shikoku,
+    entries: [],
+    today: "2026-04-23",
+  });
+  assert.equal(feed.duck.progress, 0.5); // 1 / 2 stages
+});
