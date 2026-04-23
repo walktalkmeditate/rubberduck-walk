@@ -1,6 +1,30 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { parseEntry, computeAgeDays } from "../src/entries.ts";
+import { mkdtemp, rm, writeFile, readdir } from "node:fs/promises";
+import os from "node:os";
+import path from "node:path";
+import { parseEntry, computeAgeDays, pruneOldEntries } from "../src/entries.ts";
+
+function entryFile(date: string): string {
+  return `---
+date: ${date}
+route: shikoku-88
+stage: 1
+stageName: Ryozen-ji
+coords: [134.537, 34.128]
+kind: offering
+glyph: 🪨
+---
+
+A stone.
+`;
+}
+
+function dateMinusDays(today: string, days: number): string {
+  const msPerDay = 24 * 60 * 60 * 1000;
+  const t = Date.parse(today + "T00:00:00Z");
+  return new Date(t - days * msPerDay).toISOString().slice(0, 10);
+}
 
 test("parseEntry reads frontmatter and body as paragraphs", () => {
   const raw = `---
@@ -147,4 +171,63 @@ kind: offering
     () => parseEntry(raw, "/fake/sparse.md"),
     /stage.*stageName.*coords.*glyph/s,
   );
+});
+
+test("pruneOldEntries deletes files older than maxAgeDays", async () => {
+  const today = "2026-04-23";
+  const tmp = await mkdtemp(path.join(os.tmpdir(), "duck-prune-"));
+  try {
+    const recent = path.join(tmp, "recent.md");
+    const boundary = path.join(tmp, "boundary.md");
+    const ancient = path.join(tmp, "ancient.md");
+    await writeFile(recent, entryFile(dateMinusDays(today, 10)));
+    await writeFile(boundary, entryFile(dateMinusDays(today, 365)));
+    await writeFile(ancient, entryFile(dateMinusDays(today, 400)));
+
+    const deleted = await pruneOldEntries(tmp, today, 365);
+
+    assert.deepEqual(deleted, [ancient]);
+    const remaining = (await readdir(tmp)).sort();
+    assert.deepEqual(remaining, ["boundary.md", "recent.md"]);
+  } finally {
+    await rm(tmp, { recursive: true, force: true });
+  }
+});
+
+test("pruneOldEntries returns empty array when nothing to prune", async () => {
+  const today = "2026-04-23";
+  const tmp = await mkdtemp(path.join(os.tmpdir(), "duck-prune-"));
+  try {
+    await writeFile(path.join(tmp, "a.md"), entryFile(dateMinusDays(today, 1)));
+    await writeFile(path.join(tmp, "b.md"), entryFile(dateMinusDays(today, 100)));
+
+    const deleted = await pruneOldEntries(tmp, today, 365);
+
+    assert.deepEqual(deleted, []);
+    const remaining = (await readdir(tmp)).sort();
+    assert.deepEqual(remaining, ["a.md", "b.md"]);
+  } finally {
+    await rm(tmp, { recursive: true, force: true });
+  }
+});
+
+test("pruneOldEntries skips non-md files in the dir", async () => {
+  const today = "2026-04-23";
+  const tmp = await mkdtemp(path.join(os.tmpdir(), "duck-prune-"));
+  try {
+    await writeFile(path.join(tmp, ".gitkeep"), "");
+    await writeFile(path.join(tmp, "notes.txt"), "stray");
+    await writeFile(
+      path.join(tmp, "old.md"),
+      entryFile(dateMinusDays(today, 500)),
+    );
+
+    const deleted = await pruneOldEntries(tmp, today, 365);
+
+    assert.deepEqual(deleted, [path.join(tmp, "old.md")]);
+    const remaining = (await readdir(tmp)).sort();
+    assert.deepEqual(remaining, [".gitkeep", "notes.txt"]);
+  } finally {
+    await rm(tmp, { recursive: true, force: true });
+  }
 });
