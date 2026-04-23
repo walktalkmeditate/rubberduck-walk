@@ -28,7 +28,12 @@ export function buildFeed({ state, route, entries, today }: BuildFeedOpts): Feed
   }));
 
   const totalStages = route.stages.length;
-  const progress = totalStages === 0 ? 0 : Math.min(1, state.stage / totalStages);
+  const onRoute = state.mode === "walking" || state.mode === "beginning";
+  const progress = onRoute
+    ? totalStages === 0
+      ? 0
+      : Math.min(1, state.stage / totalStages)
+    : 1; // completing/resting — duck has walked the full route
 
   return {
     generatedAt: new Date().toISOString(),

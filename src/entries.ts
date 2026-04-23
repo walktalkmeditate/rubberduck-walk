@@ -13,8 +13,18 @@ export function parseEntry(raw: string, filePath: string): Entry {
   const [, fmRaw, body] = match;
   const fm = yaml.load(fmRaw, { schema: yaml.JSON_SCHEMA }) as EntryFrontmatter;
 
-  if (!fm.date || !fm.route || !fm.kind) {
-    throw new Error(`Entry frontmatter missing required fields: ${filePath}`);
+  const missing: string[] = [];
+  if (!fm.date) missing.push("date");
+  if (!fm.route) missing.push("route");
+  if (!fm.kind) missing.push("kind");
+  if (fm.stage === undefined || fm.stage === null) missing.push("stage");
+  if (!fm.stageName) missing.push("stageName");
+  if (!Array.isArray(fm.coords) || fm.coords.length !== 2) missing.push("coords");
+  if (!fm.glyph) missing.push("glyph");
+  if (missing.length > 0) {
+    throw new Error(
+      `Entry frontmatter missing required fields [${missing.join(", ")}]: ${filePath}`,
+    );
   }
 
   const paragraphs = body

@@ -1,7 +1,6 @@
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { homedir } from "node:os";
 import { join, dirname } from "node:path";
-import { fileURLToPath } from "node:url";
 import type { Route, RouteStage, Coords } from "../src/types.ts";
 
 const SOURCE = join(
@@ -9,8 +8,7 @@ const SOURCE = join(
   "GitHub/momentmaker/open-pilgrimages/routes/shikoku-88/waypoints.geojson",
 );
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const TARGET = join(__dirname, "..", "routes", "shikoku-88.json");
+const TARGET = join(import.meta.dirname, "..", "routes", "shikoku-88.json");
 
 interface GeoFeature {
   type: "Feature";
