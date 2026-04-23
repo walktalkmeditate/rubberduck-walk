@@ -5,6 +5,12 @@ export function advance(state: State, route: Route, today: string): State {
     throw new Error(`state.route=${state.route} does not match route.id=${route.id}`);
   }
 
+  // Idempotency: if already advanced today, do nothing. Prevents double-fires
+  // from the cron skipping stages.
+  if (state.lastAdvancedAt === today) {
+    return state;
+  }
+
   if (state.mode === "resting") {
     return state; // frozen until beginRoute()
   }
@@ -44,9 +50,8 @@ export function advance(state: State, route: Route, today: string): State {
       throw new Error(`Route ${route.id} has no closure defined`);
     }
     const nextTransitIndex = state.stage + 1;
-    const nextTransit = route.closure.transitStages.find(
-      (s) => s.index === nextTransitIndex
-    );
+    const transits = route.closure.transitStages;
+    const nextTransit = transits.find((s) => s.index === nextTransitIndex);
 
     if (!nextTransit) {
       throw new Error(
@@ -54,7 +59,10 @@ export function advance(state: State, route: Route, today: string): State {
       );
     }
 
-    const arrivedAtClosure = nextTransit.name === route.closure.name;
+    // Arrived-at-closure detection is by position in the transit list, not
+    // name equality — avoids the fragile invariant that closure.name must
+    // match the last transit stage's name verbatim.
+    const arrivedAtClosure = nextTransitIndex === transits[transits.length - 1].index;
 
     return {
       ...state,

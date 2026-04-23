@@ -1,2 +1,8 @@
 #!/bin/sh
-exec "$(dirname "$0")/node_modules/.bin/tsx" "$(dirname "$0")/duck.ts" "$@"
+set -e
+HERE="$(cd "$(dirname "$0")" && pwd)"
+if [ ! -x "$HERE/node_modules/.bin/tsx" ]; then
+  echo "duck: tsx not installed. run 'npm install' from $HERE first." >&2
+  exit 1
+fi
+exec "$HERE/node_modules/.bin/tsx" "$HERE/duck.ts" "$@"
