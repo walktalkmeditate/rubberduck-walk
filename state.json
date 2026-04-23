@@ -2,7 +2,10 @@
   "route": "shikoku-88",
   "stage": 1,
   "stageName": "Ryozen-ji",
-  "coords": [134.503, 34.16],
+  "coords": [
+    134.503,
+    34.16
+  ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-23",
   "lastAdvancedAt": "2026-04-23"
