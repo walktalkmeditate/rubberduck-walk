@@ -56,6 +56,14 @@
     }
     .brand img { width: 26px; height: 26px; opacity: 0.9; }
 
+    /* ---- Top-right moon (icon only, no phase-name label) ---- */
+    .moon {
+      position: absolute;
+      top: 46px; right: 80px;
+      width: 52px; height: 52px;
+      z-index: 3;
+    }
+
     /* ---- Poem hero (left column) ---- */
     .poem-wrap {
       display: flex;
@@ -223,6 +231,8 @@
     <span>duck tabi</span>
   </div>
 
+  <svg class="moon" id="moon" viewBox="0 0 64 64" aria-hidden="true"></svg>
+
   <div class="layout">
     <div class="poem-wrap">
       <div class="poem" id="poem"></div>
@@ -273,6 +283,7 @@
       renderPoem(feedRes);
       renderMap(feedRes, route);
       renderMapDuck(feedRes);
+      renderMoon();
       renderGoshuin(stateRes, route);
       renderMetadata(feedRes);
       document.documentElement.dataset.ready = "1";
@@ -427,6 +438,48 @@
           svg.append(ja);
         }
       }
+    }
+
+    function renderMoon() {
+      const svg = document.getElementById("moon");
+      clear(svg);
+
+      const SYNODIC = 29.53059;
+      const KNOWN = new Date(2000, 0, 6, 18, 14);
+      const diffDays = (Date.now() - KNOWN.getTime()) / 86400000;
+      const phase = ((diffDays % SYNODIC) + SYNODIC) % SYNODIC / SYNODIC;
+
+      const half = 32;
+      const lit = "#b8afa2";
+      const shadow = "#f5f0e8";
+
+      const bg = document.createElementNS(SVG_NS, "circle");
+      bg.setAttribute("cx", half);
+      bg.setAttribute("cy", half);
+      bg.setAttribute("r", half - 1);
+      bg.setAttribute("fill", lit);
+      bg.setAttribute("stroke", "rgba(44,36,30,0.15)");
+      bg.setAttribute("stroke-width", "0.8");
+      svg.append(bg);
+
+      let d;
+      if (phase < 0.5) {
+        const sweep = 1 - phase * 4;
+        d = "M " + half + " 0 A " + (half - 1) + " " + (half - 1) + " 0 0 1 " + half + " " + (half * 2) +
+            " C " + (half + half * sweep) + " " + (half + half * 0.55) + ", " +
+            (half + half * sweep) + " " + (half - half * 0.55) + ", " +
+            half + " 0 Z";
+      } else {
+        const sweep = (phase - 0.5) * 4 - 1;
+        d = "M " + half + " " + (half * 2) + " A " + (half - 1) + " " + (half - 1) + " 0 0 1 " + half + " 0" +
+            " C " + (half - half * sweep) + " " + (half - half * 0.55) + ", " +
+            (half - half * sweep) + " " + (half + half * 0.55) + ", " +
+            half + " " + (half * 2) + " Z";
+      }
+      const path = document.createElementNS(SVG_NS, "path");
+      path.setAttribute("d", d);
+      path.setAttribute("fill", shadow);
+      svg.append(path);
     }
 
     function renderGoshuin(state, route) {
