@@ -49,15 +49,15 @@
       z-index: 0;
     }
 
-    /* Deckle edges — torn-paper mask on outer 8px */
+    /* Deckle edges — torn-paper feathering on the left/right only; top/bottom
+       left untouched so they don't read as horizontal bars on social previews. */
     .deckle {
       position: absolute; inset: 0;
       pointer-events: none;
       z-index: 1;
       background-image:
-        linear-gradient(to right,  var(--parchment-edge), transparent 3%, transparent 97%, var(--parchment-edge)),
-        linear-gradient(to bottom, var(--parchment-edge), transparent 3%, transparent 97%, var(--parchment-edge));
-      opacity: 0.45;
+        linear-gradient(to right, var(--parchment-edge), transparent 2%, transparent 98%, var(--parchment-edge));
+      opacity: 0.35;
     }
 
     .layout {
@@ -89,19 +89,19 @@
     /* ---- Top-right moon ---- */
     .moon {
       position: absolute;
-      top: 44px; right: 68px;
-      width: 76px; height: 76px;
+      top: 46px; right: 80px;
+      width: 52px; height: 52px;
       z-index: 3;
     }
     .moon-label {
       position: absolute;
-      top: 128px; right: 68px;
+      top: 104px; right: 68px;
       width: 76px;
       text-align: center;
-      font-size: 11px;
-      letter-spacing: 0.22em;
+      font-size: 10px;
+      letter-spacing: 0.2em;
       text-transform: uppercase;
-      color: rgba(44, 36, 30, 0.55);
+      color: rgba(44, 36, 30, 0.52);
       font-family: "Lato", "Helvetica Neue", sans-serif;
     }
 
@@ -209,12 +209,12 @@
       letter-spacing: 0.08em;
     }
 
-    /* ---- Goshuin bottom-left ---- */
+    /* ---- Goshuin bottom-left (circular stamp, mirrors the app seal) ---- */
     .goshuin {
       position: absolute;
       bottom: 50px; left: 80px;
-      width: 120px;
-      height: 140px;
+      width: 130px;
+      height: 130px;
       transform: rotate(-4deg);
       z-index: 3;
     }
@@ -230,8 +230,8 @@
     .goshuin-frame-inner {
       fill: none;
       stroke: var(--red-seal);
-      stroke-width: 1.4;
-      stroke-opacity: 0.7;
+      stroke-width: 1.2;
+      stroke-opacity: 0.6;
     }
     .goshuin-kanji {
       font-family: "Hiragino Mincho ProN", "Yu Mincho", "MS Mincho", serif;
@@ -294,11 +294,11 @@
   </div>
 
   <div class="goshuin" id="goshuin">
-    <svg viewBox="0 0 100 116" aria-hidden="true">
-      <rect class="goshuin-frame" x="6" y="6" width="88" height="104"/>
-      <rect class="goshuin-frame-inner" x="11" y="11" width="78" height="94"/>
-      <text class="goshuin-kanji" id="goshuin-kanji" x="50" y="62"></text>
-      <text class="goshuin-date" id="goshuin-date" x="50" y="98"></text>
+    <svg viewBox="0 0 100 100" aria-hidden="true">
+      <circle class="goshuin-frame" cx="50" cy="50" r="46"/>
+      <circle class="goshuin-frame-inner" cx="50" cy="50" r="41"/>
+      <text class="goshuin-kanji" id="goshuin-kanji" x="50" y="55"></text>
+      <text class="goshuin-date" id="goshuin-date" x="50" y="82"></text>
     </svg>
   </div>
 
