@@ -18,6 +18,10 @@ export interface RouteStage {
   index: number;
   name: string;
   coords: Coords;
+  /** Japanese localized name (kanji) — sourced from open-pilgrimages. */
+  nameJa?: string;
+  /** Cumulative distance from route start to this stage, in km. */
+  kmFromStart?: number;
 }
 
 export interface Route {
@@ -44,6 +48,8 @@ export interface EntryFrontmatter {
   glyph: string;
   weather?: string;      // human-readable, e.g. "light rain, 14°C"
   author?: string;       // only for kind=letter; defaults to "— the pilgrim"
+  /** Cumulative km from route start, captured at write time. */
+  kmFromStart?: number;
 }
 
 export interface Entry extends EntryFrontmatter {
@@ -61,6 +67,12 @@ export interface FeedDuck {
   coords: Coords;
   mode: DuckMode;
   progress: number;      // 0..1
+  /** Cumulative km walked along the route (only meaningful in walking/beginning). */
+  kmFromStart?: number;
+  /** Total route distance, for "X km of Y" framing. */
+  totalKm?: number;
+  /** Days since entering the current mode (typically: days on current route). */
+  daysOnRoute?: number;
 }
 
 export interface FeedEntry {
@@ -74,6 +86,12 @@ export interface FeedEntry {
   paragraphs: string[];  // plain text — client renders with textContent
   author?: string;
   ageDays: number;
+  /** Weather string captured at generation time (e.g. "overcast, 14°C"). */
+  weather?: string;
+  /** Cumulative km from route start at this entry's stage. */
+  kmFromStart?: number;
+  /** Km walked between this entry and the next-older entry on the same route. */
+  kmSinceLastEntry?: number;
 }
 
 export interface Feed {

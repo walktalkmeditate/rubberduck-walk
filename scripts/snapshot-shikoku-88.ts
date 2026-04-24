@@ -18,7 +18,9 @@ interface GeoFeature {
     type?: string;
     subtype?: string;
     name?: string;
+    nameLocalized?: { ja?: string };
     templeNumber?: number;
+    kmFromStart?: number;
     [k: string]: unknown;
   };
 }
@@ -48,7 +50,18 @@ function buildStages(fc: FeatureCollection): RouteStage[] {
     }
     const [lon, lat] = feature.geometry.coordinates;
     const coords: Coords = [lon, lat];
-    stages.push({ index: p.templeNumber as number, name, coords });
+    const stage: RouteStage = {
+      index: p.templeNumber as number,
+      name,
+      coords,
+    };
+    if (p.nameLocalized && typeof p.nameLocalized.ja === "string") {
+      stage.nameJa = p.nameLocalized.ja;
+    }
+    if (typeof p.kmFromStart === "number") {
+      stage.kmFromStart = p.kmFromStart;
+    }
+    stages.push(stage);
   }
   stages.sort((a, b) => a.index - b.index);
   return stages;

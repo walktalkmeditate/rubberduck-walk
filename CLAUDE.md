@@ -20,6 +20,8 @@ When invoked by the daily `/schedule` cron, follow this sequence exactly:
 
 3. **Fetch current weather** — run `npm run weather 2>/dev/null || echo unknown`. Treat failure silently; proceed without weather context.
 
+3a. **Look up this stage's kmFromStart** from `routes/<current-route>.json`. Find the stage matching `state.stage` and note its `kmFromStart` value. This gets written into the entry frontmatter so the entry is self-describing — `/walk` uses it to display "distance since the last offering."
+
 4. **Draft the entry** following the voice rules below. Read the 3 most recent files in `entries/` as context for voice consistency.
 
 5. **Self-review** against the checklist. If fails, redraft. Up to 2 regenerations. If still failing after 3 attempts: emit a `kind: silence` entry via `./duck silence` instead.
@@ -110,11 +112,12 @@ New entry files go in `entries/` as `<YYYY-MM-DD>-<slug>.md`:
     kind: offering
     glyph: 🪨
     weather: clear, 15°C
+    kmFromStart: 0
     ---
 
     A stone by the door. No one had moved it. No one needed to.
 
-Prose is plain text — no markdown formatting (no headings, lists, links, or images). Paragraphs are separated by blank lines. Coords are GeoJSON `[longitude, latitude]`.
+Prose is plain text — no markdown formatting (no headings, lists, links, or images). Paragraphs are separated by blank lines. Coords are GeoJSON `[longitude, latitude]`. `kmFromStart` is copied from `routes/<route>.json` stage[state.stage].kmFromStart — see step 3a.
 
 ## Emitting a silence entry
 

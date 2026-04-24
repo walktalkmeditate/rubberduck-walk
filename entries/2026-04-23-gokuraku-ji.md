@@ -7,6 +7,7 @@ coords: [134.49, 34.156]
 kind: offering
 glyph: 🌿
 weather: overcast, 14°C
+kmFromStart: 1.4
 ---
 
 Moss on the step. Older than the step.

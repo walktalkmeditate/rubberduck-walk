@@ -6,6 +6,7 @@ import path from "node:path";
 import yaml from "js-yaml";
 import type { State, Route, EntryKind } from "./src/types.ts";
 import { beginRoute } from "./src/advance.ts";
+import { fetchWeather } from "./src/weather.ts";
 
 const REPO_ROOT = path.resolve(import.meta.dirname);
 
@@ -35,6 +36,24 @@ async function writeEntry(opts: {
   const slug = state.stageName.toLowerCase().replace(/[^a-z0-9]+/g, "-");
   const fileName = `${today}-${slug}.md`;
   const filePath = path.join(REPO_ROOT, "entries", fileName);
+
+  // Look up this stage's kmFromStart in the current route so the entry is
+  // self-describing (won't retroactively change if route data updates).
+  let kmFromStart: number | undefined;
+  try {
+    const route = await readRoute(state.route);
+    const onRoute = state.mode === "walking" || state.mode === "beginning";
+    if (onRoute) {
+      const s = route.stages.find((x) => x.index === state.stage);
+      if (s && typeof s.kmFromStart === "number") kmFromStart = s.kmFromStart;
+    }
+  } catch {
+    // Route not readable; leave kmFromStart undefined. Build-feed will fall back.
+  }
+
+  // Best-effort weather capture (silent on failure — offline is fine).
+  const weather = await fetchWeather(state.coords).catch(() => null);
+
   const frontmatter: Record<string, unknown> = {
     date: today,
     route: state.route,
@@ -44,7 +63,10 @@ async function writeEntry(opts: {
     kind: opts.kind,
     glyph: opts.glyph,
   };
+  if (weather) frontmatter.weather = weather;
+  if (kmFromStart !== undefined) frontmatter.kmFromStart = kmFromStart;
   if (opts.author) frontmatter.author = opts.author;
+
   const fmYaml = yaml.dump(frontmatter, { flowLevel: 1 }).trim();
   const content = `---\n${fmYaml}\n---\n\n${opts.body}\n`;
   await mkdir(path.dirname(filePath), { recursive: true });
@@ -91,21 +113,34 @@ async function cmdLetter() {
   const state = await readState();
   const slug = state.stageName.toLowerCase().replace(/[^a-z0-9]+/g, "-");
   const tmpPath = path.join(REPO_ROOT, "entries", `${today}-${slug}-letter.md`);
-  const stub = `---
-date: ${today}
-route: ${state.route}
-stage: ${state.stage}
-stageName: ${state.stageName}
-coords: [${state.coords.join(", ")}]
-kind: letter
-glyph: 🕯️
-author: — the pilgrim
----
 
-write freely below this line
+  // Look up kmFromStart for a self-describing stub.
+  let kmFromStart: number | undefined;
+  try {
+    const route = await readRoute(state.route);
+    const s = route.stages.find((x) => x.index === state.stage);
+    if (s && typeof s.kmFromStart === "number") kmFromStart = s.kmFromStart;
+  } catch {
+    // ignore
+  }
+  const weather = await fetchWeather(state.coords).catch(() => null);
 
+  const lines = [
+    "---",
+    `date: ${today}`,
+    `route: ${state.route}`,
+    `stage: ${state.stage}`,
+    `stageName: ${state.stageName}`,
+    `coords: [${state.coords.join(", ")}]`,
+    "kind: letter",
+    "glyph: 🕯️",
+  ];
+  if (weather) lines.push(`weather: ${weather}`);
+  if (kmFromStart !== undefined) lines.push(`kmFromStart: ${kmFromStart}`);
+  lines.push("author: — the pilgrim");
+  lines.push("---", "", "write freely below this line", "", "");
+  const stub = lines.join("\n");
 
-`;
   await mkdir(path.dirname(tmpPath), { recursive: true });
   await writeFile(tmpPath, stub);
   await run(editor, [tmpPath]);
