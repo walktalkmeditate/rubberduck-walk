@@ -20,44 +20,14 @@
       margin: 0; padding: 0;
       width: 1200px; height: 630px;
       overflow: hidden;
+      /* Flat parchment — overlays (paper-grain, vignette, deckle) were removed:
+         headless Chrome painted the pseudo-elements short of the bottom edge,
+         leaving a cream band across social previews. A solid fill avoids it. */
       background: var(--parchment);
       color: var(--ink);
       font-family: "Cormorant Garamond", "Cormorant", Georgia, "Times New Roman", serif;
       -webkit-font-smoothing: antialiased;
       position: relative;
-    }
-
-    /* Paper grain */
-    body::before {
-      content: "";
-      position: absolute; inset: 0;
-      background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
-      mix-blend-mode: multiply;
-      opacity: 0.7;
-      pointer-events: none;
-      z-index: 0;
-    }
-
-    /* Soft vignette — deepens parchment at edges */
-    body::after {
-      content: "";
-      position: absolute; inset: 0;
-      background:
-        radial-gradient(ellipse at center, transparent 55%, var(--parchment-edge) 100%);
-      opacity: 0.6;
-      pointer-events: none;
-      z-index: 0;
-    }
-
-    /* Deckle edges — torn-paper feathering on the left/right only; top/bottom
-       left untouched so they don't read as horizontal bars on social previews. */
-    .deckle {
-      position: absolute; inset: 0;
-      pointer-events: none;
-      z-index: 1;
-      background-image:
-        linear-gradient(to right, var(--parchment-edge), transparent 2%, transparent 98%, var(--parchment-edge));
-      opacity: 0.35;
     }
 
     .layout {
@@ -85,25 +55,6 @@
       z-index: 3;
     }
     .brand img { width: 26px; height: 26px; opacity: 0.9; }
-
-    /* ---- Top-right moon ---- */
-    .moon {
-      position: absolute;
-      top: 46px; right: 80px;
-      width: 52px; height: 52px;
-      z-index: 3;
-    }
-    .moon-label {
-      position: absolute;
-      top: 104px; right: 68px;
-      width: 76px;
-      text-align: center;
-      font-size: 10px;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      color: rgba(44, 36, 30, 0.52);
-      font-family: "Lato", "Helvetica Neue", sans-serif;
-    }
 
     /* ---- Poem hero (left column) ---- */
     .poem-wrap {
@@ -264,23 +215,13 @@
     }
     .metadata-sep { opacity: 0.5; padding: 0 0.6em; }
 
-    /* Seasonal tint wash (applied via class on body) */
-    body.season-spring::after { background-color: rgba(122, 139, 111, 0.04); }
-    body.season-summer::after { background-color: rgba(160, 99, 75, 0.04); }
-    body.season-autumn::after { background-color: rgba(196, 149, 106, 0.05); }
-    body.season-winter::after { background-color: rgba(44, 36, 30, 0.03); }
   </style>
 </head>
 <body>
-  <div class="deckle"></div>
-
   <div class="brand">
     <img id="brand-duck" src="" alt="">
     <span>duck tabi</span>
   </div>
-
-  <svg class="moon" id="moon" viewBox="0 0 64 64" aria-hidden="true"></svg>
-  <div class="moon-label" id="moon-label"></div>
 
   <div class="layout">
     <div class="poem-wrap">
@@ -332,10 +273,8 @@
       renderPoem(feedRes);
       renderMap(feedRes, route);
       renderMapDuck(feedRes);
-      renderMoon();
       renderGoshuin(stateRes, route);
       renderMetadata(feedRes);
-      applySeason(feedRes);
       document.documentElement.dataset.ready = "1";
     }
 
@@ -490,62 +429,6 @@
       }
     }
 
-    function renderMoon() {
-      const svg = document.getElementById("moon");
-      const label = document.getElementById("moon-label");
-      clear(svg);
-
-      const SYNODIC = 29.53059;
-      const KNOWN = new Date(2000, 0, 6, 18, 14);
-      const diffDays = (Date.now() - KNOWN.getTime()) / 86400000;
-      const phase = ((diffDays % SYNODIC) + SYNODIC) % SYNODIC / SYNODIC;
-
-      function phaseName(p) {
-        if (p < 0.0625) return "New Moon";
-        if (p < 0.1875) return "Waxing Crescent";
-        if (p < 0.3125) return "First Quarter";
-        if (p < 0.4375) return "Waxing Gibbous";
-        if (p < 0.5625) return "Full Moon";
-        if (p < 0.6875) return "Waning Gibbous";
-        if (p < 0.8125) return "Last Quarter";
-        if (p < 0.9375) return "Waning Crescent";
-        return "New Moon";
-      }
-      label.textContent = phaseName(phase);
-
-      const half = 32;
-      const lit = "#b8afa2";
-      const shadow = "#f5f0e8";
-
-      const bg = document.createElementNS(SVG_NS, "circle");
-      bg.setAttribute("cx", half);
-      bg.setAttribute("cy", half);
-      bg.setAttribute("r", half - 1);
-      bg.setAttribute("fill", lit);
-      bg.setAttribute("stroke", "rgba(44,36,30,0.15)");
-      bg.setAttribute("stroke-width", "0.8");
-      svg.append(bg);
-
-      let d;
-      if (phase < 0.5) {
-        const sweep = 1 - phase * 4;
-        d = "M " + half + " 0 A " + (half - 1) + " " + (half - 1) + " 0 0 1 " + half + " " + (half * 2) +
-            " C " + (half + half * sweep) + " " + (half + half * 0.55) + ", " +
-            (half + half * sweep) + " " + (half - half * 0.55) + ", " +
-            half + " 0 Z";
-      } else {
-        const sweep = (phase - 0.5) * 4 - 1;
-        d = "M " + half + " " + (half * 2) + " A " + (half - 1) + " " + (half - 1) + " 0 0 1 " + half + " 0" +
-            " C " + (half - half * sweep) + " " + (half - half * 0.55) + ", " +
-            (half - half * sweep) + " " + (half + half * 0.55) + ", " +
-            half + " " + (half * 2) + " Z";
-      }
-      const path = document.createElementNS(SVG_NS, "path");
-      path.setAttribute("d", d);
-      path.setAttribute("fill", shadow);
-      svg.append(path);
-    }
-
     function renderGoshuin(state, route) {
       const kanjiEl = document.getElementById("goshuin-kanji");
       const dateEl = document.getElementById("goshuin-date");
@@ -589,17 +472,6 @@
         span.textContent = p;
         el.append(span);
       });
-    }
-
-    function applySeason(feed) {
-      const latest = feed.entries && feed.entries[0];
-      const iso = latest ? latest.date : new Date().toISOString().slice(0, 10);
-      const m = Number(iso.slice(5, 7));
-      const name = (m >= 3 && m <= 5) ? "spring"
-                 : (m >= 6 && m <= 8) ? "summer"
-                 : (m >= 9 && m <= 11) ? "autumn"
-                 : "winter";
-      document.body.classList.add("season-" + name);
     }
 
     main().catch((err) => {
