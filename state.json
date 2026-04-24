@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 2,
-  "stageName": "Gokuraku-ji",
+  "stage": 3,
+  "stageName": "Konsen-ji",
   "coords": [
-    134.49,
-    34.156
+    134.469,
+    34.147
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-04-23"
+  "lastAdvancedAt": "2026-04-24"
 }

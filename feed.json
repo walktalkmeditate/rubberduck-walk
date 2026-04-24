@@ -1,21 +1,40 @@
 {
-  "generatedAt": "2026-04-24T03:42:53.464Z",
+  "generatedAt": "2026-04-24T12:04:36.335Z",
   "duck": {
     "route": "shikoku-88",
     "routeName": "Shikoku Henro",
-    "stage": 2,
-    "stageName": "Gokuraku-ji",
+    "stage": 3,
+    "stageName": "Konsen-ji",
     "coords": [
-      134.49,
-      34.156
+      134.469,
+      34.147
     ],
     "mode": "walking",
-    "progress": 0.022727272727272728,
-    "kmFromStart": 1.4,
+    "progress": 0.03409090909090909,
+    "kmFromStart": 4,
     "totalKm": 1200,
     "daysOnRoute": 2
   },
   "entries": [
+    {
+      "date": "2026-04-24",
+      "route": "shikoku-88",
+      "stage": 3,
+      "stageName": "Konsen-ji",
+      "coords": [
+        134.469,
+        34.147
+      ],
+      "kind": "offering",
+      "glyph": "💧",
+      "paragraphs": [
+        "A bucket by the well. The rope is old. The water is older."
+      ],
+      "ageDays": 0,
+      "weather": "overcast, 15°C",
+      "kmFromStart": 4,
+      "kmSinceLastEntry": 2.6
+    },
     {
       "date": "2026-04-23",
       "route": "shikoku-88",
