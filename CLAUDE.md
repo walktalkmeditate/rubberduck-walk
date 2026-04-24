@@ -30,6 +30,8 @@ When invoked by the daily `/schedule` cron, follow this sequence exactly:
 
 6. **Rebuild feed** — `./duck build-feed`.
 
+6b. **Regenerate the OG social card** — `bash bin/render-og.sh`. This screenshots `og/template.html` (which reads the current `state.json` + `feed.json` + route kanji) into `og-image.png` at 1200×630. The file is committed alongside the feed update and served via jsDelivr to pilgrim-landing's `/walk` OG meta. Fail soft: if Chrome isn't found or the render fails, log it and continue — a stale og-image for a day is tolerable.
+
 7. **Commit, push, purge** (in that order):
    ```bash
    git add -A
@@ -122,6 +124,22 @@ Prose is plain text — no markdown formatting (no headings, lists, links, or im
 ## Emitting a silence entry
 
 Run `./duck silence`. Writes a file with empty body and a random glyph. Use this when the self-review fails 3 times.
+
+## The OG social card
+
+`og/template.html` is the 1200×630 template rendered daily into `og-image.png` (committed; served via jsDelivr at `https://cdn.jsdelivr.net/gh/walktalkmeditate/rubberduck-walk@main/og-image.png` and referenced by pilgrim-landing's `/walk` OG meta).
+
+Composition:
+- Top-left: small "DUCK TABI" brand mark with the duck icon
+- Top-right: real moon phase for today (+ phase name label)
+- Left hero: the latest entry's prose as large serif
+- Right: Shikoku route outline with walked portion highlighted and the duck image standing on the current stage's coord, labeled with English + kanji
+- Bottom-left: goshuin-style red ink stamp with the current stage's kanji + date
+- Bottom-right: day count + km progress
+
+The template reads `../state.json`, `../feed.json`, and `../routes/<route>.json` directly via file:// fetches. Rendering requires `--allow-file-access-from-files` (already set in `bin/render-og.sh`).
+
+Regen happens in step 6b of the daily flow. Failure to regen is non-fatal — a day-stale og-image is acceptable; the fresh one lands on the next successful cron.
 
 ## Git identity
 

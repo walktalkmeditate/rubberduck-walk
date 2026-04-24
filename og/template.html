@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>duck tabi · og</title>
+  <style>
+    :root {
+      --parchment: #f5f0e8;
+      --parchment-edge: #e5dcc7;
+      --ink: #2c241e;
+      --stone: #8b7355;
+      --fog: #b8afa2;
+      --moss: #7a8b6f;
+      --rust: #a0634b;
+      --dawn: #c4956a;
+      --red-seal: #a43a2e;
+      --red-seal-deep: #7a2a21;
+    }
+    html, body {
+      margin: 0; padding: 0;
+      width: 1200px; height: 630px;
+      overflow: hidden;
+      background: var(--parchment);
+      color: var(--ink);
+      font-family: "Cormorant Garamond", "Cormorant", Georgia, "Times New Roman", serif;
+      -webkit-font-smoothing: antialiased;
+      position: relative;
+    }
+
+    /* Paper grain */
+    body::before {
+      content: "";
+      position: absolute; inset: 0;
+      background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+      mix-blend-mode: multiply;
+      opacity: 0.7;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* Soft vignette — deepens parchment at edges */
+    body::after {
+      content: "";
+      position: absolute; inset: 0;
+      background:
+        radial-gradient(ellipse at center, transparent 55%, var(--parchment-edge) 100%);
+      opacity: 0.6;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* Deckle edges — torn-paper mask on outer 8px */
+    .deckle {
+      position: absolute; inset: 0;
+      pointer-events: none;
+      z-index: 1;
+      background-image:
+        linear-gradient(to right,  var(--parchment-edge), transparent 3%, transparent 97%, var(--parchment-edge)),
+        linear-gradient(to bottom, var(--parchment-edge), transparent 3%, transparent 97%, var(--parchment-edge));
+      opacity: 0.45;
+    }
+
+    .layout {
+      position: relative;
+      z-index: 2;
+      width: 100%; height: 100%;
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+      padding: 60px 60px 70px 80px;
+      box-sizing: border-box;
+      column-gap: 40px;
+    }
+
+    /* ---- Top-left brand mark ---- */
+    .brand {
+      position: absolute;
+      top: 48px; left: 80px;
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 18px;
+      font-variant: small-caps;
+      letter-spacing: 0.26em;
+      color: rgba(44, 36, 30, 0.6);
+      z-index: 3;
+    }
+    .brand img { width: 26px; height: 26px; opacity: 0.9; }
+
+    /* ---- Top-right moon ---- */
+    .moon {
+      position: absolute;
+      top: 44px; right: 68px;
+      width: 76px; height: 76px;
+      z-index: 3;
+    }
+    .moon-label {
+      position: absolute;
+      top: 128px; right: 68px;
+      width: 76px;
+      text-align: center;
+      font-size: 11px;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: rgba(44, 36, 30, 0.55);
+      font-family: "Lato", "Helvetica Neue", sans-serif;
+    }
+
+    /* ---- Poem hero (left column) ---- */
+    .poem-wrap {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding-top: 40px;
+      padding-right: 20px;
+    }
+    .poem {
+      font-size: 54px;
+      line-height: 1.25;
+      color: var(--ink);
+      font-weight: 400;
+      letter-spacing: 0.005em;
+      max-width: 620px;
+      /* subtle deep-press: faint dark halo under the strokes */
+      text-shadow:
+        0 1px 0 rgba(44, 36, 30, 0.05),
+        0 0 1px rgba(44, 36, 30, 0.08);
+    }
+    .poem p { margin: 0 0 0.45em; }
+    .poem p:last-child { margin-bottom: 0; }
+
+    .poem-empty {
+      font-style: italic;
+      color: rgba(44, 36, 30, 0.4);
+      font-size: 44px;
+      letter-spacing: 0.04em;
+    }
+
+    /* Silence treatment */
+    .poem-silence {
+      font-size: 110px;
+      opacity: 0.75;
+      line-height: 1;
+    }
+    .poem-silence-label {
+      font-style: italic;
+      font-size: 26px;
+      color: var(--stone);
+      margin-top: 24px;
+      letter-spacing: 0.08em;
+    }
+
+    /* ---- Map (right column) ---- */
+    .map-wrap {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 10px 20px 0;
+      position: relative;
+    }
+    .map {
+      width: 380px;
+      height: 380px;
+      display: block;
+    }
+    .map-duck-img {
+      position: absolute;
+      width: 54px;
+      height: 54px;
+      pointer-events: none;
+      opacity: 0.96;
+      /* JS positions this based on the current-stage map coord */
+    }
+    .map-full {
+      fill: none;
+      stroke: var(--stone);
+      stroke-width: 1.3;
+      stroke-opacity: 0.28;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    .map-walked {
+      fill: none;
+      stroke: var(--ink);
+      stroke-width: 2;
+      stroke-opacity: 0.55;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    .map-duck {
+      fill: var(--ink);
+      fill-opacity: 0.78;
+    }
+    .map-duck-halo {
+      fill: var(--moss);
+      fill-opacity: 0.22;
+    }
+    .map-label {
+      font-size: 15px;
+      font-style: italic;
+      fill: rgba(44, 36, 30, 0.65);
+      font-family: "Cormorant Garamond", Georgia, serif;
+    }
+    .map-label-kanji {
+      font-size: 13px;
+      fill: rgba(44, 36, 30, 0.4);
+      font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;
+      letter-spacing: 0.08em;
+    }
+
+    /* ---- Goshuin bottom-left ---- */
+    .goshuin {
+      position: absolute;
+      bottom: 50px; left: 80px;
+      width: 120px;
+      height: 140px;
+      transform: rotate(-4deg);
+      z-index: 3;
+    }
+    .goshuin svg {
+      width: 100%; height: 100%;
+    }
+    .goshuin-frame {
+      fill: none;
+      stroke: var(--red-seal);
+      stroke-width: 2.2;
+      stroke-opacity: 0.85;
+    }
+    .goshuin-frame-inner {
+      fill: none;
+      stroke: var(--red-seal);
+      stroke-width: 1.4;
+      stroke-opacity: 0.7;
+    }
+    .goshuin-kanji {
+      font-family: "Hiragino Mincho ProN", "Yu Mincho", "MS Mincho", serif;
+      font-weight: 600;
+      fill: var(--red-seal-deep);
+      fill-opacity: 0.92;
+      text-anchor: middle;
+    }
+    .goshuin-date {
+      font-family: "Lato", "Helvetica Neue", sans-serif;
+      font-size: 9px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      fill: var(--red-seal);
+      fill-opacity: 0.72;
+      text-anchor: middle;
+    }
+
+    /* ---- Metadata strip bottom-right ---- */
+    .metadata {
+      position: absolute;
+      bottom: 58px; right: 76px;
+      font-family: "Lato", "Helvetica Neue", sans-serif;
+      font-size: 14px;
+      letter-spacing: 0.26em;
+      text-transform: uppercase;
+      color: rgba(44, 36, 30, 0.75);
+      font-weight: 500;
+      z-index: 3;
+    }
+    .metadata-sep { opacity: 0.5; padding: 0 0.6em; }
+
+    /* Seasonal tint wash (applied via class on body) */
+    body.season-spring::after { background-color: rgba(122, 139, 111, 0.04); }
+    body.season-summer::after { background-color: rgba(160, 99, 75, 0.04); }
+    body.season-autumn::after { background-color: rgba(196, 149, 106, 0.05); }
+    body.season-winter::after { background-color: rgba(44, 36, 30, 0.03); }
+  </style>
+</head>
+<body>
+  <div class="deckle"></div>
+
+  <div class="brand">
+    <img id="brand-duck" src="" alt="">
+    <span>duck tabi</span>
+  </div>
+
+  <svg class="moon" id="moon" viewBox="0 0 64 64" aria-hidden="true"></svg>
+  <div class="moon-label" id="moon-label"></div>
+
+  <div class="layout">
+    <div class="poem-wrap">
+      <div class="poem" id="poem"></div>
+    </div>
+
+    <div class="map-wrap">
+      <svg class="map" id="map" viewBox="0 0 380 380" aria-hidden="true"></svg>
+      <img class="map-duck-img" id="map-duck-img" src="" alt="">
+    </div>
+  </div>
+
+  <div class="goshuin" id="goshuin">
+    <svg viewBox="0 0 100 116" aria-hidden="true">
+      <rect class="goshuin-frame" x="6" y="6" width="88" height="104"/>
+      <rect class="goshuin-frame-inner" x="11" y="11" width="78" height="94"/>
+      <text class="goshuin-kanji" id="goshuin-kanji" x="50" y="62"></text>
+      <text class="goshuin-date" id="goshuin-date" x="50" y="98"></text>
+    </svg>
+  </div>
+
+  <div class="metadata" id="metadata"></div>
+
+  <script>
+    const SVG_NS = "http://www.w3.org/2000/svg";
+
+    function clear(el) {
+      while (el.firstChild) el.removeChild(el.firstChild);
+    }
+
+    async function main() {
+      const params = new URLSearchParams(location.search);
+      const routeId = params.get("route");
+
+      const [stateRes, feedRes] = await Promise.all([
+        fetch("../state.json").then((r) => r.json()),
+        fetch("../feed.json").then((r) => r.json()),
+      ]);
+
+      const routeIdFinal = routeId || feedRes.duck.route || stateRes.route;
+      let route = null;
+      try {
+        route = await fetch("../routes/" + routeIdFinal + ".json").then((r) => r.json());
+      } catch {
+        route = null;
+      }
+
+      renderBrand();
+      renderPoem(feedRes);
+      renderMap(feedRes, route);
+      renderMapDuck(feedRes);
+      renderMoon();
+      renderGoshuin(stateRes, route);
+      renderMetadata(feedRes);
+      applySeason(feedRes);
+      document.documentElement.dataset.ready = "1";
+    }
+
+    // Place the duck image on top of the current-stage dot in the SVG map.
+    function renderMapDuck(feed) {
+      const img = document.getElementById("map-duck-img");
+      if (!feed.routePath) return;
+      const path = feed.routePath[feed.duck.route];
+      if (!Array.isArray(path) || path.length < 2) return;
+
+      const lons = path.map((p) => p[0]);
+      const lats = path.map((p) => p[1]);
+      const minLon = Math.min(...lons);
+      const maxLon = Math.max(...lons);
+      const minLat = Math.min(...lats);
+      const maxLat = Math.max(...lats);
+      const lonRange = maxLon - minLon || 1;
+      const latRange = maxLat - minLat || 1;
+      const mapW = 380;
+      const PAD = 28;
+      const stage = Math.max(1, Math.min(path.length, feed.duck.stage));
+      const curr = path[stage - 1];
+      const x = PAD + ((curr[0] - minLon) / lonRange) * (mapW - 2 * PAD);
+      const y = PAD + ((maxLat - curr[1]) / latRange) * (mapW - 2 * PAD);
+
+      // The map-wrap has padding 20px top + 10px right. The SVG sits centered in the 475px-ish cell.
+      // Find the SVG's actual screen position inside map-wrap, then offset the img.
+      const svg = document.getElementById("map");
+      const wrap = svg.parentElement;
+      const svgRect = svg.getBoundingClientRect();
+      const wrapRect = wrap.getBoundingClientRect();
+      const svgOffsetLeft = svgRect.left - wrapRect.left;
+      const svgOffsetTop = svgRect.top - wrapRect.top;
+      // Duck 54px centered on dot
+      const duckSize = 54;
+      img.src = "../assets/chiefrubberduck.png";
+      img.style.left = (svgOffsetLeft + x - duckSize / 2) + "px";
+      img.style.top = (svgOffsetTop + y - duckSize / 2) + "px";
+    }
+
+    function renderBrand() {
+      document.getElementById("brand-duck").src = "../assets/chiefrubberduck.png";
+    }
+
+    function renderPoem(feed) {
+      const el = document.getElementById("poem");
+      clear(el);
+      const latest = feed.entries && feed.entries[0];
+      if (!latest) {
+        const p = document.createElement("div");
+        p.className = "poem-empty";
+        p.textContent = "the duck has not yet walked";
+        el.append(p);
+        return;
+      }
+      if (latest.kind === "silence") {
+        const g = document.createElement("div");
+        g.className = "poem-silence";
+        g.textContent = latest.glyph;
+        el.append(g);
+        const l = document.createElement("div");
+        l.className = "poem-silence-label";
+        l.textContent = "( silence )";
+        el.append(l);
+        return;
+      }
+      const paragraphs = Array.isArray(latest.paragraphs) ? latest.paragraphs : [];
+      for (const p of paragraphs) {
+        const pEl = document.createElement("p");
+        pEl.textContent = p;
+        el.append(pEl);
+      }
+    }
+
+    function renderMap(feed, route) {
+      const svg = document.getElementById("map");
+      clear(svg);
+      if (!feed.routePath) return;
+      const path = feed.routePath[feed.duck.route];
+      if (!Array.isArray(path) || path.length < 2) return;
+
+      const lons = path.map((p) => p[0]);
+      const lats = path.map((p) => p[1]);
+      const minLon = Math.min(...lons);
+      const maxLon = Math.max(...lons);
+      const minLat = Math.min(...lats);
+      const maxLat = Math.max(...lats);
+      const lonRange = maxLon - minLon || 1;
+      const latRange = maxLat - minLat || 1;
+      const W = 380, H = 380, PAD = 28;
+
+      function project(lon, lat) {
+        return [
+          PAD + ((lon - minLon) / lonRange) * (W - 2 * PAD),
+          PAD + ((maxLat - lat) / latRange) * (H - 2 * PAD),
+        ];
+      }
+
+      const fullPts = path.map((p) => project(p[0], p[1]).join(",")).join(" ");
+      const walked = path.slice(0, Math.max(1, Math.min(path.length, feed.duck.stage)));
+      const walkedPts = walked.map((p) => project(p[0], p[1]).join(",")).join(" ");
+
+      const full = document.createElementNS(SVG_NS, "polyline");
+      full.setAttribute("points", fullPts);
+      full.setAttribute("class", "map-full");
+      svg.append(full);
+
+      if (walked.length >= 2) {
+        const w = document.createElementNS(SVG_NS, "polyline");
+        w.setAttribute("points", walkedPts);
+        w.setAttribute("class", "map-walked");
+        svg.append(w);
+      }
+
+      const last = project(walked[walked.length - 1][0], walked[walked.length - 1][1]);
+      const halo = document.createElementNS(SVG_NS, "circle");
+      halo.setAttribute("cx", last[0]);
+      halo.setAttribute("cy", last[1]);
+      halo.setAttribute("r", "12");
+      halo.setAttribute("class", "map-duck-halo");
+      svg.append(halo);
+
+      const dot = document.createElementNS(SVG_NS, "circle");
+      dot.setAttribute("cx", last[0]);
+      dot.setAttribute("cy", last[1]);
+      dot.setAttribute("r", "4.5");
+      dot.setAttribute("class", "map-duck");
+      svg.append(dot);
+
+      const stageName = (feed.duck.stageName || "").trim();
+      const labelX = last[0];
+      const labelY = last[1] + 26;
+      const label = document.createElementNS(SVG_NS, "text");
+      label.setAttribute("x", labelX);
+      label.setAttribute("y", labelY);
+      label.setAttribute("text-anchor", "middle");
+      label.setAttribute("class", "map-label");
+      label.textContent = stageName;
+      svg.append(label);
+
+      if (route) {
+        const stage = (route.stages || []).find((s) => s.index === feed.duck.stage);
+        if (stage && stage.nameJa) {
+          const ja = document.createElementNS(SVG_NS, "text");
+          ja.setAttribute("x", labelX);
+          ja.setAttribute("y", labelY + 18);
+          ja.setAttribute("text-anchor", "middle");
+          ja.setAttribute("class", "map-label-kanji");
+          ja.textContent = stage.nameJa;
+          svg.append(ja);
+        }
+      }
+    }
+
+    function renderMoon() {
+      const svg = document.getElementById("moon");
+      const label = document.getElementById("moon-label");
+      clear(svg);
+
+      const SYNODIC = 29.53059;
+      const KNOWN = new Date(2000, 0, 6, 18, 14);
+      const diffDays = (Date.now() - KNOWN.getTime()) / 86400000;
+      const phase = ((diffDays % SYNODIC) + SYNODIC) % SYNODIC / SYNODIC;
+
+      function phaseName(p) {
+        if (p < 0.0625) return "New Moon";
+        if (p < 0.1875) return "Waxing Crescent";
+        if (p < 0.3125) return "First Quarter";
+        if (p < 0.4375) return "Waxing Gibbous";
+        if (p < 0.5625) return "Full Moon";
+        if (p < 0.6875) return "Waning Gibbous";
+        if (p < 0.8125) return "Last Quarter";
+        if (p < 0.9375) return "Waning Crescent";
+        return "New Moon";
+      }
+      label.textContent = phaseName(phase);
+
+      const half = 32;
+      const lit = "#b8afa2";
+      const shadow = "#f5f0e8";
+
+      const bg = document.createElementNS(SVG_NS, "circle");
+      bg.setAttribute("cx", half);
+      bg.setAttribute("cy", half);
+      bg.setAttribute("r", half - 1);
+      bg.setAttribute("fill", lit);
+      bg.setAttribute("stroke", "rgba(44,36,30,0.15)");
+      bg.setAttribute("stroke-width", "0.8");
+      svg.append(bg);
+
+      let d;
+      if (phase < 0.5) {
+        const sweep = 1 - phase * 4;
+        d = "M " + half + " 0 A " + (half - 1) + " " + (half - 1) + " 0 0 1 " + half + " " + (half * 2) +
+            " C " + (half + half * sweep) + " " + (half + half * 0.55) + ", " +
+            (half + half * sweep) + " " + (half - half * 0.55) + ", " +
+            half + " 0 Z";
+      } else {
+        const sweep = (phase - 0.5) * 4 - 1;
+        d = "M " + half + " " + (half * 2) + " A " + (half - 1) + " " + (half - 1) + " 0 0 1 " + half + " 0" +
+            " C " + (half - half * sweep) + " " + (half - half * 0.55) + ", " +
+            (half - half * sweep) + " " + (half + half * 0.55) + ", " +
+            half + " " + (half * 2) + " Z";
+      }
+      const path = document.createElementNS(SVG_NS, "path");
+      path.setAttribute("d", d);
+      path.setAttribute("fill", shadow);
+      svg.append(path);
+    }
+
+    function renderGoshuin(state, route) {
+      const kanjiEl = document.getElementById("goshuin-kanji");
+      const dateEl = document.getElementById("goshuin-date");
+      let kanji = "";
+      if (route && Array.isArray(route.stages)) {
+        const s = route.stages.find((x) => x.index === state.stage);
+        if (s && s.nameJa) kanji = s.nameJa;
+      }
+      if (!kanji) kanji = "巡礼";
+      kanjiEl.textContent = kanji;
+      const chars = [...kanji].length;
+      const size = chars <= 2 ? 36 : chars === 3 ? 28 : chars === 4 ? 23 : 19;
+      kanjiEl.setAttribute("font-size", String(size));
+
+      const date = (state.lastAdvancedAt || state.modeEnteredAt || "").split("-").join(".");
+      dateEl.textContent = date;
+    }
+
+    function renderMetadata(feed) {
+      const el = document.getElementById("metadata");
+      clear(el);
+      const d = feed.duck;
+      const parts = [];
+      if (typeof d.daysOnRoute === "number") {
+        parts.push("day " + Math.max(1, d.daysOnRoute));
+      }
+      if (typeof d.kmFromStart === "number" && typeof d.totalKm === "number") {
+        parts.push(d.kmFromStart + " of " + d.totalKm + " km");
+      }
+      if (d.mode && d.mode !== "walking") {
+        parts.push(d.mode);
+      }
+      parts.forEach((p, i) => {
+        if (i > 0) {
+          const s = document.createElement("span");
+          s.className = "metadata-sep";
+          s.textContent = "·";
+          el.append(s);
+        }
+        const span = document.createElement("span");
+        span.textContent = p;
+        el.append(span);
+      });
+    }
+
+    function applySeason(feed) {
+      const latest = feed.entries && feed.entries[0];
+      const iso = latest ? latest.date : new Date().toISOString().slice(0, 10);
+      const m = Number(iso.slice(5, 7));
+      const name = (m >= 3 && m <= 5) ? "spring"
+                 : (m >= 6 && m <= 8) ? "summer"
+                 : (m >= 9 && m <= 11) ? "autumn"
+                 : "winter";
+      document.body.classList.add("season-" + name);
+    }
+
+    main().catch((err) => {
+      console.error(err);
+      document.documentElement.dataset.ready = "error";
+    });
+  </script>
+</body>
+</html>
