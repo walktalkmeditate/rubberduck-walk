@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 3,
-  "stageName": "Konsen-ji",
+  "stage": 4,
+  "stageName": "Dainichi-ji",
   "coords": [
-    134.469,
-    34.147
+    134.431,
+    34.151
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-04-24"
+  "lastAdvancedAt": "2026-04-25"
 }
