@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 4,
-  "stageName": "Dainichi-ji",
+  "stage": 5,
+  "stageName": "Jizo-ji",
   "coords": [
-    134.431,
-    34.151
+    134.432,
+    34.137
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-04-25"
+  "lastAdvancedAt": "2026-04-26"
 }

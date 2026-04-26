@@ -1,21 +1,40 @@
 {
-  "generatedAt": "2026-04-25T12:16:42.411Z",
+  "generatedAt": "2026-04-26T12:04:32.988Z",
   "duck": {
     "route": "shikoku-88",
     "routeName": "Shikoku Henro",
-    "stage": 4,
-    "stageName": "Dainichi-ji",
+    "stage": 5,
+    "stageName": "Jizo-ji",
     "coords": [
-      134.431,
-      34.151
+      134.432,
+      34.137
     ],
     "mode": "walking",
-    "progress": 0.045454545454545456,
-    "kmFromStart": 9,
+    "progress": 0.056818181818181816,
+    "kmFromStart": 11,
     "totalKm": 1200,
-    "daysOnRoute": 3
+    "daysOnRoute": 4
   },
   "entries": [
+    {
+      "date": "2026-04-26",
+      "route": "shikoku-88",
+      "stage": 5,
+      "stageName": "Jizo-ji",
+      "coords": [
+        134.432,
+        34.137
+      ],
+      "kind": "offering",
+      "glyph": "🌧️",
+      "paragraphs": [
+        "Rain finds the stone lantern. The lantern keeps its shape."
+      ],
+      "ageDays": 0,
+      "weather": "rain, 14°C",
+      "kmFromStart": 11,
+      "kmSinceLastEntry": 2
+    },
     {
       "date": "2026-04-25",
       "route": "shikoku-88",
@@ -30,7 +49,7 @@
       "paragraphs": [
         "A bell. No wind. The bell waits."
       ],
-      "ageDays": 0,
+      "ageDays": 1,
       "weather": "clear, 15°C",
       "kmFromStart": 9,
       "kmSinceLastEntry": 5
@@ -49,7 +68,7 @@
       "paragraphs": [
         "A bucket by the well. The rope is old. The water is older."
       ],
-      "ageDays": 1,
+      "ageDays": 2,
       "weather": "overcast, 15°C",
       "kmFromStart": 4,
       "kmSinceLastEntry": 2.6
@@ -68,7 +87,7 @@
       "paragraphs": [
         "Moss on the step. Older than the step."
       ],
-      "ageDays": 2,
+      "ageDays": 3,
       "weather": "overcast, 14°C",
       "kmFromStart": 1.4,
       "kmSinceLastEntry": 1.4
@@ -87,7 +106,7 @@
       "paragraphs": [
         "The gate. The gate was always going to be open."
       ],
-      "ageDays": 3,
+      "ageDays": 4,
       "kmFromStart": 0
     }
   ],
