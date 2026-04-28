@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 6,
-  "stageName": "Anraku-ji",
+  "stage": 7,
+  "stageName": "Juraku-ji",
   "coords": [
-    134.388,
-    34.118
+    134.378,
+    34.121
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-04-27"
+  "lastAdvancedAt": "2026-04-28"
 }

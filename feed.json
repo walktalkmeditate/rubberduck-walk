@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-04-27T12:04:34.328Z",
+  "generatedAt": "2026-04-28T12:05:07.775Z",
   "duck": {
     "route": "shikoku-88",
     "routeName": "Shikoku Henro",
-    "stage": 6,
-    "stageName": "Anraku-ji",
+    "stage": 7,
+    "stageName": "Juraku-ji",
     "coords": [
-      134.388,
-      34.118
+      134.378,
+      34.121
     ],
     "mode": "walking",
-    "progress": 0.06818181818181818,
-    "kmFromStart": 16.3,
+    "progress": 0.07954545454545454,
+    "kmFromStart": 17.5,
     "totalKm": 1200,
-    "daysOnRoute": 5
+    "daysOnRoute": 6
   },
   "entries": [
     {
@@ -30,7 +30,7 @@
       "paragraphs": [
         "Steam rises from a stone basin. Nothing asks where it goes."
       ],
-      "ageDays": 0,
+      "ageDays": 1,
       "weather": "overcast, 18°C",
       "kmFromStart": 16.3,
       "kmSinceLastEntry": 5.300000000000001
@@ -49,7 +49,7 @@
       "paragraphs": [
         "Rain finds the stone lantern. The lantern keeps its shape."
       ],
-      "ageDays": 1,
+      "ageDays": 2,
       "weather": "rain, 14°C",
       "kmFromStart": 11,
       "kmSinceLastEntry": 2
@@ -68,7 +68,7 @@
       "paragraphs": [
         "A bell. No wind. The bell waits."
       ],
-      "ageDays": 2,
+      "ageDays": 3,
       "weather": "clear, 15°C",
       "kmFromStart": 9,
       "kmSinceLastEntry": 5
@@ -87,7 +87,7 @@
       "paragraphs": [
         "A bucket by the well. The rope is old. The water is older."
       ],
-      "ageDays": 3,
+      "ageDays": 4,
       "weather": "overcast, 15°C",
       "kmFromStart": 4,
       "kmSinceLastEntry": 2.6
@@ -106,7 +106,7 @@
       "paragraphs": [
         "Moss on the step. Older than the step."
       ],
-      "ageDays": 4,
+      "ageDays": 5,
       "weather": "overcast, 14°C",
       "kmFromStart": 1.4,
       "kmSinceLastEntry": 1.4
@@ -125,7 +125,7 @@
       "paragraphs": [
         "The gate. The gate was always going to be open."
       ],
-      "ageDays": 5,
+      "ageDays": 6,
       "kmFromStart": 0
     }
   ],
