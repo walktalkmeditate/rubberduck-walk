@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 7,
-  "stageName": "Juraku-ji",
+  "stage": 8,
+  "stageName": "Kumadani-ji",
   "coords": [
-    134.378,
-    34.121
+    134.34,
+    34.123
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-04-28"
+  "lastAdvancedAt": "2026-04-29"
 }
