@@ -1,21 +1,40 @@
 {
-  "generatedAt": "2026-04-29T21:51:56.790Z",
+  "generatedAt": "2026-04-30T12:19:57.091Z",
   "duck": {
     "route": "shikoku-88",
     "routeName": "Shikoku Henro",
-    "stage": 8,
-    "stageName": "Kumadani-ji",
+    "stage": 9,
+    "stageName": "Horin-ji",
     "coords": [
-      134.34,
-      34.123
+      134.334,
+      34.104
     ],
     "mode": "walking",
-    "progress": 0.09090909090909091,
-    "kmFromStart": 21.7,
+    "progress": 0.10227272727272728,
+    "kmFromStart": 24.1,
     "totalKm": 1200,
-    "daysOnRoute": 7
+    "daysOnRoute": 8
   },
   "entries": [
+    {
+      "date": "2026-04-30",
+      "route": "shikoku-88",
+      "stage": 9,
+      "stageName": "Horin-ji",
+      "coords": [
+        134.334,
+        34.104
+      ],
+      "kind": "offering",
+      "glyph": "💧",
+      "paragraphs": [
+        "Rain across the rooftiles. Each tile drinks once and holds nothing."
+      ],
+      "ageDays": 0,
+      "weather": "rain, 16°C",
+      "kmFromStart": 24.1,
+      "kmSinceLastEntry": 7.800000000000001
+    },
     {
       "date": "2026-04-27",
       "route": "shikoku-88",
@@ -30,7 +49,7 @@
       "paragraphs": [
         "Steam rises from a stone basin. Nothing asks where it goes."
       ],
-      "ageDays": 2,
+      "ageDays": 3,
       "weather": "overcast, 18°C",
       "kmFromStart": 16.3,
       "kmSinceLastEntry": 5.300000000000001
@@ -49,7 +68,7 @@
       "paragraphs": [
         "Rain finds the stone lantern. The lantern keeps its shape."
       ],
-      "ageDays": 3,
+      "ageDays": 4,
       "weather": "rain, 14°C",
       "kmFromStart": 11,
       "kmSinceLastEntry": 2
@@ -68,7 +87,7 @@
       "paragraphs": [
         "A bell. No wind. The bell waits."
       ],
-      "ageDays": 4,
+      "ageDays": 5,
       "weather": "clear, 15°C",
       "kmFromStart": 9,
       "kmSinceLastEntry": 5
@@ -87,7 +106,7 @@
       "paragraphs": [
         "A bucket by the well. The rope is old. The water is older."
       ],
-      "ageDays": 5,
+      "ageDays": 6,
       "weather": "overcast, 15°C",
       "kmFromStart": 4,
       "kmSinceLastEntry": 2.6
@@ -106,7 +125,7 @@
       "paragraphs": [
         "Moss on the step. Older than the step."
       ],
-      "ageDays": 6,
+      "ageDays": 7,
       "weather": "overcast, 14°C",
       "kmFromStart": 1.4,
       "kmSinceLastEntry": 1.4
@@ -125,7 +144,7 @@
       "paragraphs": [
         "The gate. The gate was always going to be open."
       ],
-      "ageDays": 7,
+      "ageDays": 8,
       "kmFromStart": 0
     }
   ],

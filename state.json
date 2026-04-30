@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 8,
-  "stageName": "Kumadani-ji",
+  "stage": 9,
+  "stageName": "Horin-ji",
   "coords": [
-    134.34,
-    34.123
+    134.334,
+    34.104
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-04-29"
+  "lastAdvancedAt": "2026-04-30"
 }
