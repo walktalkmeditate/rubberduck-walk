@@ -1,0 +1,14 @@
+{
+  "updatedAt": "2026-05-04T00:00:00Z",
+  "context": {
+    "route": "shikoku-88",
+    "stage": 12,
+    "stageName": "Shozan-ji",
+    "duckMode": "walking"
+  },
+  "bullets": [
+    { "kind": "walk", "text": "duck somewhere on the shikoku slope. mostly stones. mostly fine." },
+    { "kind": "doing", "text": "wiring a /now page so this thing tells the truth more often than once a year." },
+    { "kind": "noticing", "text": "the kettle and the cron run on similar schedules. neither asks." }
+  ]
+}

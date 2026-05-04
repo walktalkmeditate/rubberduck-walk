@@ -11,6 +11,7 @@ PATHS=(
   "/${REPO}/feed.json"
   "/${REPO}/state.json"
   "/${REPO}/og-image.png"
+  "/${REPO}/now.json"
 )
 
 BODY=$(printf '"%s",' "${PATHS[@]}")

@@ -22,13 +22,32 @@ fi
 
   cd "${REPO_DIR}"
 
+  # Self-healing prelude — if the prior run left dirt (e.g. files staged but commit
+  # failed because the signing agent was locked), try to commit and push it now
+  # before today's walk. If recovery itself fails, escalate so the next operator
+  # sees the real problem rather than letting a second day's work pile on top.
   if [[ -n "$(git status --porcelain)" ]]; then
-    echo "!! repo has uncommitted changes — not walking today. clean them and try again."
+    echo "!! leftover state from prior run — attempting recovery"
     git status --short
-    exit 2
+    git add -A
+    git commit -m "the duck walks (recovered)" || echo "(nothing new to commit)"
+    # Recovery must actually clean the tree. If commit silently failed
+    # (e.g. signing), the `|| echo` above swallowed the error and the tree
+    # is still dirty — escalate rather than pile today's walk on top.
+    if [[ -n "$(git status --porcelain)" ]]; then
+      echo "!! recovery commit failed — repo still dirty, not proceeding"
+      git status --short
+      exit 2
+    fi
+    if ! git push; then
+      echo "!! recovery push failed — escalating, not proceeding"
+      exit 2
+    fi
+    echo "recovered prior run; proceeding"
   fi
 
-  # Pull first so the duck doesn't overwrite anything pushed from another machine.
+  # Sync with remote so the duck doesn't overwrite anything pushed from another machine.
+  # No-op if the recovery block above just pushed.
   git pull --rebase --autostash
 
   # Hand off to Claude Code. --dangerously-skip-permissions is required for

@@ -32,7 +32,9 @@ When invoked by the daily `/schedule` cron, follow this sequence exactly:
 
 6b. **Regenerate the OG social card** — `bash bin/render-og.sh`. This screenshots `og/template.html` (which reads the current `state.json` + `feed.json` + route kanji) into `og-image.png` at 1200×630. The file is committed alongside the feed update and served via jsDelivr to pilgrim-landing's `/walk` OG meta. Fail soft: if Chrome isn't found or the render fails, log it and continue — a stale og-image for a day is tolerable.
 
-7. **Commit, push, purge** (in that order):
+6c. **Generate `/now` content** — every walk run, including silence days. Read `state.json`, today's entry (if any), `feed.json`, and the previous `now.json` (so phrasing doesn't repeat across days). Following `docs/now-voice.md`, draft 3–7 chief-voice bullets and write them to `now.json` at repo root with the current ISO-8601 UTC timestamp in `updatedAt` and `context` populated from `state.json`. Always include exactly one `kind: walk` bullet referencing today's stage. The file is committed alongside the rest of the day's changes and served via jsDelivr to chiefrubberduck.com's `/now` page. There is no programmatic lint for `now.json` in v1 — voice quality is the model's job. Fail soft: if generation hits trouble, leave the previous `now.json` untouched rather than shipping garbage.
+
+7. **Commit, push, purge** (in that order). The commit will include any new entry, updated `feed.json`, refreshed `og-image.png`, and the new `now.json`:
    ```bash
    git add -A
    git commit -m "the duck walks" || echo "(nothing to commit)"

@@ -15,7 +15,8 @@ Summary of the daily flow (full details and voice rules are in CLAUDE.md):
 3. If writing: fetch weather via `npm run weather 2>/dev/null || echo unknown`, draft the entry following the voice rules, self-review against the checklist, and either save the entry or emit `./duck silence` after 3 failed drafts.
 4. Run `./duck build-feed` to regenerate `feed.json`.
 5. Run `bash bin/render-og.sh` to regenerate `og-image.png` from `og/template.html` (the social-card preview reflecting today's state). Fail soft — if Chrome isn't available or the render fails, log it and continue.
-6. Commit, push, purge (in that order):
+6. Generate `now.json` for chiefrubberduck.com's `/now` page. Follow `docs/now-voice.md`: 3–7 chief-voice bullets (lowercase, ≤25 words each, exactly one `kind: walk`, mix kinds), populated from today's entry + state + previous `now.json`. Update `updatedAt` to current ISO-8601 UTC. Runs every walk-day, including silence days.
+7. Commit, push, purge (in that order):
    ```bash
    git add -A
    git commit -m "the duck walks" || echo "(nothing to commit)"
