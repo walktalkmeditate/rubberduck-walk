@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 11,
-  "stageName": "Fujii-dera",
+  "stage": 12,
+  "stageName": "Shozan-ji",
   "coords": [
-    134.349,
-    34.052
+    134.31,
+    33.985
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-05-02"
+  "lastAdvancedAt": "2026-05-03"
 }

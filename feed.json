@@ -1,21 +1,40 @@
 {
-  "generatedAt": "2026-05-02T12:04:20.927Z",
+  "generatedAt": "2026-05-03T13:15:38.474Z",
   "duck": {
     "route": "shikoku-88",
     "routeName": "Shikoku Henro",
-    "stage": 11,
-    "stageName": "Fujii-dera",
+    "stage": 12,
+    "stageName": "Shozan-ji",
     "coords": [
-      134.349,
-      34.052
+      134.31,
+      33.985
     ],
     "mode": "walking",
-    "progress": 0.125,
-    "kmFromStart": 37.2,
+    "progress": 0.13636363636363635,
+    "kmFromStart": 50.1,
     "totalKm": 1200,
-    "daysOnRoute": 10
+    "daysOnRoute": 11
   },
   "entries": [
+    {
+      "date": "2026-05-03",
+      "route": "shikoku-88",
+      "stage": 12,
+      "stageName": "Shozan-ji",
+      "coords": [
+        134.31,
+        33.985
+      ],
+      "kind": "offering",
+      "glyph": "🪨",
+      "paragraphs": [
+        "Stone steps, slick with rain. Moss fills what feet have worn."
+      ],
+      "ageDays": 0,
+      "weather": "light rain, 18°C",
+      "kmFromStart": 50.1,
+      "kmSinceLastEntry": 12.899999999999999
+    },
     {
       "date": "2026-05-02",
       "route": "shikoku-88",
@@ -30,7 +49,7 @@
       "paragraphs": [
         "Wisteria over the gate. Bees enter, leave, enter again."
       ],
-      "ageDays": 0,
+      "ageDays": 1,
       "weather": "overcast, 18°C",
       "kmFromStart": 37.2,
       "kmSinceLastEntry": 9.300000000000004
@@ -49,7 +68,7 @@
       "paragraphs": [
         "Cloth on the bench. The wind lifts one corner."
       ],
-      "ageDays": 1,
+      "ageDays": 2,
       "weather": "overcast, 14°C",
       "kmFromStart": 27.9,
       "kmSinceLastEntry": 3.799999999999997
@@ -68,7 +87,7 @@
       "paragraphs": [
         "Rain across the rooftiles. Each tile drinks once and holds nothing."
       ],
-      "ageDays": 2,
+      "ageDays": 3,
       "weather": "rain, 16°C",
       "kmFromStart": 24.1,
       "kmSinceLastEntry": 7.800000000000001
@@ -87,7 +106,7 @@
       "paragraphs": [
         "Steam rises from a stone basin. Nothing asks where it goes."
       ],
-      "ageDays": 5,
+      "ageDays": 6,
       "weather": "overcast, 18°C",
       "kmFromStart": 16.3,
       "kmSinceLastEntry": 5.300000000000001
@@ -106,7 +125,7 @@
       "paragraphs": [
         "Rain finds the stone lantern. The lantern keeps its shape."
       ],
-      "ageDays": 6,
+      "ageDays": 7,
       "weather": "rain, 14°C",
       "kmFromStart": 11,
       "kmSinceLastEntry": 2
@@ -125,7 +144,7 @@
       "paragraphs": [
         "A bell. No wind. The bell waits."
       ],
-      "ageDays": 7,
+      "ageDays": 8,
       "weather": "clear, 15°C",
       "kmFromStart": 9,
       "kmSinceLastEntry": 5
@@ -144,7 +163,7 @@
       "paragraphs": [
         "A bucket by the well. The rope is old. The water is older."
       ],
-      "ageDays": 8,
+      "ageDays": 9,
       "weather": "overcast, 15°C",
       "kmFromStart": 4,
       "kmSinceLastEntry": 2.6
@@ -163,7 +182,7 @@
       "paragraphs": [
         "Moss on the step. Older than the step."
       ],
-      "ageDays": 9,
+      "ageDays": 10,
       "weather": "overcast, 14°C",
       "kmFromStart": 1.4,
       "kmSinceLastEntry": 1.4
@@ -182,7 +201,7 @@
       "paragraphs": [
         "The gate. The gate was always going to be open."
       ],
-      "ageDays": 10,
+      "ageDays": 11,
       "kmFromStart": 0
     }
   ],
