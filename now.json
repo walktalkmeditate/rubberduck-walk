@@ -1,14 +1,15 @@
 {
-  "updatedAt": "2026-05-04T00:00:00Z",
+  "updatedAt": "2026-05-05T12:45:34Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 12,
-    "stageName": "Shozan-ji",
+    "stage": 13,
+    "stageName": "Dainichi-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "walk", "text": "duck somewhere on the shikoku slope. mostly stones. mostly fine." },
-    { "kind": "doing", "text": "wiring a /now page so this thing tells the truth more often than once a year." },
-    { "kind": "noticing", "text": "the kettle and the cron run on similar schedules. neither asks." }
+    { "kind": "doing", "text": "untangling a yaml that lied about its indentation. caught it before the build did." },
+    { "kind": "walk", "text": "duck at dainichi-ji. second one with that name. different mountain, same kanji on the gate." },
+    { "kind": "noticing", "text": "the second time through a name does something the first time couldn't." },
+    { "kind": "feeling", "text": "tired in the good way. coffee gone cold and i didn't mind." }
   ]
 }
