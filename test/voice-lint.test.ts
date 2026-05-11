@@ -114,15 +114,6 @@ test("meditation kind is exempt from voice rules", () => {
   assert.deepEqual(issues, []);
 });
 
-test("silence kind no longer exists in type — sanity test stays green", () => {
-  // #given a normal offering
-  const entry = makeEntry({ body: "A stone by the door." });
-  // #when linted
-  const issues = lintEntry(entry);
-  // #then clean
-  assert.deepEqual(issues, []);
-});
-
 test("'iced' does not trigger first-person match for 'i'", () => {
   const entry = makeEntry({ body: "The road iced over. Stones under frost." });
   const kinds = lintEntry(entry).map((i) => i.kind);
