@@ -63,6 +63,8 @@ export function buildFeed({ state, route, entries, today }: BuildFeedOpts): Feed
     if (e.weather) fe.weather = e.weather;
     if (entryKm !== undefined) fe.kmFromStart = entryKm;
     if (kmSince !== undefined) fe.kmSinceLastEntry = kmSince;
+    if (e.heard) fe.heard = e.heard;
+    if (e.heardId) fe.heardId = e.heardId;
     return fe;
   });
 

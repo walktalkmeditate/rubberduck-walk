@@ -150,3 +150,24 @@ test("buildFeed progress reflects stage/total when mode is beginning", () => {
   });
   assert.equal(feed.duck.progress, 0.5); // 1 / 2 stages
 });
+
+test("buildFeed passes heard + heardId from Entry to FeedEntry", () => {
+  // #given an offering entry with heard fields
+  const entryWithHeard: Entry = {
+    ...recentEntry,
+    heard: "the path forward seems to go back",
+    heardId: "4ef73ea0",
+  };
+
+  // #when feed built
+  const feed = buildFeed({
+    state,
+    route: shikoku,
+    entries: [entryWithHeard],
+    today: "2026-04-23",
+  });
+
+  // #then the FeedEntry surfaces heard fields verbatim
+  assert.equal(feed.entries[0].heard, "the path forward seems to go back");
+  assert.equal(feed.entries[0].heardId, "4ef73ea0");
+});
