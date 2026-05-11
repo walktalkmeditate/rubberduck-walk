@@ -6,6 +6,9 @@ export const MEDITATE_PCT = 30;
 export const RECENCY_WINDOW = 50;
 export const LINES_SOURCE_URL =
   "https://raw.githubusercontent.com/momentmaker/um/refs/heads/master/self/one-line.md";
+export const GLYPH_PALETTE: readonly string[] = Object.freeze(
+  "⚇ ❂ ⛩️ 🔔 🪷 🕯️ 🌙 🪨 🌿 🍃 💧 🌧️ ☁️ 🗻 🪵 🐚 🌾 🌫️ 🕊️ ◯ △ ☰ ∅ ∞ ≡ 〰️ 🌀".split(" "),
+);
 
 export interface PoolLine {
   id: string;
@@ -23,6 +26,11 @@ const PUNCTUATION_ONLY_RE = /^[\s!?.,;:'"`~@#$%^&*()\-+=\[\]{}\\|/<>]+$/;
 
 function sha1Hex(input: string): string {
   return createHash("sha1").update(input).digest("hex");
+}
+
+export function meditationGlyph(today: string): string {
+  const hex = sha1Hex(today + ":glyph").slice(0, 8);
+  return GLYPH_PALETTE[parseInt(hex, 16) % GLYPH_PALETTE.length];
 }
 
 export function parsePool(raw: string): PoolLine[] {

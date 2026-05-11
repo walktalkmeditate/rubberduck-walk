@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { parsePool, pickDayKind, pickLine, recordUsage, readPool } from "../src/lines.ts";
+import { parsePool, pickDayKind, pickLine, recordUsage, readPool, meditationGlyph, GLYPH_PALETTE } from "../src/lines.ts";
 import { mkdtemp, readFile, writeFile } from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
@@ -292,4 +292,24 @@ test("readPool returns [] if file missing (first-run)", async () => {
   const pool = await readPool(path.join(dir, "pool.json"));
   // #then empty
   assert.deepEqual(pool, []);
+});
+
+test("meditationGlyph: deterministic and in palette", () => {
+  // #given a date
+  const date = "2026-05-12";
+  // #when called twice
+  const a = meditationGlyph(date);
+  const b = meditationGlyph(date);
+  // #then identical and palette-member
+  assert.equal(a, b);
+  assert.ok(GLYPH_PALETTE.includes(a), `glyph ${a} not in palette`);
+});
+
+test("meditationGlyph: different dates → likely different glyphs", () => {
+  // #given two distinct dates
+  const a = meditationGlyph("2026-05-12");
+  const b = meditationGlyph("2026-06-12");
+  // #then not necessarily different (collisions possible), but both in palette
+  assert.ok(GLYPH_PALETTE.includes(a));
+  assert.ok(GLYPH_PALETTE.includes(b));
 });

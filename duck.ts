@@ -2,7 +2,6 @@
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { spawn } from "node:child_process";
 import { createInterface } from "node:readline/promises";
-import { createHash } from "node:crypto";
 import path from "node:path";
 import yaml from "js-yaml";
 import type { State, Route, EntryKind } from "./src/types.ts";
@@ -10,13 +9,6 @@ import { beginRoute } from "./src/advance.ts";
 import { fetchWeather } from "./src/weather.ts";
 
 const REPO_ROOT = path.resolve(import.meta.dirname);
-
-const GLYPH_PALETTE = "⚇ ❂ ⛩️ 🔔 🪷 🕯️ 🌙 🪨 🌿 🍃 💧 🌧️ ☁️ 🗻 🪵 🐚 🌾 🌫️ 🕊️ ◯ △ ☰ ∅ ∞ ≡ 〰️ 🌀".split(" ");
-
-function meditationGlyph(today: string): string {
-  const hex = createHash("sha1").update(today + ":glyph").digest("hex").slice(0, 8);
-  return GLYPH_PALETTE[parseInt(hex, 16) % GLYPH_PALETTE.length];
-}
 
 async function run(cmd: string, args: string[]): Promise<void> {
   return new Promise((resolve, reject) => {
