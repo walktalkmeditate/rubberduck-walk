@@ -101,9 +101,26 @@ test("kind=letter returns no issues regardless of content", () => {
   assert.deepEqual(lintEntry(entry), []);
 });
 
-test("kind=silence returns no issues for empty body", () => {
-  const entry = makeEntry({ kind: "silence" as EntryKind, body: "", glyph: "〰️" });
-  assert.deepEqual(lintEntry(entry), []);
+test("meditation kind is exempt from voice rules", () => {
+  // #given a meditation body with banned abstractions and digits — anything goes
+  const entry = makeEntry({
+    kind: "meditation" as EntryKind,
+    body: "attention is worship and the journey is mindfulness 123",
+    glyph: "🪷",
+  });
+  // #when linted
+  const issues = lintEntry(entry);
+  // #then no issues — body is an attributed quote, not duck speech
+  assert.deepEqual(issues, []);
+});
+
+test("silence kind no longer exists in type — sanity test stays green", () => {
+  // #given a normal offering
+  const entry = makeEntry({ body: "A stone by the door." });
+  // #when linted
+  const issues = lintEntry(entry);
+  // #then clean
+  assert.deepEqual(issues, []);
 });
 
 test("'iced' does not trigger first-person match for 'i'", () => {

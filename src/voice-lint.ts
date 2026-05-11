@@ -48,7 +48,7 @@ const BANNED_ABSTRACTIONS = [
 const ADVICE_VERBS = ["remember", "notice", "try", "consider", "learn"];
 const MAX_WORDS = 20;
 
-const UNCONSTRAINED_KINDS = new Set(["letter", "silence"]);
+const UNCONSTRAINED_KINDS = new Set(["letter", "meditation"]);
 
 function buildWordBoundaryRegex(words: readonly string[]): RegExp {
   const alternation = words.map(escapeRegex).join("|");
