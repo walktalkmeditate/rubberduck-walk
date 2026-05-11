@@ -68,3 +68,46 @@ export function pickDayKind(state: State, today: string): DayKindResult {
   }
   return { dayKind: "walk-with-line", entryKind: "offering" };
 }
+
+function deterministicIndex(date: string, salt: string, len: number): number {
+  const hex = sha1Hex(date + ":" + salt).slice(0, 8);
+  return parseInt(hex, 16) % len;
+}
+
+export function pickLine(
+  today: string,
+  pool: PoolLine[],
+  used: UsedRow[],
+): PoolLine | null {
+  // Empty pool → caller forces walk-with-line without heard.
+  if (pool.length === 0) return null;
+
+  // Same-date guard: reuse whatever was already logged for today.
+  const todayRow = used.find((u) => u.date === today);
+  if (todayRow) {
+    const match = pool.find((p) => p.id === todayRow.id);
+    if (match) return match;
+    // Edge: logged id no longer in pool (deleted by refresh). Fall through to repick.
+  }
+
+  // Fresh-cycle: pool minus all-time used.
+  const usedIds = new Set(used.map((u) => u.id));
+  const unusedFresh = pool.filter((p) => !usedIds.has(p.id));
+  if (unusedFresh.length > 0) {
+    const idx = deterministicIndex(today, "line", unusedFresh.length);
+    return unusedFresh[idx];
+  }
+
+  // Exhausted: recency window. Block the last min(RECENCY_WINDOW, pool.length - 1) ids.
+  const windowSize = Math.min(RECENCY_WINDOW, pool.length - 1);
+  const recencyIds = new Set(
+    used.slice(-windowSize).map((u) => u.id),
+  );
+  const eligible = pool.filter((p) => !recencyIds.has(p.id));
+  if (eligible.length === 0) {
+    // Defensive: only triggers if pool.length === 1 and that 1 is in recency.
+    return pool[0];
+  }
+  const idx = deterministicIndex(today, "line", eligible.length);
+  return eligible[idx];
+}
