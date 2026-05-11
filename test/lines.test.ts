@@ -1,6 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { parsePool } from "../src/lines.ts";
+import { parsePool, pickDayKind } from "../src/lines.ts";
+import type { State } from "../src/types.ts";
 
 test("parsePool skips blanks, headings, list markers; trims whitespace", () => {
   // #given mixed-content markdown
@@ -57,4 +58,80 @@ test("parsePool drops punctuation-only lines", () => {
   // #then only real line survives
   assert.equal(pool.length, 1);
   assert.equal(pool[0].text, "real line here");
+});
+
+function state(overrides: Partial<State> = {}): State {
+  return {
+    route: "shikoku-88",
+    stage: 14,
+    stageName: "Joraku-ji",
+    coords: [134.476, 34.05],
+    mode: "walking",
+    modeEnteredAt: "2026-04-22",
+    lastAdvancedAt: "2026-05-11",
+    ...overrides,
+  };
+}
+
+test("pickDayKind: closure-arrival forces walk-with-line + threshold", () => {
+  // #given resting + entered today
+  const s = state({ mode: "resting", modeEnteredAt: "2026-05-11" });
+  // #when
+  const out = pickDayKind(s, "2026-05-11");
+  // #then
+  assert.equal(out.dayKind, "walk-with-line");
+  assert.equal(out.entryKind, "threshold");
+});
+
+test("pickDayKind: resting non-arrival day forces meditate", () => {
+  // #given resting but entered yesterday
+  const s = state({ mode: "resting", modeEnteredAt: "2026-05-10" });
+  // #when
+  const out = pickDayKind(s, "2026-05-11");
+  // #then
+  assert.equal(out.dayKind, "meditate");
+  assert.equal(out.entryKind, "meditation");
+});
+
+test("pickDayKind: walking + coin is deterministic per date", () => {
+  // #given walking
+  const s = state({ mode: "walking" });
+  // #when called twice with same date
+  const a = pickDayKind(s, "2026-05-12");
+  const b = pickDayKind(s, "2026-05-12");
+  // #then identical
+  assert.deepEqual(a, b);
+});
+
+test("pickDayKind: walking — ~30% meditate over 1000 dates", () => {
+  // #given walking + 1000 unique dates
+  const s = state({ mode: "walking" });
+  let meditateCount = 0;
+  for (let i = 0; i < 1000; i++) {
+    const d = new Date(Date.UTC(2026, 0, 1) + i * 86400000)
+      .toISOString()
+      .slice(0, 10);
+    if (pickDayKind(s, d).dayKind === "meditate") meditateCount++;
+  }
+  // #then count falls within ±40 of 300 (260..340)
+  assert.ok(
+    meditateCount >= 260 && meditateCount <= 340,
+    `expected 260..340 meditate days, got ${meditateCount}`,
+  );
+});
+
+test("pickDayKind: beginning mode uses coin (not auto-walk)", () => {
+  // #given beginning mode
+  const s = state({ mode: "beginning" });
+  // #when across 100 dates
+  const kinds = new Set<string>();
+  for (let i = 0; i < 100; i++) {
+    const d = new Date(Date.UTC(2026, 0, 1) + i * 86400000)
+      .toISOString()
+      .slice(0, 10);
+    kinds.add(pickDayKind(s, d).dayKind);
+  }
+  // #then both outcomes appear (coin is firing)
+  assert.ok(kinds.has("walk-with-line"));
+  assert.ok(kinds.has("meditate"));
 });

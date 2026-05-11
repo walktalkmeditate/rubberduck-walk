@@ -1,4 +1,5 @@
 import { createHash } from "node:crypto";
+import type { State, EntryKind } from "./types.ts";
 
 export const MEDITATE_PCT = 30;
 export const RECENCY_WINDOW = 50;
@@ -37,4 +38,33 @@ export function parsePool(raw: string): PoolLine[] {
     out.push({ id, text });
   }
   return out;
+}
+
+export type DayKind = "walk-with-line" | "meditate";
+
+export interface DayKindResult {
+  dayKind: DayKind;
+  entryKind: EntryKind;
+}
+
+function dateCoin(date: string): number {
+  // Maps date → integer in [0, 100). Stable, no Math.random.
+  const hex = sha1Hex(date).slice(0, 8);
+  return parseInt(hex, 16) % 100;
+}
+
+export function pickDayKind(state: State, today: string): DayKindResult {
+  // Closure-arrival: duck just landed at the closure site (resting + entered today).
+  if (state.mode === "resting" && state.modeEnteredAt === today) {
+    return { dayKind: "walk-with-line", entryKind: "threshold" };
+  }
+  // Resting-not-arrival: any later resting day — voice rules need motion, so meditate.
+  if (state.mode === "resting" && state.modeEnteredAt < today) {
+    return { dayKind: "meditate", entryKind: "meditation" };
+  }
+  // Walking / beginning / completing: coin at MEDITATE_PCT.
+  if (dateCoin(today) < MEDITATE_PCT) {
+    return { dayKind: "meditate", entryKind: "meditation" };
+  }
+  return { dayKind: "walk-with-line", entryKind: "offering" };
 }
