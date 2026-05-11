@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T12:04:27.269Z",
+  "generatedAt": "2026-05-11T20:14:53.110Z",
   "duck": {
     "route": "shikoku-88",
     "routeName": "Shikoku Henro",
@@ -16,6 +16,101 @@
     "daysOnRoute": 19
   },
   "entries": [
+    {
+      "date": "2026-05-10",
+      "route": "shikoku-88",
+      "stage": 13,
+      "stageName": "Dainichi-ji",
+      "coords": [
+        134.463,
+        34.038
+      ],
+      "kind": "meditation",
+      "glyph": "❂",
+      "paragraphs": [
+        "whole is greater than the sum of the parts"
+      ],
+      "ageDays": 1,
+      "kmFromStart": 70.9,
+      "kmSinceLastEntry": 0,
+      "heardId": "909e3310"
+    },
+    {
+      "date": "2026-05-09",
+      "route": "shikoku-88",
+      "stage": 13,
+      "stageName": "Dainichi-ji",
+      "coords": [
+        134.463,
+        34.038
+      ],
+      "kind": "meditation",
+      "glyph": "〰️",
+      "paragraphs": [
+        "there is nothing you can do wrong"
+      ],
+      "ageDays": 2,
+      "kmFromStart": 70.9,
+      "kmSinceLastEntry": 0,
+      "heardId": "bdd941ba"
+    },
+    {
+      "date": "2026-05-08",
+      "route": "shikoku-88",
+      "stage": 13,
+      "stageName": "Dainichi-ji",
+      "coords": [
+        134.463,
+        34.038
+      ],
+      "kind": "meditation",
+      "glyph": "🐚",
+      "paragraphs": [
+        "attention is the beginning of devotion"
+      ],
+      "ageDays": 3,
+      "kmFromStart": 70.9,
+      "kmSinceLastEntry": 0,
+      "heardId": "100ac6ee"
+    },
+    {
+      "date": "2026-05-07",
+      "route": "shikoku-88",
+      "stage": 13,
+      "stageName": "Dainichi-ji",
+      "coords": [
+        134.463,
+        34.038
+      ],
+      "kind": "meditation",
+      "glyph": "☁️",
+      "paragraphs": [
+        "connecting the dots is only possible through reflection"
+      ],
+      "ageDays": 4,
+      "kmFromStart": 70.9,
+      "kmSinceLastEntry": 0,
+      "heardId": "8c39797a"
+    },
+    {
+      "date": "2026-05-06",
+      "route": "shikoku-88",
+      "stage": 13,
+      "stageName": "Dainichi-ji",
+      "coords": [
+        134.463,
+        34.038
+      ],
+      "kind": "meditation",
+      "glyph": "◯",
+      "paragraphs": [
+        "mind generates thoughts is akin to God creating everything in His dream"
+      ],
+      "ageDays": 5,
+      "kmFromStart": 70.9,
+      "kmSinceLastEntry": 0,
+      "heardId": "c710ee24"
+    },
     {
       "date": "2026-05-05",
       "route": "shikoku-88",

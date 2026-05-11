@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "id": "c710ee24",
+    "date": "2026-05-06",
+    "kind": "meditation"
+  },
+  {
+    "id": "8c39797a",
+    "date": "2026-05-07",
+    "kind": "meditation"
+  },
+  {
+    "id": "100ac6ee",
+    "date": "2026-05-08",
+    "kind": "meditation"
+  },
+  {
+    "id": "bdd941ba",
+    "date": "2026-05-09",
+    "kind": "meditation"
+  },
+  {
+    "id": "909e3310",
+    "date": "2026-05-10",
+    "kind": "meditation"
+  }
+]
