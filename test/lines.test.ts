@@ -1,6 +1,9 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { parsePool, pickDayKind, pickLine } from "../src/lines.ts";
+import { parsePool, pickDayKind, pickLine, recordUsage } from "../src/lines.ts";
+import { mkdtemp, readFile, writeFile } from "node:fs/promises";
+import os from "node:os";
+import path from "node:path";
 import type { State } from "../src/types.ts";
 import type { PoolLine, UsedRow } from "../src/lines.ts";
 
@@ -217,4 +220,50 @@ test("pickLine: recency window degrades when pool ≤ window", () => {
   const out = pickLine("2026-05-12", p, used);
   // #then returns the single oldest id (recency window blocks all but 1)
   assert.equal(out!.id, "00000000");
+});
+
+test("recordUsage appends new row", async () => {
+  // #given empty used.json
+  const dir = await mkdtemp(path.join(os.tmpdir(), "lines-"));
+  const usedPath = path.join(dir, "used.json");
+  await writeFile(usedPath, "[]");
+
+  // #when recordUsage called
+  await recordUsage(usedPath, { id: "00000001", date: "2026-05-12", kind: "heard" });
+
+  // #then file contains one row
+  const data: UsedRow[] = JSON.parse(await readFile(usedPath, "utf8"));
+  assert.equal(data.length, 1);
+  assert.deepEqual(data[0], { id: "00000001", date: "2026-05-12", kind: "heard" });
+});
+
+test("recordUsage is idempotent on date — no duplicate rows", async () => {
+  // #given used.json with today's row already
+  const dir = await mkdtemp(path.join(os.tmpdir(), "lines-"));
+  const usedPath = path.join(dir, "used.json");
+  await writeFile(
+    usedPath,
+    JSON.stringify([{ id: "00000001", date: "2026-05-12", kind: "heard" }]),
+  );
+
+  // #when recordUsage called again for the same date (even with different id)
+  await recordUsage(usedPath, { id: "00000099", date: "2026-05-12", kind: "meditation" });
+
+  // #then no duplicate — original row preserved (first-write-wins)
+  const data: UsedRow[] = JSON.parse(await readFile(usedPath, "utf8"));
+  assert.equal(data.length, 1);
+  assert.equal(data[0].id, "00000001");
+});
+
+test("recordUsage creates file if missing", async () => {
+  // #given no used.json
+  const dir = await mkdtemp(path.join(os.tmpdir(), "lines-"));
+  const usedPath = path.join(dir, "used.json");
+
+  // #when recordUsage called
+  await recordUsage(usedPath, { id: "00000001", date: "2026-05-12", kind: "heard" });
+
+  // #then file created with one row
+  const data: UsedRow[] = JSON.parse(await readFile(usedPath, "utf8"));
+  assert.equal(data.length, 1);
 });

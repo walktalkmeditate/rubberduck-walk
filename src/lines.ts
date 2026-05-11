@@ -1,4 +1,5 @@
 import { createHash } from "node:crypto";
+import { readFile, writeFile } from "node:fs/promises";
 import type { State, EntryKind } from "./types.ts";
 
 export const MEDITATE_PCT = 30;
@@ -110,4 +111,25 @@ export function pickLine(
   }
   const idx = deterministicIndex(today, "line", eligible.length);
   return eligible[idx];
+}
+
+export async function readUsed(usedPath: string): Promise<UsedRow[]> {
+  try {
+    const raw = await readFile(usedPath, "utf8");
+    const parsed = JSON.parse(raw);
+    if (!Array.isArray(parsed)) return [];
+    return parsed as UsedRow[];
+  } catch (err: unknown) {
+    if ((err as NodeJS.ErrnoException)?.code === "ENOENT") return [];
+    throw err;
+  }
+}
+
+export async function recordUsage(usedPath: string, row: UsedRow): Promise<void> {
+  const current = await readUsed(usedPath);
+  if (current.some((r) => r.date === row.date)) {
+    return; // idempotent: already logged for this date, first-write-wins
+  }
+  current.push(row);
+  await writeFile(usedPath, JSON.stringify(current, null, 2) + "\n");
 }
