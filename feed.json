@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T20:16:59.493Z",
+  "generatedAt": "2026-05-11T20:34:11.644Z",
   "duck": {
     "route": "shikoku-88",
     "routeName": "Shikoku Henro",
@@ -25,15 +25,16 @@
         134.476,
         34.05
       ],
-      "kind": "meditation",
-      "glyph": "🌿",
+      "kind": "offering",
+      "glyph": "🌧️",
       "paragraphs": [
-        "many hands make miracle"
+        "The kanji say eternal happiness. The rain says nothing."
       ],
       "ageDays": 0,
       "weather": "clear, 15°C",
       "kmFromStart": 73.2,
       "kmSinceLastEntry": 2.299999999999997,
+      "heard": "many hands make miracle",
       "heardId": "85b7c447"
     },
     {
