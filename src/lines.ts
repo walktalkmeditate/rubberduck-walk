@@ -133,3 +133,15 @@ export async function recordUsage(usedPath: string, row: UsedRow): Promise<void>
   current.push(row);
   await writeFile(usedPath, JSON.stringify(current, null, 2) + "\n");
 }
+
+export async function readPool(poolPath: string): Promise<PoolLine[]> {
+  try {
+    const raw = await readFile(poolPath, "utf8");
+    const parsed = JSON.parse(raw);
+    if (!Array.isArray(parsed)) return [];
+    return parsed as PoolLine[];
+  } catch (err: unknown) {
+    if ((err as NodeJS.ErrnoException)?.code === "ENOENT") return [];
+    throw err;
+  }
+}

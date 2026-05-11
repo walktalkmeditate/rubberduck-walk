@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { parsePool, pickDayKind, pickLine, recordUsage } from "../src/lines.ts";
+import { parsePool, pickDayKind, pickLine, recordUsage, readPool } from "../src/lines.ts";
 import { mkdtemp, readFile, writeFile } from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
@@ -266,4 +266,30 @@ test("recordUsage creates file if missing", async () => {
   // #then file created with one row
   const data: UsedRow[] = JSON.parse(await readFile(usedPath, "utf8"));
   assert.equal(data.length, 1);
+});
+
+test("readPool returns parsed pool from json", async () => {
+  // #given pool.json on disk
+  const dir = await mkdtemp(path.join(os.tmpdir(), "lines-"));
+  const poolPath = path.join(dir, "pool.json");
+  await writeFile(
+    poolPath,
+    JSON.stringify([{ id: "00000001", text: "the path forward seems to go back" }]),
+  );
+
+  // #when read
+  const pool = await readPool(poolPath);
+
+  // #then one line
+  assert.equal(pool.length, 1);
+  assert.equal(pool[0].id, "00000001");
+});
+
+test("readPool returns [] if file missing (first-run)", async () => {
+  // #given non-existent path
+  const dir = await mkdtemp(path.join(os.tmpdir(), "lines-"));
+  // #when read
+  const pool = await readPool(path.join(dir, "pool.json"));
+  // #then empty
+  assert.deepEqual(pool, []);
 });
