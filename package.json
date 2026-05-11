@@ -15,6 +15,7 @@
     "build-feed": "tsx scripts/build-feed.ts",
     "weather": "tsx scripts/weather.ts",
     "voice-lint": "tsx scripts/voice-lint.ts",
+    "refresh-lines": "tsx scripts/refresh-lines.ts",
     "purge": "bash scripts/purge.sh"
   },
   "dependencies": {
