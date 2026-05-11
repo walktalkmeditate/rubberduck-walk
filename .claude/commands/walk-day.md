@@ -2,41 +2,35 @@
 description: The duck's daily walk — advance, decide kind, write entry, build feed, render og, commit, push, purge
 ---
 
-It is the duck's walk day. Follow the playbook in `CLAUDE.md` exactly. Summary:
+Daily walk pipeline. All steps are shell commands; no inline tsx scripts needed.
 
-1. **Advance.** Run `./duck advance` — always. Updates `state.json`. Idempotent on `lastAdvancedAt`.
+1. **Advance.** `./duck advance` — always runs, idempotent on `lastAdvancedAt`.
 
-2. **Entry-exists guard.** Glob `entries/<today>-*.md` (UTC date). If a file matches:
-   - Read its frontmatter `heardId`. If present and not already logged in `lines/used.json` for today, append the row now via the same mechanism used in step 6 (atomic recovery from a prior crash between entry-write and used.json append).
-   - Skip steps 3-7. Jump to step 8.
+2. **Entry-exists guard.** Check `entries/<today>-*.md` exists (today = UTC date via `date -u +%Y-%m-%d`). If a file matches: read its `heardId` from frontmatter and call `./duck record-usage <heardId> <kind>` (where kind = "meditation" if filename is `<today>-meditation.md`, else "heard"). Then skip ahead to step 7. (Reconciles a partial prior run.)
 
-3. **Pick day kind.** Call `pickDayKind(state, today)` from `src/lines.ts`:
-   - Closure-arrival (resting + entered today) → walk-with-line + threshold.
-   - Resting non-arrival → meditate.
-   - Walking / beginning / completing → 30% coin → meditate / walk-with-line.
+3. **Pick day kind.** `./duck pick-kind` — prints JSON `{"dayKind": "walk-with-line"|"meditate", "entryKind": "offering"|"threshold"|"meditation"}`.
 
-4. **Pull line.** Call `pickLine(today, pool, used)`:
-   - If pool is empty → force walk-with-line and skip `heard:` for the day.
-   - Same-date guard returns previously-logged id.
-   - Else fresh-cycle or recency-50 pick.
+4. **Pick line.** `./duck pick-line` — prints `{"id": "...", "text": "..."}` or `null`. If `null`, treat as empty pool: force `dayKind=walk-with-line` and omit heard from the entry.
 
-5. **Weather + km.** `npm run weather 2>/dev/null || echo unknown`. Read `kmFromStart` from `routes/<state.route>.json` for `state.stage`.
+5. **Weather + km.** `npm run weather 2>/dev/null || echo unknown`. Look up `kmFromStart` from `routes/<state.route>.json` for `state.stage`.
 
-6. **Draft and write.**
-   - **walk-with-line:** read the 3 most recent entries for voice context. Draft body per voice rules in CLAUDE.md. Write entry with `kind: offering` (or `threshold` on closure-arrival), `heard`, `heardId`.
-   - **meditate:** no drafting. Write entry with `kind: meditation`, body = line text verbatim, `heardId`, date-seeded glyph via `meditationGlyph(today)` from `src/lines.ts`. Slug fixed to `meditation`.
+6. **Write entry by dayKind.**
 
-7. **Self-review + voice-lint.** Walk-with-line only. Self-review against checklist; redraft up to 2x. Then run `npm run voice-lint -- entries/<file>.md`. If still failing after 3 drafts: delete the failed draft, fall back to meditate with today's line.
+   - **walk-with-line:** read the 3 most recent files in `entries/` for voice context. Draft body per CLAUDE.md voice rules. Write the entry file at `entries/<today>-<slug>.md` (slug from state.stageName) via the Write tool. Include frontmatter fields: `date, route, stage, stageName, coords, kind: offering` (or `threshold` if dayKind=walk-with-line + entryKind=threshold), `glyph, weather, kmFromStart, heard, heardId`.
 
-8. **Record line usage.** Append `{ id, date, kind }` to `lines/used.json` via `recordUsage()` from `src/lines.ts`. Idempotent by date.
+   - **meditate:** `./duck meditate <heardId> <line text>`. The duck CLI writes the file with slug=meditation, body=line, date-seeded glyph, heardId.
 
-9. **Rebuild feed.** `./duck build-feed`.
+7. **Self-review + voice-lint** (walk-with-line only). Self-review against CLAUDE.md checklist; redraft up to 2x. Then run `npm run voice-lint -- entries/<file>.md`. If lint still fails: delete the failed file, fall back to meditate via `./duck meditate <heardId> <line text>`.
+
+8. **Record line usage.** `./duck record-usage <id> heard` (or `meditation`). Idempotent by date.
+
+9. **Build feed.** `./duck build-feed`.
 
 10. **OG card.** `bash bin/render-og.sh`. Fail soft.
 
 11. **Now.json.** Regenerate per `docs/now-voice.md`. Fail soft.
 
-12. **Commit, push, purge.**
+12. **Commit + push + purge.**
     ```bash
     git add -A
     git commit -m "the duck walks" || echo "(nothing to commit)"
@@ -44,9 +38,9 @@ It is the duck's walk day. Follow the playbook in `CLAUDE.md` exactly. Summary:
     bash scripts/purge.sh
     ```
 
-The 27-glyph palette, voice rules, banned-abstraction list, and the self-review checklist all live in `CLAUDE.md`. Load it before drafting.
+Glyph palette, voice rules, banned-abstraction list, self-review checklist all live in `CLAUDE.md`.
 
 Report back with:
-- What the duck did today (advanced to X, walk-with-line or meditate, line text, lint pass/fail)
-- Whether og-image.png regenerated successfully
-- Any deviation from the playbook and why
+- What duck did (advanced to X, kind, line text, lint pass/fail)
+- og-image.png regen status
+- Any deviation from playbook

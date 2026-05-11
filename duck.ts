@@ -7,6 +7,15 @@ import yaml from "js-yaml";
 import type { State, Route, EntryKind } from "./src/types.ts";
 import { beginRoute } from "./src/advance.ts";
 import { fetchWeather } from "./src/weather.ts";
+import {
+  pickDayKind,
+  pickLine,
+  readPool,
+  readUsed,
+  recordUsage,
+  meditationGlyph,
+  RECENCY_WINDOW,
+} from "./src/lines.ts";
 
 const REPO_ROOT = path.resolve(import.meta.dirname);
 
@@ -97,7 +106,6 @@ async function cmdRefreshLines() {
 }
 
 async function cmdLinesStatus() {
-  const { readPool, readUsed, RECENCY_WINDOW } = await import("./src/lines.ts");
   const poolPath = path.join(REPO_ROOT, "lines", "pool.json");
   const usedPath = path.join(REPO_ROOT, "lines", "used.json");
   const pool = await readPool(poolPath);
@@ -109,6 +117,53 @@ async function cmdLinesStatus() {
   console.log(`used (lifetime): ${used.length}`);
   console.log(`used (recency-${RECENCY_WINDOW}): ${usedRecent}`);
   console.log(`last used:      ${lastDate}`);
+}
+
+async function cmdPickKind() {
+  const state = await readState();
+  const today = new Date().toISOString().slice(0, 10);
+  const result = pickDayKind(state, today);
+  console.log(JSON.stringify(result));
+}
+
+async function cmdPickLine() {
+  const today = new Date().toISOString().slice(0, 10);
+  const poolPath = path.join(REPO_ROOT, "lines", "pool.json");
+  const usedPath = path.join(REPO_ROOT, "lines", "used.json");
+  const pool = await readPool(poolPath);
+  const used = await readUsed(usedPath);
+  const line = pickLine(today, pool, used);
+  console.log(JSON.stringify(line));
+}
+
+async function cmdGlyph() {
+  const today = new Date().toISOString().slice(0, 10);
+  console.log(meditationGlyph(today));
+}
+
+async function cmdMeditate(heardId: string | undefined, text: string) {
+  if (!heardId || !text.trim()) {
+    console.error("usage: ./duck meditate <heardId> <line text...>");
+    process.exit(1);
+  }
+  const today = new Date().toISOString().slice(0, 10);
+  const filePath = await writeEntry({
+    kind: "meditation",
+    glyph: meditationGlyph(today),
+    body: text,
+    heardId,
+  });
+  console.log(filePath);
+}
+
+async function cmdRecordUsage(id: string | undefined, kind: string | undefined) {
+  if (!id || (kind !== "heard" && kind !== "meditation")) {
+    console.error("usage: ./duck record-usage <id> heard|meditation");
+    process.exit(1);
+  }
+  const today = new Date().toISOString().slice(0, 10);
+  const usedPath = path.join(REPO_ROOT, "lines", "used.json");
+  await recordUsage(usedPath, { id, date: today, kind });
 }
 
 async function cmdOffer() {
@@ -192,7 +247,7 @@ async function cmdPreview() {
 }
 
 async function main() {
-  const [, , cmd, sub] = process.argv;
+  const [, , cmd, ...rest] = process.argv;
   switch (cmd) {
     case "status":         return cmdStatus();
     case "advance":        return cmdAdvance();
@@ -200,15 +255,22 @@ async function main() {
     case "build-feed":     return cmdBuildFeed();
     case "offer":          return cmdOffer();
     case "letter":         return cmdLetter();
-    case "next":           return cmdNext(process.argv[3]);
+    case "next":           return cmdNext(rest[0]);
     case "preview":        return cmdPreview();
     case "refresh-lines":  return cmdRefreshLines();
+    case "pick-kind":      return cmdPickKind();
+    case "pick-line":      return cmdPickLine();
+    case "glyph":          return cmdGlyph();
+    case "meditate":       return cmdMeditate(rest[0], rest.slice(1).join(" "));
+    case "record-usage":   return cmdRecordUsage(rest[0], rest[1]);
     case "lines":
-      if (sub === "status") return cmdLinesStatus();
+      if (rest[0] === "status") return cmdLinesStatus();
       console.error("usage: ./duck lines status");
       process.exit(1);
     default:
-      console.error("usage: ./duck {status|advance|build-feed|offer|letter|next <route-id>|preview|refresh-lines|lines status}");
+      console.error(
+        "usage: ./duck {status|advance|build-feed|offer|letter|next <route-id>|preview|refresh-lines|lines status|pick-kind|pick-line|glyph|meditate <heardId> <text>|record-usage <id> <kind>}",
+      );
       process.exit(1);
   }
 }
