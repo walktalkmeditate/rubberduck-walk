@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-05-05T12:45:34Z",
+  "updatedAt": "2026-05-11T12:04:53Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 13,
-    "stageName": "Dainichi-ji",
+    "stage": 14,
+    "stageName": "Joraku-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "doing", "text": "untangling a yaml that lied about its indentation. caught it before the build did." },
-    { "kind": "walk", "text": "duck at dainichi-ji. second one with that name. different mountain, same kanji on the gate." },
-    { "kind": "noticing", "text": "the second time through a name does something the first time couldn't." },
-    { "kind": "feeling", "text": "tired in the good way. coffee gone cold and i didn't mind." }
+    { "kind": "doing", "text": "reading old commit messages for a tool i don't remember writing. it still works. that's evidence enough." },
+    { "kind": "walk", "text": "duck at joraku-ji. the kanji say eternal happiness. the rain did not comment." },
+    { "kind": "noticing", "text": "the laptop fan spins up only when no one's watching. caught it once. it stopped." },
+    { "kind": "feeling", "text": "calm, and slightly suspicious of the calm." }
   ]
 }
