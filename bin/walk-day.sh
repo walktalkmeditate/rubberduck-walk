@@ -48,7 +48,22 @@ fi
 
   # Sync with remote so the duck doesn't overwrite anything pushed from another machine.
   # No-op if the recovery block above just pushed.
-  git pull --rebase --autostash
+  # Retry: cold network after wake intermittently times out SSH to github.com.
+  pulled=0
+  for attempt in 1 2 3; do
+    if git pull --rebase --autostash; then
+      pulled=1
+      break
+    fi
+    if [[ $attempt -lt 3 ]]; then
+      echo "!! git pull failed (attempt $attempt) — sleeping $((attempt * 30))s"
+      sleep $((attempt * 30))
+    fi
+  done
+  if [[ $pulled -eq 0 ]]; then
+    echo "!! git pull failed 3x — aborting"
+    exit 3
+  fi
 
   # Hand off to Claude Code. --dangerously-skip-permissions is required for
   # unattended execution (no TTY to prompt against). The /walk-day command
