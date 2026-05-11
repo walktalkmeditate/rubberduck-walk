@@ -2,6 +2,7 @@
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { spawn } from "node:child_process";
 import { createInterface } from "node:readline/promises";
+import { createHash } from "node:crypto";
 import path from "node:path";
 import yaml from "js-yaml";
 import type { State, Route, EntryKind } from "./src/types.ts";
@@ -9,6 +10,13 @@ import { beginRoute } from "./src/advance.ts";
 import { fetchWeather } from "./src/weather.ts";
 
 const REPO_ROOT = path.resolve(import.meta.dirname);
+
+const GLYPH_PALETTE = "⚇ ❂ ⛩️ 🔔 🪷 🕯️ 🌙 🪨 🌿 🍃 💧 🌧️ ☁️ 🗻 🪵 🐚 🌾 🌫️ 🕊️ ◯ △ ☰ ∅ ∞ ≡ 〰️ 🌀".split(" ");
+
+function meditationGlyph(today: string): string {
+  const hex = createHash("sha1").update(today + ":glyph").digest("hex").slice(0, 8);
+  return GLYPH_PALETTE[parseInt(hex, 16) % GLYPH_PALETTE.length];
+}
 
 async function run(cmd: string, args: string[]): Promise<void> {
   return new Promise((resolve, reject) => {
@@ -30,28 +38,27 @@ async function writeEntry(opts: {
   glyph: string;
   body: string;
   author?: string;
+  heard?: string;
+  heardId?: string;
 }): Promise<string> {
   const state = await readState();
   const today = new Date().toISOString().slice(0, 10);
-  const slug = state.stageName.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+  const slug =
+    opts.kind === "meditation"
+      ? "meditation"
+      : state.stageName.toLowerCase().replace(/[^a-z0-9]+/g, "-");
   const fileName = `${today}-${slug}.md`;
   const filePath = path.join(REPO_ROOT, "entries", fileName);
 
-  // Look up this stage's kmFromStart in the current route so the entry is
-  // self-describing (won't retroactively change if route data updates).
   let kmFromStart: number | undefined;
   try {
     const route = await readRoute(state.route);
-    const onRoute = state.mode === "walking" || state.mode === "beginning";
-    if (onRoute) {
-      const s = route.stages.find((x) => x.index === state.stage);
-      if (s && typeof s.kmFromStart === "number") kmFromStart = s.kmFromStart;
-    }
+    const s = route.stages.find((x) => x.index === state.stage);
+    if (s && typeof s.kmFromStart === "number") kmFromStart = s.kmFromStart;
   } catch {
-    // Route not readable; leave kmFromStart undefined. Build-feed will fall back.
+    // ignore
   }
 
-  // Best-effort weather capture (silent on failure — offline is fine).
   const weather = await fetchWeather(state.coords).catch(() => null);
 
   const frontmatter: Record<string, unknown> = {
@@ -66,6 +73,8 @@ async function writeEntry(opts: {
   if (weather) frontmatter.weather = weather;
   if (kmFromStart !== undefined) frontmatter.kmFromStart = kmFromStart;
   if (opts.author) frontmatter.author = opts.author;
+  if (opts.heard) frontmatter.heard = opts.heard;
+  if (opts.heardId) frontmatter.heardId = opts.heardId;
 
   const fmYaml = yaml.dump(frontmatter, { flowLevel: 1 }).trim();
   const content = `---\n${fmYaml}\n---\n\n${opts.body}\n`;
