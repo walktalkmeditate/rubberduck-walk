@@ -100,11 +100,23 @@ async function cmdBuildFeed() {
   await run("npx", ["tsx", "scripts/build-feed.ts"]);
 }
 
-async function cmdSilence() {
-  const glyphPalette = "⚇ ❂ ⛩️ 🔔 🪷 🕯️ 🌙 🪨 🌿 🍃 💧 🌧️ ☁️ 🗻 🪵 🐚 🌾 🌫️ 🕊️ ◯ △ ☰ ∅ ∞ ≡ 〰️ 🌀".split(" ");
-  const glyph = glyphPalette[Math.floor(Math.random() * glyphPalette.length)];
-  const filePath = await writeEntry({ kind: "silence", glyph, body: "" });
-  console.log(`silence: ${filePath}`);
+async function cmdRefreshLines() {
+  await run("npx", ["tsx", "scripts/refresh-lines.ts"]);
+}
+
+async function cmdLinesStatus() {
+  const { readPool, readUsed, RECENCY_WINDOW } = await import("./src/lines.ts");
+  const poolPath = path.join(REPO_ROOT, "lines", "pool.json");
+  const usedPath = path.join(REPO_ROOT, "lines", "used.json");
+  const pool = await readPool(poolPath);
+  const used = await readUsed(usedPath);
+  const recentIds = new Set(used.slice(-RECENCY_WINDOW).map((u) => u.id));
+  const usedRecent = pool.filter((p) => recentIds.has(p.id)).length;
+  const lastDate = used.length > 0 ? used[used.length - 1].date : "(never)";
+  console.log(`pool:           ${pool.length}`);
+  console.log(`used (lifetime): ${used.length}`);
+  console.log(`used (recency-${RECENCY_WINDOW}): ${usedRecent}`);
+  console.log(`last used:      ${lastDate}`);
 }
 
 async function cmdOffer() {
@@ -188,19 +200,23 @@ async function cmdPreview() {
 }
 
 async function main() {
-  const [, , cmd, ...rest] = process.argv;
+  const [, , cmd, sub] = process.argv;
   switch (cmd) {
-    case "status":    return cmdStatus();
-    case "advance":   return cmdAdvance();
+    case "status":         return cmdStatus();
+    case "advance":        return cmdAdvance();
     case "build":
-    case "build-feed": return cmdBuildFeed();
-    case "silence":   return cmdSilence();
-    case "offer":     return cmdOffer();
-    case "letter":    return cmdLetter();
-    case "next":      return cmdNext(rest[0]);
-    case "preview":   return cmdPreview();
+    case "build-feed":     return cmdBuildFeed();
+    case "offer":          return cmdOffer();
+    case "letter":         return cmdLetter();
+    case "next":           return cmdNext(process.argv[3]);
+    case "preview":        return cmdPreview();
+    case "refresh-lines":  return cmdRefreshLines();
+    case "lines":
+      if (sub === "status") return cmdLinesStatus();
+      console.error("usage: ./duck lines status");
+      process.exit(1);
     default:
-      console.error("usage: ./duck {status|advance|build-feed|silence|offer|letter|next <route-id>|preview}");
+      console.error("usage: ./duck {status|advance|build-feed|offer|letter|next <route-id>|preview|refresh-lines|lines status}");
       process.exit(1);
   }
 }
