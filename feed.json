@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T20:14:53.110Z",
+  "generatedAt": "2026-05-11T20:16:59.493Z",
   "duck": {
     "route": "shikoku-88",
     "routeName": "Shikoku Henro",
@@ -16,6 +16,26 @@
     "daysOnRoute": 19
   },
   "entries": [
+    {
+      "date": "2026-05-11",
+      "route": "shikoku-88",
+      "stage": 14,
+      "stageName": "Joraku-ji",
+      "coords": [
+        134.476,
+        34.05
+      ],
+      "kind": "meditation",
+      "glyph": "🌿",
+      "paragraphs": [
+        "many hands make miracle"
+      ],
+      "ageDays": 0,
+      "weather": "clear, 15°C",
+      "kmFromStart": 73.2,
+      "kmSinceLastEntry": 2.299999999999997,
+      "heardId": "85b7c447"
+    },
     {
       "date": "2026-05-10",
       "route": "shikoku-88",
