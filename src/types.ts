@@ -1,6 +1,6 @@
 export type DuckMode = "walking" | "completing" | "resting" | "beginning";
 
-export type EntryKind = "offering" | "notice" | "silence" | "threshold" | "letter";
+export type EntryKind = "offering" | "threshold" | "letter" | "meditation";
 
 export type Coords = [number, number]; // [longitude, latitude] — GeoJSON convention
 
@@ -50,6 +50,10 @@ export interface EntryFrontmatter {
   author?: string;       // only for kind=letter; defaults to "— the pilgrim"
   /** Cumulative km from route start, captured at write time. */
   kmFromStart?: number;
+  /** Verbatim text of the curated line carried this day (walk-with-line only). */
+  heard?: string;
+  /** Stable id of the line in `lines/pool.json`. Present on both walk-with-line and meditation. */
+  heardId?: string;
 }
 
 export interface Entry extends EntryFrontmatter {
@@ -92,6 +96,10 @@ export interface FeedEntry {
   kmFromStart?: number;
   /** Km walked between this entry and the next-older entry on the same route. */
   kmSinceLastEntry?: number;
+  /** Verbatim text of the curated line carried this day. */
+  heard?: string;
+  /** Stable id of the line in `lines/pool.json`. */
+  heardId?: string;
 }
 
 export interface Feed {
