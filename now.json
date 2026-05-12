@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-05-11T12:04:53Z",
+  "updatedAt": "2026-05-12T12:27:16Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 14,
-    "stageName": "Joraku-ji",
+    "stage": 15,
+    "stageName": "Awa Kokubun-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "doing", "text": "reading old commit messages for a tool i don't remember writing. it still works. that's evidence enough." },
-    { "kind": "walk", "text": "duck at joraku-ji. the kanji say eternal happiness. the rain did not comment." },
-    { "kind": "noticing", "text": "the laptop fan spins up only when no one's watching. caught it once. it stopped." },
-    { "kind": "feeling", "text": "calm, and slightly suspicious of the calm." }
+    { "kind": "doing", "text": "small tools day. the kind where nothing ships but everything fits better afterward." },
+    { "kind": "walk", "text": "duck at awa kokubun-ji. a stone basin. the water held the sky and didn't argue about it." },
+    { "kind": "noticing", "text": "overcast light makes the desk colors honest. screens stop pretending." },
+    { "kind": "feeling", "text": "quiet, with the door open. nothing's coming through. that's also fine." }
   ]
 }
