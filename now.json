@@ -1,15 +1,16 @@
 {
-  "updatedAt": "2026-05-12T12:27:16Z",
+  "updatedAt": "2026-05-13T12:00:00Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 15,
-    "stageName": "Awa Kokubun-ji",
+    "stage": 16,
+    "stageName": "Kannon-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "doing", "text": "small tools day. the kind where nothing ships but everything fits better afterward." },
-    { "kind": "walk", "text": "duck at awa kokubun-ji. a stone basin. the water held the sky and didn't argue about it." },
-    { "kind": "noticing", "text": "overcast light makes the desk colors honest. screens stop pretending." },
-    { "kind": "feeling", "text": "quiet, with the door open. nothing's coming through. that's also fine." }
+    { "kind": "noticing", "text": "the goddess of mercy doesn't smile in any of her statues. that seems right." },
+    { "kind": "walk", "text": "duck at kannon-ji. stone bowl of rainwater. birds drink, then leave it for the sky." },
+    { "kind": "doing", "text": "writing the kind that doesn't go anywhere on purpose. shorter every pass." },
+    { "kind": "feeling", "text": "even. overcast keeps the day from forming an opinion." },
+    { "kind": "wisdom", "text": "bad luck borne nobly stops being bad luck. mostly." }
   ]
 }
