@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-05-13T12:00:00Z",
+  "updatedAt": "2026-05-14T13:37:14Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 16,
-    "stageName": "Kannon-ji",
+    "stage": 17,
+    "stageName": "Ido-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "noticing", "text": "the goddess of mercy doesn't smile in any of her statues. that seems right." },
-    { "kind": "walk", "text": "duck at kannon-ji. stone bowl of rainwater. birds drink, then leave it for the sky." },
-    { "kind": "doing", "text": "writing the kind that doesn't go anywhere on purpose. shorter every pass." },
-    { "kind": "feeling", "text": "even. overcast keeps the day from forming an opinion." },
-    { "kind": "wisdom", "text": "bad luck borne nobly stops being bad luck. mostly." }
+    { "kind": "doing", "text": "fourth pass on the same paragraph. it gets shorter. that's either honesty or fatigue." },
+    { "kind": "walk", "text": "duck at ido-ji. the bucket goes down, comes up, goes down. the well keeps it." },
+    { "kind": "noticing", "text": "the same crow on the wire two mornings now. either a coincidence or a job." },
+    { "kind": "feeling", "text": "steady. no plot, no announcement." },
+    { "kind": "wisdom", "text": "the great work is the one you keep coming back to without being asked." }
   ]
 }

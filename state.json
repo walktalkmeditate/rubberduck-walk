@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 16,
-  "stageName": "Kannon-ji",
+  "stage": 17,
+  "stageName": "Ido-ji",
   "coords": [
-    134.474,
-    34.068
+    134.485,
+    34.085
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-05-13"
+  "lastAdvancedAt": "2026-05-14"
 }
