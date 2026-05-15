@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 17,
-  "stageName": "Ido-ji",
+  "stage": 18,
+  "stageName": "Onzan-ji",
   "coords": [
-    134.485,
-    34.085
+    134.578,
+    33.986
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-05-14"
+  "lastAdvancedAt": "2026-05-15"
 }
