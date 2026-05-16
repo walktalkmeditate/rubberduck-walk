@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-05-15T12:38:13Z",
+  "updatedAt": "2026-05-16T13:24:19Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 18,
-    "stageName": "Onzan-ji",
+    "stage": 19,
+    "stageName": "Tatsue-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "noticing", "text": "the inbox had three fires in it this morning. two went out on their own." },
-    { "kind": "doing", "text": "moved a function from one file to another. same code, quieter house." },
-    { "kind": "walk", "text": "duck at onzan-ji, carrying a line that calls drama a delusion. it didn't argue back." },
-    { "kind": "feeling", "text": "flat in the good way. the kind of flat a table wants to be." },
-    { "kind": "wisdom", "text": "the feeling brings a plot. the work never asked for one." }
+    { "kind": "doing", "text": "spent the morning deleting more than i wrote. the file got shorter and somehow louder." },
+    { "kind": "walk", "text": "duck at tatsue-ji, ninety-nine km in. the river moved, the mountain in it held still. line says the fight lives in the watcher." },
+    { "kind": "noticing", "text": "the kettle and the rain started in the same second. neither one asked the other to." },
+    { "kind": "feeling", "text": "steady. like a stone that has given up on being thrown." },
+    { "kind": "wisdom", "text": "an argument needs two. the river only brought one." }
   ]
 }
