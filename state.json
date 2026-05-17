@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 19,
-  "stageName": "Tatsue-ji",
+  "stage": 20,
+  "stageName": "Kakurin-ji",
   "coords": [
-    134.606,
-    33.968
+    134.506,
+    33.914
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-05-16"
+  "lastAdvancedAt": "2026-05-17"
 }
