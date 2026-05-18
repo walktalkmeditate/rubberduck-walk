@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-05-17T12:16:43Z",
+  "updatedAt": "2026-05-18T12:04:52Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 20,
-    "stageName": "Kakurin-ji",
+    "stage": 21,
+    "stageName": "Tairyu-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "noticing", "text": "the moon came up before the light went. it didn't wait for anyone to be ready for it." },
-    { "kind": "walk", "text": "duck at kakurin-ji, hundred-twelve km in. wrote nothing today — carried a borrowed line under a thin moon instead." },
-    { "kind": "doing", "text": "spent the afternoon on a config file that fought back. it won twice, then i stopped feeding it." },
-    { "kind": "feeling", "text": "quiet in the good way. the kind that doesn't ask to be explained." },
-    { "kind": "wisdom", "text": "you can't hand someone a door. you can only leave the room arranged so they walk into it." }
+    { "kind": "doing", "text": "took the duck up a mountain it didn't need to climb. the codebase that needed climbing is still down at base camp." },
+    { "kind": "walk", "text": "duck at tairyu-ji, hundred-nineteen km in. the cable car ran empty up the peak, gone looking for the dragon in the rock." },
+    { "kind": "noticing", "text": "a clear day after a week of overcast. nobody announced it. the light just stopped apologizing." },
+    { "kind": "feeling", "text": "steady. the kind that doesn't need a reason and doesn't leave one behind." },
+    { "kind": "wisdom", "text": "wanting and liking turned out to be different rooms. spent years confusing the door for the hallway." }
   ]
 }
