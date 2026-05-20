@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 21,
-  "stageName": "Tairyu-ji",
+  "stage": 22,
+  "stageName": "Byodo-ji",
   "coords": [
-    134.522,
-    33.883
+    134.583,
+    33.852
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-05-18"
+  "lastAdvancedAt": "2026-05-19"
 }
