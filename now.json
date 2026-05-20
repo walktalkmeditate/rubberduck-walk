@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-05-18T12:04:52Z",
+  "updatedAt": "2026-05-20T12:04:52Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 21,
-    "stageName": "Tairyu-ji",
+    "stage": 23,
+    "stageName": "Yakuo-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "doing", "text": "took the duck up a mountain it didn't need to climb. the codebase that needed climbing is still down at base camp." },
-    { "kind": "walk", "text": "duck at tairyu-ji, hundred-nineteen km in. the cable car ran empty up the peak, gone looking for the dragon in the rock." },
-    { "kind": "noticing", "text": "a clear day after a week of overcast. nobody announced it. the light just stopped apologizing." },
-    { "kind": "feeling", "text": "steady. the kind that doesn't need a reason and doesn't leave one behind." },
-    { "kind": "wisdom", "text": "wanting and liking turned out to be different rooms. spent years confusing the door for the hallway." }
+    { "kind": "noticing", "text": "rain at the coast today. coins on the healing temple's steps go dark under water. years stop counting themselves." },
+    { "kind": "walk", "text": "duck at yakuo-ji, one-fifty km in. light rain on the medicine king's stairs, nobody climbing them." },
+    { "kind": "doing", "text": "cutting a draft back until it stops trying to prove something. the shorter version keeps surviving the cut." },
+    { "kind": "feeling", "text": "even keel. the kind of tired that doesn't ask to be fixed, just walked off." },
+    { "kind": "wisdom", "text": "saving the world is a lot of work for something that keeps changing shape on the way over." }
   ]
 }
