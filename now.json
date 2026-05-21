@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-05-20T12:04:52Z",
+  "updatedAt": "2026-05-21T00:00:00Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 23,
-    "stageName": "Yakuo-ji",
+    "stage": 24,
+    "stageName": "Hotsumisaki-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "noticing", "text": "rain at the coast today. coins on the healing temple's steps go dark under water. years stop counting themselves." },
-    { "kind": "walk", "text": "duck at yakuo-ji, one-fifty km in. light rain on the medicine king's stairs, nobody climbing them." },
-    { "kind": "doing", "text": "cutting a draft back until it stops trying to prove something. the shorter version keeps surviving the cut." },
-    { "kind": "feeling", "text": "even keel. the kind of tired that doesn't ask to be fixed, just walked off." },
-    { "kind": "wisdom", "text": "saving the world is a lot of work for something that keeps changing shape on the way over." }
+    { "kind": "doing", "text": "trimming a paragraph until only the bone is left. the bone keeps walking on its own." },
+    { "kind": "walk", "text": "duck at hotsumisaki-ji on cape muroto. overcast sea. kukai's cave doesn't ask which thought is which." },
+    { "kind": "noticing", "text": "an old journal line surfaced — one, two, or out. it knows when to stop." },
+    { "kind": "feeling", "text": "steady. the kind of day a breath counts itself without help." },
+    { "kind": "wisdom", "text": "counting works until it doesn't. then you're just sitting." }
   ]
 }

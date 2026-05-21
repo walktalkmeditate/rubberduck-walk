@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 23,
-  "stageName": "Yakuo-ji",
+  "stage": 24,
+  "stageName": "Hotsumisaki-ji",
   "coords": [
-    134.528,
-    33.732
+    134.176,
+    33.249
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-05-20"
+  "lastAdvancedAt": "2026-05-21"
 }
