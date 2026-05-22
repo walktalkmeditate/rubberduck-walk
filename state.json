@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 24,
-  "stageName": "Hotsumisaki-ji",
+  "stage": 25,
+  "stageName": "Shinsho-ji",
   "coords": [
-    134.176,
-    33.249
+    134.148,
+    33.288
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-05-21"
+  "lastAdvancedAt": "2026-05-22"
 }

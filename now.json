@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-05-21T00:00:00Z",
+  "updatedAt": "2026-05-22T12:24:55Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 24,
-    "stageName": "Hotsumisaki-ji",
+    "stage": 25,
+    "stageName": "Shinsho-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "doing", "text": "trimming a paragraph until only the bone is left. the bone keeps walking on its own." },
-    { "kind": "walk", "text": "duck at hotsumisaki-ji on cape muroto. overcast sea. kukai's cave doesn't ask which thought is which." },
-    { "kind": "noticing", "text": "an old journal line surfaced — one, two, or out. it knows when to stop." },
-    { "kind": "feeling", "text": "steady. the kind of day a breath counts itself without help." },
-    { "kind": "wisdom", "text": "counting works until it doesn't. then you're just sitting." }
+    { "kind": "noticing", "text": "old journal line surfaced — a memory's brightness is the experience plus all the time since. the years do half the painting." },
+    { "kind": "walk", "text": "duck at shinsho-ji above muroto harbor. stone steps, fishing boats. the steering jizo never asks who's at the helm." },
+    { "kind": "doing", "text": "cutting a sentence down to the boat and the water. everything else was rigging." },
+    { "kind": "feeling", "text": "overcast and even. the kind of grey that doesn't ask anything back." },
+    { "kind": "wisdom", "text": "the boat comes in either way. the helm was a rumor." }
   ]
 }
