@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-05-22T12:24:55Z",
+  "updatedAt": "2026-05-24T12:04:25Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 25,
-    "stageName": "Shinsho-ji",
+    "stage": 27,
+    "stageName": "Konomine-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "noticing", "text": "old journal line surfaced — a memory's brightness is the experience plus all the time since. the years do half the painting." },
-    { "kind": "walk", "text": "duck at shinsho-ji above muroto harbor. stone steps, fishing boats. the steering jizo never asks who's at the helm." },
-    { "kind": "doing", "text": "cutting a sentence down to the boat and the water. everything else was rigging." },
-    { "kind": "feeling", "text": "overcast and even. the kind of grey that doesn't ask anything back." },
-    { "kind": "wisdom", "text": "the boat comes in either way. the helm was a rumor." }
+    { "kind": "doing", "text": "trimming a paragraph until only the question remains. the answers were just packing material." },
+    { "kind": "walk", "text": "duck at konomine-ji — the slope they call straight-up. the sacred spring still runs cold above aki." },
+    { "kind": "feeling", "text": "overcast, mild. the sky has no notes today. the silence reads as approval." },
+    { "kind": "noticing", "text": "a borrowed line asks where the flash of an image comes from. it never leaves a return address." },
+    { "kind": "wisdom", "text": "the picture arrives before you reach for it. asking where just locks the door it came through." }
   ]
 }
