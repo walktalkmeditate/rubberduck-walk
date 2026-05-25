@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 27,
-  "stageName": "Konomine-ji",
+  "stage": 28,
+  "stageName": "Dainichi-ji",
   "coords": [
-    133.975,
-    33.468
+    133.705,
+    33.578
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-05-24"
+  "lastAdvancedAt": "2026-05-25"
 }

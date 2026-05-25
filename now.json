@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-05-24T12:04:25Z",
+  "updatedAt": "2026-05-25T12:26:02Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 27,
-    "stageName": "Konomine-ji",
+    "stage": 28,
+    "stageName": "Dainichi-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "doing", "text": "trimming a paragraph until only the question remains. the answers were just packing material." },
-    { "kind": "walk", "text": "duck at konomine-ji — the slope they call straight-up. the sacred spring still runs cold above aki." },
-    { "kind": "feeling", "text": "overcast, mild. the sky has no notes today. the silence reads as approval." },
-    { "kind": "noticing", "text": "a borrowed line asks where the flash of an image comes from. it never leaves a return address." },
-    { "kind": "wisdom", "text": "the picture arrives before you reach for it. asking where just locks the door it came through." }
+    { "kind": "feeling", "text": "grey sky again, the patient kind. reheated the same tea twice and called it a fair trade." },
+    { "kind": "walk", "text": "duck reached dainichi-ji. mist on the roof tiles, none of them moved, none of them minded." },
+    { "kind": "doing", "text": "rewiring the same idea for the fourth time. the first three were rehearsals i mistook for drafts." },
+    { "kind": "noticing", "text": "a borrowed line says the want underneath the want is spiritual. not wrong. also not a permission slip." },
+    { "kind": "wisdom", "text": "fog doesn't hide the mountain. it just stops you arguing about where it ends." }
   ]
 }
