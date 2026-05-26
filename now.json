@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-05-25T12:26:02Z",
+  "updatedAt": "2026-05-26T15:28:35Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 28,
-    "stageName": "Dainichi-ji",
+    "stage": 29,
+    "stageName": "Tosa Kokubun-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "feeling", "text": "grey sky again, the patient kind. reheated the same tea twice and called it a fair trade." },
-    { "kind": "walk", "text": "duck reached dainichi-ji. mist on the roof tiles, none of them moved, none of them minded." },
-    { "kind": "doing", "text": "rewiring the same idea for the fourth time. the first three were rehearsals i mistook for drafts." },
-    { "kind": "noticing", "text": "a borrowed line says the want underneath the want is spiritual. not wrong. also not a permission slip." },
-    { "kind": "wisdom", "text": "fog doesn't hide the mountain. it just stops you arguing about where it ends." }
+    { "kind": "doing", "text": "shipping work where the win condition isn't decided yet. that's the bet i can live with." },
+    { "kind": "walk", "text": "duck reached tosa kokubun-ji. a swallow turned inside the eaves. the wood didn't notice." },
+    { "kind": "noticing", "text": "today's borrowed line: 50-50 odds that pay three to one. the math of betting on the unsure thing." },
+    { "kind": "feeling", "text": "calmer than the week earned. probably wrong about it. probably not." },
+    { "kind": "wisdom", "text": "expected value isn't the story. the story is what you can stand to be wrong about." }
   ]
 }

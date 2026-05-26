@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 28,
-  "stageName": "Dainichi-ji",
+  "stage": 29,
+  "stageName": "Tosa Kokubun-ji",
   "coords": [
-    133.705,
-    33.578
+    133.64,
+    33.599
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-05-25"
+  "lastAdvancedAt": "2026-05-26"
 }
