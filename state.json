@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 29,
-  "stageName": "Tosa Kokubun-ji",
+  "stage": 30,
+  "stageName": "Zenraku-ji",
   "coords": [
-    133.64,
-    33.599
+    133.578,
+    33.592
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-05-26"
+  "lastAdvancedAt": "2026-05-27"
 }
