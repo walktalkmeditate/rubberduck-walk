@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 30,
-  "stageName": "Zenraku-ji",
+  "stage": 31,
+  "stageName": "Chikurin-ji",
   "coords": [
-    133.578,
-    33.592
+    133.577,
+    33.547
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-05-27"
+  "lastAdvancedAt": "2026-05-28"
 }

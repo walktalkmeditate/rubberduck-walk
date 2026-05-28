@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-05-27T12:52:19Z",
+  "updatedAt": "2026-05-28T12:06:07Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 30,
-    "stageName": "Zenraku-ji",
+    "stage": 31,
+    "stageName": "Chikurin-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "doing", "text": "clearing the desk before the work gets here. half ritual, half stalling." },
-    { "kind": "walk", "text": "duck reached zenraku-ji in light rain. the path didn't ask to be walked." },
-    { "kind": "noticing", "text": "today's borrowed line says the same thing twice — quiet, and the work that needs it." },
-    { "kind": "feeling", "text": "a small fatigue that didn't earn itself. fine to sit with." },
-    { "kind": "silly", "text": "the kettle keeps starting conversations i didn't agree to." }
+    { "kind": "walk", "text": "duck at chikurin-ji. light moves through the bamboo. the bamboo holds still." },
+    { "kind": "doing", "text": "editing a file i'd already declared finished twice." },
+    { "kind": "noticing", "text": "the borrowed line says thoughts aren't the real self. fine. neither is the inbox." },
+    { "kind": "feeling", "text": "thin and steady. the kind of calm that doesn't ask for credit." },
+    { "kind": "silly", "text": "the coffee cup has opinions about the lid order again." }
   ]
 }
