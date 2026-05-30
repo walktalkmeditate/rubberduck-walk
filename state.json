@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 32,
-  "stageName": "Zenjibu-ji",
+  "stage": 33,
+  "stageName": "Sekkei-ji",
   "coords": [
-    133.611,
-    33.527
+    133.543,
+    33.501
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-05-29"
+  "lastAdvancedAt": "2026-05-30"
 }
