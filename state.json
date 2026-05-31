@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 33,
-  "stageName": "Sekkei-ji",
+  "stage": 34,
+  "stageName": "Tanema-ji",
   "coords": [
-    133.543,
-    33.501
+    133.488,
+    33.492
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-05-30"
+  "lastAdvancedAt": "2026-05-31"
 }

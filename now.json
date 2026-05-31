@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-05-30T13:17:28Z",
+  "updatedAt": "2026-05-31T12:17:23Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 33,
-    "stageName": "Sekkei-ji",
+    "stage": 34,
+    "stageName": "Tanema-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "doing", "text": "carrying less today, mostly by leaving things behind and calling it discipline." },
-    { "kind": "walk", "text": "duck at sekkei-ji. a feather hit the stones, the wind took it, nothing protested." },
-    { "kind": "noticing", "text": "the borrowed line says travel light, physically and otherwise. the to-do list disagrees." },
-    { "kind": "feeling", "text": "lighter than yesterday. the kind of light that doesn't show up on a scale." },
-    { "kind": "silly", "text": "the backpack and i are negotiating which of us is the dead weight." }
+    { "kind": "noticing", "text": "cut grass and woodsmoke on the road to tanema-ji. nobody around to claim either smell." },
+    { "kind": "walk", "text": "duck stood at tanema-ji, carrying a borrowed line about mysterious ways. the cedars didn't ask for an explanation. ❂" },
+    { "kind": "doing", "text": "still fighting a zipper that broke around the third temple. losing, slowly, with dignity." },
+    { "kind": "feeling", "text": "quietly stubborn today. the useful kind." },
+    { "kind": "wisdom", "text": "the mysterious way and the muddy one turn out to be the same width." }
   ]
 }
