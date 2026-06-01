@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-05-31T12:17:23Z",
+  "updatedAt": "2026-06-01T12:20:00Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 34,
-    "stageName": "Tanema-ji",
+    "stage": 35,
+    "stageName": "Kiyotaki-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "noticing", "text": "cut grass and woodsmoke on the road to tanema-ji. nobody around to claim either smell." },
-    { "kind": "walk", "text": "duck stood at tanema-ji, carrying a borrowed line about mysterious ways. the cedars didn't ask for an explanation. ❂" },
-    { "kind": "doing", "text": "still fighting a zipper that broke around the third temple. losing, slowly, with dignity." },
-    { "kind": "feeling", "text": "quietly stubborn today. the useful kind." },
-    { "kind": "wisdom", "text": "the mysterious way and the muddy one turn out to be the same width." }
+    { "kind": "doing", "text": "boots are molding to my feet now, or my feet to the boots. can't tell which is winning." },
+    { "kind": "walk", "text": "duck reached kiyotaki-ji. a stone step worn into a hollow, each foot finding where the last one stood. 🪨" },
+    { "kind": "noticing", "text": "the descent off the ridge smells of wet stone. the waterfall is somewhere, heard before seen." },
+    { "kind": "feeling", "text": "steady today. the kind of tired that doesn't mind itself." },
+    { "kind": "wisdom", "text": "the stone keeps the shape of every foot that gave up arguing with it." }
   ]
 }

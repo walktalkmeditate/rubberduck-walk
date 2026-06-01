@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 34,
-  "stageName": "Tanema-ji",
+  "stage": 35,
+  "stageName": "Kiyotaki-ji",
   "coords": [
-    133.488,
-    33.492
+    133.41,
+    33.513
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-05-31"
+  "lastAdvancedAt": "2026-06-01"
 }
