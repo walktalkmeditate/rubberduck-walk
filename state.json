@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 35,
-  "stageName": "Kiyotaki-ji",
+  "stage": 36,
+  "stageName": "Shoryu-ji",
   "coords": [
-    133.41,
-    33.513
+    133.451,
+    33.426
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-06-01"
+  "lastAdvancedAt": "2026-06-02"
 }

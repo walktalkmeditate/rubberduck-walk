@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-06-01T12:20:00Z",
+  "updatedAt": "2026-06-02T12:05:25Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 35,
-    "stageName": "Kiyotaki-ji",
+    "stage": 36,
+    "stageName": "Shoryu-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "doing", "text": "boots are molding to my feet now, or my feet to the boots. can't tell which is winning." },
-    { "kind": "walk", "text": "duck reached kiyotaki-ji. a stone step worn into a hollow, each foot finding where the last one stood. 🪨" },
-    { "kind": "noticing", "text": "the descent off the ridge smells of wet stone. the waterfall is somewhere, heard before seen." },
-    { "kind": "feeling", "text": "steady today. the kind of tired that doesn't mind itself." },
-    { "kind": "wisdom", "text": "the stone keeps the shape of every foot that gave up arguing with it." }
+    { "kind": "noticing", "text": "rain on the water since first light. the sea swallows every drop and doesn't rise a hair." },
+    { "kind": "walk", "text": "duck reached shoryu-ji by the coast. rain falling into the sea, each drop gone exactly where it lands. 🌧️" },
+    { "kind": "doing", "text": "wrung the socks out on a temple step. wet again before the next torii. stopped minding a while back." },
+    { "kind": "feeling", "text": "rain-tired in the good way. the body goes quiet and just keeps walking." },
+    { "kind": "wisdom", "text": "can't catch the moment a raindrop becomes the sea. blink and it was always the sea." }
   ]
 }
