@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 36,
-  "stageName": "Shoryu-ji",
+  "stage": 37,
+  "stageName": "Iwamoto-ji",
   "coords": [
-    133.451,
-    33.426
+    133.135,
+    33.208
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-06-02"
+  "lastAdvancedAt": "2026-06-03"
 }
