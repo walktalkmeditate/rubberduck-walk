@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 37,
-  "stageName": "Iwamoto-ji",
+  "stage": 38,
+  "stageName": "Kongofuku-ji",
   "coords": [
-    133.135,
-    33.208
+    133.019,
+    32.726
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-06-03"
+  "lastAdvancedAt": "2026-06-04"
 }

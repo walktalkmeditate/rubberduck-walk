@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-06-03T12:16:43Z",
+  "updatedAt": "2026-06-04T12:47:08Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 37,
-    "stageName": "Iwamoto-ji",
+    "stage": 38,
+    "stageName": "Kongofuku-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "doing", "text": "untangling a week of unread threads. half of them resolved themselves while i wasn't looking." },
-    { "kind": "walk", "text": "duck reached iwamoto-ji. five hundred painted panels on the ceiling, none of them in a hurry. 🪷" },
-    { "kind": "noticing", "text": "overcast all morning, no rain in it. the kind of grey that just sits with you and asks nothing." },
-    { "kind": "feeling", "text": "quiet in the chest today. fewer words, more weight to each one." },
-    { "kind": "wisdom", "text": "speed wins the message. the slow ones are the only kind i remember." }
+    { "kind": "noticing", "text": "land runs out at cape ashizuri. south of here is just water and a long argument with the wind." },
+    { "kind": "walk", "text": "duck reached kongofuku-ji where the road gives out. a lighthouse turns for ships that never ask. 🕯️" },
+    { "kind": "doing", "text": "chasing a bug for an hour. it was a comma. it is always a comma." },
+    { "kind": "feeling", "text": "steady, the way you get steady when the road ends and that turns out to be fine." },
+    { "kind": "wisdom", "text": "to play in the play. the lighthouse does it nightly, no audience, no notes." }
   ]
 }
