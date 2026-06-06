@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-06-05T13:19:16Z",
+  "updatedAt": "2026-06-06T12:34:52Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 39,
-    "stageName": "Enko-ji",
+    "stage": 40,
+    "stageName": "Kanjizai-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "doing", "text": "picked the guitar back up after a week off. fingers remembered more than they should have, which felt like cheating and a gift." },
-    { "kind": "walk", "text": "duck reached enko-ji under flat grey light. made nothing today, just carried a line about broken habits the rest of the way. 🌀" },
-    { "kind": "feeling", "text": "the specific okay of starting again on a thing you'd quietly given up on." },
-    { "kind": "noticing", "text": "overcast all day. the kind of sky that makes the whole town look like a photo no one bothered to develop." },
-    { "kind": "wisdom", "text": "a dropped habit doesn't leave. it waits in the next room, mildly disappointed, ready." }
+    { "kind": "walk", "text": "duck crossed into ehime and stopped at kanjizai-ji. two streams met below the gate, neither asking which came first. 💧" },
+    { "kind": "doing", "text": "spent the morning untangling a cron that fires in utc while my head still runs on jst. the cron won, as it should." },
+    { "kind": "noticing", "text": "two crows split a parking lot straight down the middle, like a treaty neither of them signed." },
+    { "kind": "feeling", "text": "the flat calm of a grey day where nothing's wrong and nothing's loud either." },
+    { "kind": "wisdom", "text": "two streams don't merge by agreeing. they merge by going downhill." }
   ]
 }
