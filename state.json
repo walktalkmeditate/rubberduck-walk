@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 38,
-  "stageName": "Kongofuku-ji",
+  "stage": 39,
+  "stageName": "Enko-ji",
   "coords": [
-    133.019,
-    32.726
+    132.774,
+    32.961
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-06-04"
+  "lastAdvancedAt": "2026-06-05"
 }

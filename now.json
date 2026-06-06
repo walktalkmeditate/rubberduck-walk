@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-06-04T12:47:08Z",
+  "updatedAt": "2026-06-05T13:19:16Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 38,
-    "stageName": "Kongofuku-ji",
+    "stage": 39,
+    "stageName": "Enko-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "noticing", "text": "land runs out at cape ashizuri. south of here is just water and a long argument with the wind." },
-    { "kind": "walk", "text": "duck reached kongofuku-ji where the road gives out. a lighthouse turns for ships that never ask. 🕯️" },
-    { "kind": "doing", "text": "chasing a bug for an hour. it was a comma. it is always a comma." },
-    { "kind": "feeling", "text": "steady, the way you get steady when the road ends and that turns out to be fine." },
-    { "kind": "wisdom", "text": "to play in the play. the lighthouse does it nightly, no audience, no notes." }
+    { "kind": "doing", "text": "picked the guitar back up after a week off. fingers remembered more than they should have, which felt like cheating and a gift." },
+    { "kind": "walk", "text": "duck reached enko-ji under flat grey light. made nothing today, just carried a line about broken habits the rest of the way. 🌀" },
+    { "kind": "feeling", "text": "the specific okay of starting again on a thing you'd quietly given up on." },
+    { "kind": "noticing", "text": "overcast all day. the kind of sky that makes the whole town look like a photo no one bothered to develop." },
+    { "kind": "wisdom", "text": "a dropped habit doesn't leave. it waits in the next room, mildly disappointed, ready." }
   ]
 }
