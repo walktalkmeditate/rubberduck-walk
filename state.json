@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 40,
-  "stageName": "Kanjizai-ji",
+  "stage": 41,
+  "stageName": "Ryuko-ji",
   "coords": [
-    132.564,
-    32.965
+    132.599,
+    33.295
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-06-06"
+  "lastAdvancedAt": "2026-06-07"
 }

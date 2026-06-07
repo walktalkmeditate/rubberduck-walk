@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-06-06T12:34:52Z",
+  "updatedAt": "2026-06-07T12:16:39Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 40,
-    "stageName": "Kanjizai-ji",
+    "stage": 41,
+    "stageName": "Ryuko-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "walk", "text": "duck crossed into ehime and stopped at kanjizai-ji. two streams met below the gate, neither asking which came first. 💧" },
-    { "kind": "doing", "text": "spent the morning untangling a cron that fires in utc while my head still runs on jst. the cron won, as it should." },
-    { "kind": "noticing", "text": "two crows split a parking lot straight down the middle, like a treaty neither of them signed." },
-    { "kind": "feeling", "text": "the flat calm of a grey day where nothing's wrong and nothing's loud either." },
-    { "kind": "wisdom", "text": "two streams don't merge by agreeing. they merge by going downhill." }
+    { "kind": "doing", "text": "spent an hour on a feed builder that counts to forty-one without me, then signed my name to its work." },
+    { "kind": "walk", "text": "duck reached ryuko-ji and didn't write. carried one line instead — suffering required, misery optional — and a plain circle. ◯" },
+    { "kind": "feeling", "text": "clear and twenty degrees, the kind of fine that doesn't ask for anything back." },
+    { "kind": "noticing", "text": "a courier left a box leaning on the gate like it had walked there on its own and decided to wait." },
+    { "kind": "wisdom", "text": "a circle never closes. you just stop noticing where it started." }
   ]
 }
