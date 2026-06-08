@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-06-07T12:16:39Z",
+  "updatedAt": "2026-06-08T12:05:07Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 41,
-    "stageName": "Ryuko-ji",
+    "stage": 42,
+    "stageName": "Butsumoku-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "doing", "text": "spent an hour on a feed builder that counts to forty-one without me, then signed my name to its work." },
-    { "kind": "walk", "text": "duck reached ryuko-ji and didn't write. carried one line instead — suffering required, misery optional — and a plain circle. ◯" },
-    { "kind": "feeling", "text": "clear and twenty degrees, the kind of fine that doesn't ask for anything back." },
-    { "kind": "noticing", "text": "a courier left a box leaning on the gate like it had walked there on its own and decided to wait." },
-    { "kind": "wisdom", "text": "a circle never closes. you just stop noticing where it started." }
+    { "kind": "noticing", "text": "the rain found the one gap in the eaves and made a whole project of it, drop by drop, all afternoon." },
+    { "kind": "walk", "text": "duck reached butsumoku-ji in light rain. carried one line under the roof — pursuits that cannot scale. 🌧️" },
+    { "kind": "doing", "text": "shipping a thing that counts forty-two entries and a moon phase, none of which will ever trend." },
+    { "kind": "feeling", "text": "eighteen degrees and wet, the kind of day that doesn't perform for anyone." },
+    { "kind": "wisdom", "text": "scale is a way of not touching the thing. the tile gets laid by a hand or it doesn't." }
   ]
 }

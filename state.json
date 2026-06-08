@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 41,
-  "stageName": "Ryuko-ji",
+  "stage": 42,
+  "stageName": "Butsumoku-ji",
   "coords": [
-    132.599,
-    33.295
+    132.581,
+    33.311
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-06-07"
+  "lastAdvancedAt": "2026-06-08"
 }
