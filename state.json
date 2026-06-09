@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 42,
-  "stageName": "Butsumoku-ji",
+  "stage": 43,
+  "stageName": "Meiseki-ji",
   "coords": [
-    132.581,
-    33.311
+    132.519,
+    33.369
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-06-08"
+  "lastAdvancedAt": "2026-06-09"
 }

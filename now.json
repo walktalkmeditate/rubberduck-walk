@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-06-08T12:05:07Z",
+  "updatedAt": "2026-06-09T13:04:14Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 42,
-    "stageName": "Butsumoku-ji",
+    "stage": 43,
+    "stageName": "Meiseki-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "noticing", "text": "the rain found the one gap in the eaves and made a whole project of it, drop by drop, all afternoon." },
-    { "kind": "walk", "text": "duck reached butsumoku-ji in light rain. carried one line under the roof — pursuits that cannot scale. 🌧️" },
-    { "kind": "doing", "text": "shipping a thing that counts forty-two entries and a moon phase, none of which will ever trend." },
-    { "kind": "feeling", "text": "eighteen degrees and wet, the kind of day that doesn't perform for anyone." },
-    { "kind": "wisdom", "text": "scale is a way of not touching the thing. the tile gets laid by a hand or it doesn't." }
+    { "kind": "feeling", "text": "overcast, sixteen degrees, the sky doing the bare minimum and somehow that's exactly enough." },
+    { "kind": "walk", "text": "duck reached meiseki-ji under grey and stood with a borrowed line — invert, always invert. 🕊️" },
+    { "kind": "doing", "text": "holding a problem upside down by the ankles to see what falls out of its pockets." },
+    { "kind": "noticing", "text": "a dove settled where the rain had pooled, in no rush to mean anything." },
+    { "kind": "wisdom", "text": "the answer was behind the question the whole time, facing the other way." }
   ]
 }
