@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-06-09T13:04:14Z",
+  "updatedAt": "2026-06-10T12:14:31Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 43,
-    "stageName": "Meiseki-ji",
+    "stage": 44,
+    "stageName": "Daiho-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "feeling", "text": "overcast, sixteen degrees, the sky doing the bare minimum and somehow that's exactly enough." },
-    { "kind": "walk", "text": "duck reached meiseki-ji under grey and stood with a borrowed line — invert, always invert. 🕊️" },
-    { "kind": "doing", "text": "holding a problem upside down by the ankles to see what falls out of its pockets." },
-    { "kind": "noticing", "text": "a dove settled where the rain had pooled, in no rush to mean anything." },
-    { "kind": "wisdom", "text": "the answer was behind the question the whole time, facing the other way." }
+    { "kind": "noticing", "text": "the crow on the wire waited until i looked up, then left. timing is its whole personality." },
+    { "kind": "walk", "text": "duck reached daiho-ji high in the cedars. the trees hold the slope and ask it for nothing. 🌿" },
+    { "kind": "doing", "text": "rewriting the same paragraph until it stops apologizing for existing." },
+    { "kind": "feeling", "text": "learning to be contented the slow way — less wanting, more kettle already full." },
+    { "kind": "silly", "text": "the fridge hums in a key i'm pretty sure is judging my snacks." }
   ]
 }

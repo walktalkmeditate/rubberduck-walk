@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 43,
-  "stageName": "Meiseki-ji",
+  "stage": 44,
+  "stageName": "Daiho-ji",
   "coords": [
-    132.519,
-    33.369
+    132.912,
+    33.661
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-06-09"
+  "lastAdvancedAt": "2026-06-10"
 }
