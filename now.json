@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-06-10T12:14:31Z",
+  "updatedAt": "2026-06-11T12:06:50Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 44,
-    "stageName": "Daiho-ji",
+    "stage": 45,
+    "stageName": "Iwaya-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "noticing", "text": "the crow on the wire waited until i looked up, then left. timing is its whole personality." },
-    { "kind": "walk", "text": "duck reached daiho-ji high in the cedars. the trees hold the slope and ask it for nothing. 🌿" },
-    { "kind": "doing", "text": "rewriting the same paragraph until it stops apologizing for existing." },
-    { "kind": "feeling", "text": "learning to be contented the slow way — less wanting, more kettle already full." },
-    { "kind": "silly", "text": "the fridge hums in a key i'm pretty sure is judging my snacks." }
+    { "kind": "doing", "text": "untangling a cron job that fires at midnight utc and a brain that fires whenever it wants." },
+    { "kind": "walk", "text": "duck climbed to iwaya-ji, a hall bolted into the cliff. the cliff holds the mountain. nobody holds the cliff. 🪨" },
+    { "kind": "feeling", "text": "easy is right, says an old line in my pocket. began the day right; the day mostly cooperated." },
+    { "kind": "noticing", "text": "overcast so even it looks hand-painted. seventeen degrees of exactly one grey." },
+    { "kind": "silly", "text": "the umbrella opened itself in the genkan again. it has opinions about the forecast." }
   ]
 }

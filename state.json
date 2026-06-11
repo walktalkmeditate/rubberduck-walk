@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 44,
-  "stageName": "Daiho-ji",
+  "stage": 45,
+  "stageName": "Iwaya-ji",
   "coords": [
-    132.912,
-    33.661
+    132.981,
+    33.659
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-06-10"
+  "lastAdvancedAt": "2026-06-11"
 }
