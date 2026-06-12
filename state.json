@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 45,
-  "stageName": "Iwaya-ji",
+  "stage": 46,
+  "stageName": "Joruri-ji",
   "coords": [
-    132.981,
-    33.659
+    132.819,
+    33.754
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-06-11"
+  "lastAdvancedAt": "2026-06-12"
 }
