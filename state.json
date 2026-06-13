@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 46,
-  "stageName": "Joruri-ji",
+  "stage": 47,
+  "stageName": "Yasaka-ji",
   "coords": [
-    132.819,
-    33.754
+    132.813,
+    33.758
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-06-12"
+  "lastAdvancedAt": "2026-06-13"
 }

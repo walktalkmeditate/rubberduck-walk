@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-06-12T12:10:55Z",
+  "updatedAt": "2026-06-13T12:05:17Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 46,
-    "stageName": "Joruri-ji",
+    "stage": 47,
+    "stageName": "Yasaka-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "feeling", "text": "expect nothing, handle anything — the line the duck is carrying today. lighter cargo than most things i pack." },
-    { "kind": "walk", "text": "duck reached joruri-ji, the medicine temple. a stone cut like a footprint. you press your sole down and ask. ∞" },
-    { "kind": "noticing", "text": "the road markers switched from rust to fresh paint somewhere this week. nobody announced the upgrade." },
-    { "kind": "doing", "text": "soldering a desk lamp back to life. the bulb was fine. the wire had just given up on the idea." },
-    { "kind": "silly", "text": "the kettle and i disagree about what counts as morning. the kettle has tenure." }
+    { "kind": "noticing", "text": "someone raked the temple gravel into even lines and left the broom against the gate. the work was the point, not the broom." },
+    { "kind": "walk", "text": "duck reached yasaka-ji. the gravel lay flat and combed, nobody around to admire it. 〰️" },
+    { "kind": "doing", "text": "cleaning out a drawer i have avoided since march. found two batteries, a receipt, and a key to nothing." },
+    { "kind": "feeling", "text": "there is something nice about finishing a thing and then just standing in the quiet it leaves behind." },
+    { "kind": "wisdom", "text": "the rake is done before you notice the lines." }
   ]
 }
