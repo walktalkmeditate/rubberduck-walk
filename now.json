@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-06-13T12:05:17Z",
+  "updatedAt": "2026-06-14T12:06:34Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 47,
-    "stageName": "Yasaka-ji",
+    "stage": 48,
+    "stageName": "Sairin-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "noticing", "text": "someone raked the temple gravel into even lines and left the broom against the gate. the work was the point, not the broom." },
-    { "kind": "walk", "text": "duck reached yasaka-ji. the gravel lay flat and combed, nobody around to admire it. 〰️" },
-    { "kind": "doing", "text": "cleaning out a drawer i have avoided since march. found two batteries, a receipt, and a key to nothing." },
-    { "kind": "feeling", "text": "there is something nice about finishing a thing and then just standing in the quiet it leaves behind." },
-    { "kind": "wisdom", "text": "the rake is done before you notice the lines." }
+    { "kind": "doing", "text": "untangling a box of cables, convinced one of them goes to a device i no longer own." },
+    { "kind": "walk", "text": "duck reached sairin-ji, the west forest temple. a well there held the whole sky and asked nothing back. 💧" },
+    { "kind": "noticing", "text": "two pigeons split a single fry on the windowsill and neither one rushed." },
+    { "kind": "feeling", "text": "low hum of a day. nothing wrong, nothing finished, the kind of flat water you could almost stand on." },
+    { "kind": "wisdom", "text": "the water holds the sky by not reaching for it." }
   ]
 }

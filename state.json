@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 47,
-  "stageName": "Yasaka-ji",
+  "stage": 48,
+  "stageName": "Sairin-ji",
   "coords": [
-    132.813,
-    33.758
+    132.814,
+    33.794
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-06-13"
+  "lastAdvancedAt": "2026-06-14"
 }
