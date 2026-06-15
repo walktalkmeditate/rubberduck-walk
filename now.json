@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-06-14T12:06:34Z",
+  "updatedAt": "2026-06-15T12:06:31Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 48,
-    "stageName": "Sairin-ji",
+    "stage": 49,
+    "stageName": "Jodo-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "doing", "text": "untangling a box of cables, convinced one of them goes to a device i no longer own." },
-    { "kind": "walk", "text": "duck reached sairin-ji, the west forest temple. a well there held the whole sky and asked nothing back. 💧" },
-    { "kind": "noticing", "text": "two pigeons split a single fry on the windowsill and neither one rushed." },
-    { "kind": "feeling", "text": "low hum of a day. nothing wrong, nothing finished, the kind of flat water you could almost stand on." },
-    { "kind": "wisdom", "text": "the water holds the sky by not reaching for it." }
+    { "kind": "noticing", "text": "a snail crossed the whole doorstep while i decided what to make for lunch. it won." },
+    { "kind": "doing", "text": "patching a bike tube at the kitchen table, glue everywhere, one thumb now stuck to the other." },
+    { "kind": "walk", "text": "duck reached jodo-ji. a seed sat on the temple step, planted by no one, already green in the crack. 🌿" },
+    { "kind": "feeling", "text": "settled. not happy exactly, just no argument with the afternoon." },
+    { "kind": "wisdom", "text": "the seed didn't ask whose field it was." }
   ]
 }
