@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-06-15T12:06:31Z",
+  "updatedAt": "2026-06-16T12:29:17Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 49,
-    "stageName": "Jodo-ji",
+    "stage": 50,
+    "stageName": "Hanta-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "noticing", "text": "a snail crossed the whole doorstep while i decided what to make for lunch. it won." },
-    { "kind": "doing", "text": "patching a bike tube at the kitchen table, glue everywhere, one thumb now stuck to the other." },
-    { "kind": "walk", "text": "duck reached jodo-ji. a seed sat on the temple step, planted by no one, already green in the crack. 🌿" },
-    { "kind": "feeling", "text": "settled. not happy exactly, just no argument with the afternoon." },
-    { "kind": "wisdom", "text": "the seed didn't ask whose field it was." }
+    { "kind": "doing", "text": "untangling a drawer of charging cables, found three i don't recognize, kept them anyway." },
+    { "kind": "walk", "text": "duck reached hanta-ji. rice cooling in a bowl, a sparrow took one grain, the bowl looked no lighter. 🌾" },
+    { "kind": "feeling", "text": "hungry in two directions at once, the stomach kind and the restless kind." },
+    { "kind": "noticing", "text": "the rice cooker plays a little song when it finishes. nobody taught it shame." },
+    { "kind": "wisdom", "text": "one bowl, two ways to empty it." }
   ]
 }
