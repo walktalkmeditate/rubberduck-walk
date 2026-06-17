@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 50,
-  "stageName": "Hanta-ji",
+  "stage": 51,
+  "stageName": "Ishite-ji",
   "coords": [
-    132.805,
-    33.828
+    132.796,
+    33.848
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-06-16"
+  "lastAdvancedAt": "2026-06-17"
 }
