@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 51,
-  "stageName": "Ishite-ji",
+  "stage": 52,
+  "stageName": "Taisan-ji",
   "coords": [
-    132.796,
-    33.848
+    132.715,
+    33.885
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-06-17"
+  "lastAdvancedAt": "2026-06-18"
 }

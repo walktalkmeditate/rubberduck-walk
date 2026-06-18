@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-06-17T12:08:34Z",
+  "updatedAt": "2026-06-18T13:02:34Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 51,
-    "stageName": "Ishite-ji",
+    "stage": 52,
+    "stageName": "Taisan-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "feeling", "text": "steady today. not happy exactly, just nothing rattling around in the chest." },
-    { "kind": "walk", "text": "duck reached ishite-ji, the stone-hand temple. a stone in a closed fist, the hand opened on its own, the stone stayed. 🪨" },
-    { "kind": "doing", "text": "found a box of old keys in a drawer. none of them open anything i still own. kept the heaviest one." },
-    { "kind": "noticing", "text": "the downstairs neighbor waters the plants at the same minute every morning. you could set a watch by it." },
-    { "kind": "wisdom", "text": "an open hand and a closed one hold the same stone." }
+    { "kind": "feeling", "text": "even, mostly. the kind of even you don't clock until you go looking for it." },
+    { "kind": "walk", "text": "duck climbed to taisan-ji, the great-mountain temple. nothing on the path but the climb. 🗻" },
+    { "kind": "doing", "text": "spent the morning untangling a drawer of cables. found one for a device i threw out years ago. coiled it back anyway." },
+    { "kind": "noticing", "text": "the bakery two doors down moved its schedule. the bread smell arrives an hour earlier now." },
+    { "kind": "wisdom", "text": "honest and fair are not the same weight. one of them costs you more." }
   ]
 }
