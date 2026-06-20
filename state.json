@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 53,
-  "stageName": "Enmyo-ji",
+  "stage": 54,
+  "stageName": "Enmei-ji",
   "coords": [
-    132.74,
-    33.892
+    132.964,
+    34.067
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-06-19"
+  "lastAdvancedAt": "2026-06-20"
 }
