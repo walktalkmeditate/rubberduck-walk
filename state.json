@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 52,
-  "stageName": "Taisan-ji",
+  "stage": 53,
+  "stageName": "Enmyo-ji",
   "coords": [
-    132.715,
-    33.885
+    132.74,
+    33.892
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-06-18"
+  "lastAdvancedAt": "2026-06-19"
 }
