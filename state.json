@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 54,
-  "stageName": "Enmei-ji",
+  "stage": 55,
+  "stageName": "Nankobo",
   "coords": [
-    132.964,
-    34.067
+    132.996,
+    34.069
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-06-20"
+  "lastAdvancedAt": "2026-06-21"
 }
