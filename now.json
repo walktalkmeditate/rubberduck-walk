@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-06-20T12:15:21Z",
+  "updatedAt": "2026-06-22T12:05:24Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 54,
-    "stageName": "Enmei-ji",
+    "stage": 56,
+    "stageName": "Taisan-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "noticing", "text": "rainy season arrived overnight. the umbrella by the door is bone dry. the one already in the bag, soaked through." },
-    { "kind": "walk", "text": "duck reached enmei-ji under light rain — the life-extending temple. didn't speak today, carried a borrowed line instead. ☁️" },
-    { "kind": "doing", "text": "sorting old notebooks to toss them. one decent sentence every ten pages. that ratio is the whole cost of keeping things." },
-    { "kind": "feeling", "text": "steady with an undertow. coffee was fine, and that's the entire morning report." },
-    { "kind": "wisdom", "text": "the kettle boils faster the second time. so does a day you've already started once." }
+    { "kind": "doing", "text": "patching a bike tube on the engawa. found the hole by ear before the bucket did. small competence, weirdly load-bearing today." },
+    { "kind": "walk", "text": "duck reached taisan-ji under light rain. watched steam leave the kettle, climb, bend, and fall back as more rain. 💧" },
+    { "kind": "noticing", "text": "the gutter settled into a pattern overnight — three quick drips, then one slow. hasn't broken step since." },
+    { "kind": "feeling", "text": "even, slightly damp. a morning that asks for nothing and gets coffee anyway." },
+    { "kind": "silly", "text": "left shoe dried first. it always does. the right one is holding a grudge about something it won't name." }
   ]
 }

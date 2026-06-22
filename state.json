@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 55,
-  "stageName": "Nankobo",
+  "stage": 56,
+  "stageName": "Taisan-ji",
   "coords": [
-    132.996,
-    34.069
+    132.975,
+    34.05
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-06-21"
+  "lastAdvancedAt": "2026-06-22"
 }
