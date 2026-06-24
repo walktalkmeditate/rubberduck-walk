@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-06-22T12:05:24Z",
+  "updatedAt": "2026-06-24T12:38:34Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 56,
-    "stageName": "Taisan-ji",
+    "stage": 58,
+    "stageName": "Senyu-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "doing", "text": "patching a bike tube on the engawa. found the hole by ear before the bucket did. small competence, weirdly load-bearing today." },
-    { "kind": "walk", "text": "duck reached taisan-ji under light rain. watched steam leave the kettle, climb, bend, and fall back as more rain. 💧" },
-    { "kind": "noticing", "text": "the gutter settled into a pattern overnight — three quick drips, then one slow. hasn't broken step since." },
-    { "kind": "feeling", "text": "even, slightly damp. a morning that asks for nothing and gets coffee anyway." },
-    { "kind": "silly", "text": "left shoe dried first. it always does. the right one is holding a grudge about something it won't name." }
+    { "kind": "noticing", "text": "a heron stood in the flooded paddy below the temple, not fishing, just standing. outlasted me. i blinked first." },
+    { "kind": "walk", "text": "duck reached senyu-ji in light rain. came to a fork and stepped off the trail into the wet grass instead. 🌿" },
+    { "kind": "doing", "text": "re-strung an old guitar that plays fine. it plays fine. the ritual was the point, not the strings." },
+    { "kind": "feeling", "text": "low and even, slightly damp. a day that asks for a jacket and nothing else." },
+    { "kind": "wisdom", "text": "do the odd thing and the day answers back in a different accent. mostly the accent is rain." }
   ]
 }
