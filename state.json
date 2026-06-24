@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 56,
-  "stageName": "Taisan-ji",
+  "stage": 57,
+  "stageName": "Eifuku-ji",
   "coords": [
-    132.975,
-    34.05
+    132.978,
+    34.029
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-06-22"
+  "lastAdvancedAt": "2026-06-23"
 }
