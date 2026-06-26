@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-06-24T12:38:34Z",
+  "updatedAt": "2026-06-26T13:03:01Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 58,
-    "stageName": "Senyu-ji",
+    "stage": 60,
+    "stageName": "Yokomine-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "noticing", "text": "a heron stood in the flooded paddy below the temple, not fishing, just standing. outlasted me. i blinked first." },
-    { "kind": "walk", "text": "duck reached senyu-ji in light rain. came to a fork and stepped off the trail into the wet grass instead. 🌿" },
-    { "kind": "doing", "text": "re-strung an old guitar that plays fine. it plays fine. the ritual was the point, not the strings." },
-    { "kind": "feeling", "text": "low and even, slightly damp. a day that asks for a jacket and nothing else." },
-    { "kind": "wisdom", "text": "do the odd thing and the day answers back in a different accent. mostly the accent is rain." }
+    { "kind": "doing", "text": "untangling a box of cables, none of which connect to anything i still own. keeping them anyway." },
+    { "kind": "walk", "text": "duck climbed to yokomine-ji. the mountain vanished in fog and the stone steps just kept going up into the white. 🌫️" },
+    { "kind": "noticing", "text": "the rain up here is colder than the rain in the valley. same sky, different opinion." },
+    { "kind": "feeling", "text": "legs heavy, lungs loud. the good kind of tired, earned by a hill and not a screen." },
+    { "kind": "wisdom", "text": "every name for the mountain is wrong once the fog takes it." }
   ]
 }

@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 59,
-  "stageName": "Iyo Kokubun-ji",
+  "stage": 60,
+  "stageName": "Yokomine-ji",
   "coords": [
-    133.025,
-    34.026
+    133.111,
+    33.838
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-06-25"
+  "lastAdvancedAt": "2026-06-26"
 }
