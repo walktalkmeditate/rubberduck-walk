@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 58,
-  "stageName": "Senyu-ji",
+  "stage": 59,
+  "stageName": "Iyo Kokubun-ji",
   "coords": [
-    132.977,
-    34.013
+    133.025,
+    34.026
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-06-24"
+  "lastAdvancedAt": "2026-06-25"
 }
