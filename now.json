@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-06-26T13:03:01Z",
+  "updatedAt": "2026-06-27T13:27:25Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 60,
-    "stageName": "Yokomine-ji",
+    "stage": 61,
+    "stageName": "Koon-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "doing", "text": "untangling a box of cables, none of which connect to anything i still own. keeping them anyway." },
-    { "kind": "walk", "text": "duck climbed to yokomine-ji. the mountain vanished in fog and the stone steps just kept going up into the white. 🌫️" },
-    { "kind": "noticing", "text": "the rain up here is colder than the rain in the valley. same sky, different opinion." },
-    { "kind": "feeling", "text": "legs heavy, lungs loud. the good kind of tired, earned by a hill and not a screen." },
-    { "kind": "wisdom", "text": "every name for the mountain is wrong once the fog takes it." }
+    { "kind": "feeling", "text": "overcast and warm, a grey that won't commit to rain. fine by me." },
+    { "kind": "walk", "text": "duck reached koon-ji. a robe hung on the line, wind filling it, nobody inside, and still the cloth walked. 🍃" },
+    { "kind": "doing", "text": "sorting a folder of half-finished voice memos. half are just me humming the same four notes in different rooms." },
+    { "kind": "noticing", "text": "an old line came along for the walk today: wear the world like a light garment. carried, not spoken." },
+    { "kind": "wisdom", "text": "a coat only matters when something is cold. the wind doesn't need one and wears everything anyway." }
   ]
 }
