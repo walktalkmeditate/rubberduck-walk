@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 61,
-  "stageName": "Koon-ji",
+  "stage": 62,
+  "stageName": "Hoju-ji",
   "coords": [
-    133.103,
-    33.894
+    133.115,
+    33.897
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-06-27"
+  "lastAdvancedAt": "2026-06-29"
 }
