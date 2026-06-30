@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-06-29T12:53:07Z",
+  "updatedAt": "2026-06-30T13:09:51Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 62,
-    "stageName": "Hoju-ji",
+    "stage": 63,
+    "stageName": "Kichijo-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "noticing", "text": "cicadas started before sunrise. nobody asked them to keep time and they're doing it anyway." },
-    { "kind": "walk", "text": "duck reached hoju-ji. carried a line the whole way and never said it aloud: the more you let go, the more you receive. ∞" },
-    { "kind": "doing", "text": "clearing a drawer i hadn't opened in two years. three pens, one dead, two surprised to still write." },
-    { "kind": "feeling", "text": "overcast and warm, the kind of grey that makes the morning feel longer than it is." },
-    { "kind": "wisdom", "text": "an empty hand can hold the next thing. a full one just keeps the old." }
+    { "kind": "doing", "text": "spent the morning trying to say one thing in fewer words. lost to the words. they keep meaning less than i need them to." },
+    { "kind": "walk", "text": "duck reached kichijo-ji. names scratched into a gatepost — alone, nothing; strung together, a road. ⛩️" },
+    { "kind": "noticing", "text": "neighbor's wind chime has one cracked tube. it's the one that rings the most." },
+    { "kind": "feeling", "text": "overcast and heavy, 24 and humid. the kind of air that holds onto a smell all afternoon." },
+    { "kind": "silly", "text": "the kettle and i disagree about what counts as morning. it wins by being louder." }
   ]
 }

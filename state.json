@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 62,
-  "stageName": "Hoju-ji",
+  "stage": 63,
+  "stageName": "Kichijo-ji",
   "coords": [
-    133.115,
-    33.897
+    133.129,
+    33.896
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-06-29"
+  "lastAdvancedAt": "2026-06-30"
 }
