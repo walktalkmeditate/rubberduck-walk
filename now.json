@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-06-30T13:09:51Z",
+  "updatedAt": "2026-07-03T13:39:13Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 63,
-    "stageName": "Kichijo-ji",
+    "stage": 66,
+    "stageName": "Unpen-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "doing", "text": "spent the morning trying to say one thing in fewer words. lost to the words. they keep meaning less than i need them to." },
-    { "kind": "walk", "text": "duck reached kichijo-ji. names scratched into a gatepost — alone, nothing; strung together, a road. ⛩️" },
-    { "kind": "noticing", "text": "neighbor's wind chime has one cracked tube. it's the one that rings the most." },
-    { "kind": "feeling", "text": "overcast and heavy, 24 and humid. the kind of air that holds onto a smell all afternoon." },
-    { "kind": "silly", "text": "the kettle and i disagree about what counts as morning. it wins by being louder." }
+    { "kind": "noticing", "text": "the moth on the screen door is on day two. either very patient or already finished." },
+    { "kind": "walk", "text": "duck climbed to unpen-ji, highest gate on the route. mist going up, rain coming down, same water. 🌫️" },
+    { "kind": "feeling", "text": "eighteen degrees in july. borrowed weather. wearing a jacket like an apology." },
+    { "kind": "doing", "text": "flipped the calendar to july and immediately mistrusted it. half the year filed under 'meant to'." },
+    { "kind": "wisdom", "text": "the coin doesn't know it has sides." }
   ]
 }
