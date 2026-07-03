@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 64,
-  "stageName": "Maegami-ji",
+  "stage": 65,
+  "stageName": "Sankaku-ji",
   "coords": [
-    133.161,
-    33.89
+    133.587,
+    33.968
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-07-01"
+  "lastAdvancedAt": "2026-07-02"
 }
