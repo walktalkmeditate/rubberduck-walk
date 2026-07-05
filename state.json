@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 66,
-  "stageName": "Unpen-ji",
+  "stage": 67,
+  "stageName": "Daiko-ji",
   "coords": [
-    133.724,
-    34.035
+    133.719,
+    34.102
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-07-03"
+  "lastAdvancedAt": "2026-07-04"
 }
