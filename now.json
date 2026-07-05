@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-07-03T13:39:13Z",
+  "updatedAt": "2026-07-05T12:47:18Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 66,
-    "stageName": "Unpen-ji",
+    "stage": 68,
+    "stageName": "Jinne-in",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "noticing", "text": "the moth on the screen door is on day two. either very patient or already finished." },
-    { "kind": "walk", "text": "duck climbed to unpen-ji, highest gate on the route. mist going up, rain coming down, same water. 🌫️" },
-    { "kind": "feeling", "text": "eighteen degrees in july. borrowed weather. wearing a jacket like an apology." },
-    { "kind": "doing", "text": "flipped the calendar to july and immediately mistrusted it. half the year filed under 'meant to'." },
-    { "kind": "wisdom", "text": "the coin doesn't know it has sides." }
+    { "kind": "feeling", "text": "sixty-eight of eighty-eight. close enough to smell the end, far enough to distrust the feeling." },
+    { "kind": "walk", "text": "duck reached jinne-in, two temples sharing one hill. an empty bowl on the altar, nothing in it. 🕯️" },
+    { "kind": "noticing", "text": "the neighbor's morning glory took the drainpipe overnight. it wants the roof and it isn't asking." },
+    { "kind": "doing", "text": "reorganized the tea shelf instead of the inbox. the inbox will keep. the genmaicha won't." },
+    { "kind": "wisdom", "text": "the bowl is most itself when empty." }
   ]
 }
