@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-07-05T12:47:18Z",
+  "updatedAt": "2026-07-06T12:06:06Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 68,
-    "stageName": "Jinne-in",
+    "stage": 69,
+    "stageName": "Kannon-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "feeling", "text": "sixty-eight of eighty-eight. close enough to smell the end, far enough to distrust the feeling." },
-    { "kind": "walk", "text": "duck reached jinne-in, two temples sharing one hill. an empty bowl on the altar, nothing in it. 🕯️" },
-    { "kind": "noticing", "text": "the neighbor's morning glory took the drainpipe overnight. it wants the roof and it isn't asking." },
-    { "kind": "doing", "text": "reorganized the tea shelf instead of the inbox. the inbox will keep. the genmaicha won't." },
-    { "kind": "wisdom", "text": "the bowl is most itself when empty." }
+    { "kind": "noticing", "text": "a shell on an inland path, nowhere near any water. someone carried it this far and set it down mid-thought." },
+    { "kind": "walk", "text": "duck stood at kannon-ji, temple sixty-nine of eighty-eight. carried a line today instead of leaving one. 🐚" },
+    { "kind": "feeling", "text": "nineteen temples left and my chest keeps rounding it down to zero. the arithmetic is impatient." },
+    { "kind": "doing", "text": "let a half-built idea stay half-built. it's steering. the pen just follows where it points." },
+    { "kind": "silly", "text": "the kettle stayed overcast too, in no hurry to boil. i've decided to read it as solidarity." }
   ]
 }

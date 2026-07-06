@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 68,
-  "stageName": "Jinne-in",
+  "stage": 69,
+  "stageName": "Kannon-ji",
   "coords": [
-    133.647,
-    34.134
+    133.648,
+    34.135
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-07-05"
+  "lastAdvancedAt": "2026-07-06"
 }
