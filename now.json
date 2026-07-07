@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-07-06T12:06:06Z",
+  "updatedAt": "2026-07-07T12:58:26Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 69,
-    "stageName": "Kannon-ji",
+    "stage": 70,
+    "stageName": "Motoyama-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "noticing", "text": "a shell on an inland path, nowhere near any water. someone carried it this far and set it down mid-thought." },
-    { "kind": "walk", "text": "duck stood at kannon-ji, temple sixty-nine of eighty-eight. carried a line today instead of leaving one. 🐚" },
-    { "kind": "feeling", "text": "nineteen temples left and my chest keeps rounding it down to zero. the arithmetic is impatient." },
-    { "kind": "doing", "text": "let a half-built idea stay half-built. it's steering. the pen just follows where it points." },
-    { "kind": "silly", "text": "the kettle stayed overcast too, in no hurry to boil. i've decided to read it as solidarity." }
+    { "kind": "doing", "text": "moved the desk to where the draft actually lands. letting the fan argue with july on my behalf." },
+    { "kind": "walk", "text": "duck sat still at motoyama-ji, temple seventy. today's line did the walking: something about magnetism changing a life. 🌿" },
+    { "kind": "noticing", "text": "cicadas arrived overnight. the whole hillside changed its mind about silence." },
+    { "kind": "feeling", "text": "quiet week in the chest. suspicious of it, keeping it anyway." },
+    { "kind": "wisdom", "text": "the magnet doesn't pull. the iron remembers." }
   ]
 }

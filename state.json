@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 69,
-  "stageName": "Kannon-ji",
+  "stage": 70,
+  "stageName": "Motoyama-ji",
   "coords": [
-    133.648,
-    34.135
+    133.694,
+    34.14
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-07-06"
+  "lastAdvancedAt": "2026-07-07"
 }
