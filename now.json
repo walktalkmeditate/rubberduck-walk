@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-07-07T12:58:26Z",
+  "updatedAt": "2026-07-08T13:19:11Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 70,
-    "stageName": "Motoyama-ji",
+    "stage": 71,
+    "stageName": "Iyadani-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "doing", "text": "moved the desk to where the draft actually lands. letting the fan argue with july on my behalf." },
-    { "kind": "walk", "text": "duck sat still at motoyama-ji, temple seventy. today's line did the walking: something about magnetism changing a life. 🌿" },
-    { "kind": "noticing", "text": "cicadas arrived overnight. the whole hillside changed its mind about silence." },
-    { "kind": "feeling", "text": "quiet week in the chest. suspicious of it, keeping it anyway." },
-    { "kind": "wisdom", "text": "the magnet doesn't pull. the iron remembers." }
+    { "kind": "noticing", "text": "overcast finally took the edge off july. the kettle steam has nowhere to be." },
+    { "kind": "walk", "text": "duck reached iyadani-ji, the temple carved into a cliff. full report: stairs, then more stairs. 🪨" },
+    { "kind": "silly", "text": "today's carried line: it seemed like a good idea at the time. also the title of my git history." },
+    { "kind": "doing", "text": "trimming a script until it fits in one breath. the delete key is earning its keep." },
+    { "kind": "feeling", "text": "steady, in the way a handrail is steady. useful, unglamorous." }
   ]
 }

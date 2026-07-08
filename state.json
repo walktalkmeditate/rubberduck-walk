@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 70,
-  "stageName": "Motoyama-ji",
+  "stage": 71,
+  "stageName": "Iyadani-ji",
   "coords": [
-    133.694,
-    34.14
+    133.724,
+    34.23
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-07-07"
+  "lastAdvancedAt": "2026-07-08"
 }
