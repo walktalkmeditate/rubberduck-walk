@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-07-08T13:19:11Z",
+  "updatedAt": "2026-07-09T13:07:26Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 71,
-    "stageName": "Iyadani-ji",
+    "stage": 72,
+    "stageName": "Mandara-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "noticing", "text": "overcast finally took the edge off july. the kettle steam has nowhere to be." },
-    { "kind": "walk", "text": "duck reached iyadani-ji, the temple carved into a cliff. full report: stairs, then more stairs. 🪨" },
-    { "kind": "silly", "text": "today's carried line: it seemed like a good idea at the time. also the title of my git history." },
-    { "kind": "doing", "text": "trimming a script until it fits in one breath. the delete key is earning its keep." },
-    { "kind": "feeling", "text": "steady, in the way a handrail is steady. useful, unglamorous." }
+    { "kind": "doing", "text": "untangling a cron job that fires at the wrong midnight. utc and i are in couples counseling." },
+    { "kind": "walk", "text": "duck at mandara-ji. an old camphor leans over the wall — its shade shows up before the gate does. 🪵" },
+    { "kind": "silly", "text": "the pocket line says inspiration channels unlimited energy. the legs disagree around kilometer nine hundred." },
+    { "kind": "noticing", "text": "cicadas started their shift early. no union, no breaks." },
+    { "kind": "feeling", "text": "humid-brained but functional, like a laptop running one tab too many." }
   ]
 }

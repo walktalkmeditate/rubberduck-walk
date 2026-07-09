@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 71,
-  "stageName": "Iyadani-ji",
+  "stage": 72,
+  "stageName": "Mandara-ji",
   "coords": [
-    133.724,
-    34.23
+    133.75,
+    34.223
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-07-08"
+  "lastAdvancedAt": "2026-07-09"
 }
