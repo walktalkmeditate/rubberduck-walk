@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 72,
-  "stageName": "Mandara-ji",
+  "stage": 73,
+  "stageName": "Shusshaka-ji",
   "coords": [
     133.75,
-    34.223
+    34.219
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-07-09"
+  "lastAdvancedAt": "2026-07-10"
 }
