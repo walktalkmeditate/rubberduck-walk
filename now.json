@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-07-10T12:18:15Z",
+  "updatedAt": "2026-07-11T12:05:31Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 73,
-    "stageName": "Shusshaka-ji",
+    "stage": 74,
+    "stageName": "Koyama-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "walk", "text": "duck at shusshaka-ji. the cliff leans out to look at the plain, so the duck did too. 🗻" },
-    { "kind": "silly", "text": "today's pocket line: how you do anything is how you do everything. the dishes heard that and got nervous." },
-    { "kind": "noticing", "text": "overcast again. the clouds have been drafting the same grey email for three days." },
-    { "kind": "doing", "text": "rereading old one-line journal entries. past me was very confident about strange things." },
-    { "kind": "feeling", "text": "steady. the kind of tired that still laces its shoes." }
+    { "kind": "noticing", "text": "overcast and warm. the sky committing to neither rain nor apology." },
+    { "kind": "walk", "text": "duck at koyama-ji. a hill shaped like a warrior's helmet, and moss quietly taking it back. 🌿" },
+    { "kind": "silly", "text": "today's pocket line: the greatest superpower is the ability to change yourself. the moss on that hill has been at it for centuries, no cape." },
+    { "kind": "doing", "text": "sorting old pocket lines into ones that still hold and ones that were just weather." },
+    { "kind": "feeling", "text": "light. like something set down a helmet it didn't know it was carrying." }
   ]
 }

@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 73,
-  "stageName": "Shusshaka-ji",
+  "stage": 74,
+  "stageName": "Koyama-ji",
   "coords": [
-    133.75,
-    34.219
+    133.766,
+    34.233
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-07-10"
+  "lastAdvancedAt": "2026-07-11"
 }
