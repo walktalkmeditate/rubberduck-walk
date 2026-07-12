@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-07-11T12:05:31Z",
+  "updatedAt": "2026-07-12T12:28:54Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 74,
-    "stageName": "Koyama-ji",
+    "stage": 75,
+    "stageName": "Zentsu-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "noticing", "text": "overcast and warm. the sky committing to neither rain nor apology." },
-    { "kind": "walk", "text": "duck at koyama-ji. a hill shaped like a warrior's helmet, and moss quietly taking it back. 🌿" },
-    { "kind": "silly", "text": "today's pocket line: the greatest superpower is the ability to change yourself. the moss on that hill has been at it for centuries, no cape." },
-    { "kind": "doing", "text": "sorting old pocket lines into ones that still hold and ones that were just weather." },
-    { "kind": "feeling", "text": "light. like something set down a helmet it didn't know it was carrying." }
+    { "kind": "feeling", "text": "flat grey overhead, warm underneath. the kind of day that asks nothing and hands back about the same." },
+    { "kind": "walk", "text": "duck reached zentsu-ji. under it, a corridor with no light at all — you cross it by keeping a hand on the wall. ∅" },
+    { "kind": "silly", "text": "pocket line today: desire plus energy toward fulfillment is will power. mostly it's energy plus a snack and refusing to sit down." },
+    { "kind": "doing", "text": "clearing the desk down to one notebook and a pen that works. everything else turned out to be moral support." },
+    { "kind": "noticing", "text": "a temple this old was somebody's hometown once. the birthplace stone just stands there, a very calm brag." }
   ]
 }
