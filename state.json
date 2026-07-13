@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 75,
-  "stageName": "Zentsu-ji",
+  "stage": 76,
+  "stageName": "Konzo-ji",
   "coords": [
-    133.774,
-    34.225
+    133.781,
+    34.25
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-07-12"
+  "lastAdvancedAt": "2026-07-13"
 }
