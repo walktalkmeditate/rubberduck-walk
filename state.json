@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 76,
-  "stageName": "Konzo-ji",
+  "stage": 77,
+  "stageName": "Doryu-ji",
   "coords": [
-    133.781,
-    34.25
+    133.763,
+    34.277
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-07-13"
+  "lastAdvancedAt": "2026-07-14"
 }
