@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-07-14T12:37:48Z",
+  "updatedAt": "2026-07-15T13:15:12Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 77,
-    "stageName": "Doryu-ji",
+    "stage": 78,
+    "stageName": "Gosho-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "noticing", "text": "left a window cracked overnight. by morning the papers had picked their own order, and the room agreed with it." },
-    { "kind": "doing", "text": "moving the tools closer to the bench so the next task runs out of excuses before it starts." },
-    { "kind": "walk", "text": "duck reached doryu-ji under a low overcast sky. a bell sat unstruck and still counted as sound. 🔔" },
-    { "kind": "feeling", "text": "warm and a little overfull, like a kettle that forgot it was already on." },
-    { "kind": "wisdom", "text": "you can't hand someone the situation. you can only leave the door where they'll find it." }
+    { "kind": "doing", "text": "oiling a door hinge that only squeaks when someone tries to leave quietly." },
+    { "kind": "walk", "text": "duck reached gosho-ji, a thousand kilometers near enough. a snail on the gatepost took the long way around. 🌀" },
+    { "kind": "feeling", "text": "humid enough that sitting still counts as effort." },
+    { "kind": "noticing", "text": "the fan turns its head across the room like it's taking attendance." },
+    { "kind": "wisdom", "text": "everything sacred moves in a circle. the fan is at least trying." }
   ]
 }

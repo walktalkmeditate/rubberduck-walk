@@ -1,21 +1,42 @@
 {
-  "generatedAt": "2026-07-14T12:28:13.250Z",
+  "generatedAt": "2026-07-15T12:57:05.305Z",
   "duck": {
     "route": "shikoku-88",
     "routeName": "Shikoku Henro",
-    "stage": 77,
-    "stageName": "Doryu-ji",
+    "stage": 78,
+    "stageName": "Gosho-ji",
     "coords": [
-      133.763,
-      34.277
+      133.825,
+      34.307
     ],
     "mode": "walking",
-    "progress": 0.875,
-    "kmFromStart": 992.2,
+    "progress": 0.8863636363636364,
+    "kmFromStart": 999.4,
     "totalKm": 1200,
-    "daysOnRoute": 83
+    "daysOnRoute": 84
   },
   "entries": [
+    {
+      "date": "2026-07-15",
+      "route": "shikoku-88",
+      "stage": 78,
+      "stageName": "Gosho-ji",
+      "coords": [
+        133.825,
+        34.307
+      ],
+      "kind": "offering",
+      "glyph": "🌀",
+      "paragraphs": [
+        "Overcast. A snail on the gatepost, going around, not up."
+      ],
+      "ageDays": 0,
+      "weather": "overcast, 28°C",
+      "kmFromStart": 999.4,
+      "kmSinceLastEntry": 7.199999999999932,
+      "heard": "everything sacred moves in a circle",
+      "heardId": "4a9999d2"
+    },
     {
       "date": "2026-07-14",
       "route": "shikoku-88",
@@ -30,7 +51,7 @@
       "paragraphs": [
         "all a guru can do is to set the right environment to create the right situations"
       ],
-      "ageDays": 0,
+      "ageDays": 1,
       "weather": "overcast, 27°C",
       "kmFromStart": 992.2,
       "kmSinceLastEntry": 3.900000000000091,
@@ -50,7 +71,7 @@
       "paragraphs": [
         "when you see a good move, look for a better one"
       ],
-      "ageDays": 1,
+      "ageDays": 2,
       "weather": "overcast, 29°C",
       "kmFromStart": 988.3,
       "kmSinceLastEntry": 3.8999999999999773,
@@ -70,7 +91,7 @@
       "paragraphs": [
         "Under the temple, no light. A wall to follow. The duck goes down."
       ],
-      "ageDays": 2,
+      "ageDays": 3,
       "weather": "overcast, 26°C",
       "kmFromStart": 984.4,
       "kmSinceLastEntry": 3.7999999999999545,
@@ -91,7 +112,7 @@
       "paragraphs": [
         "A hill in the shape of a helmet. Moss takes it back."
       ],
-      "ageDays": 3,
+      "ageDays": 4,
       "weather": "overcast, 27°C",
       "kmFromStart": 980.6,
       "kmSinceLastEntry": 3.800000000000068,
@@ -112,7 +133,7 @@
       "paragraphs": [
         "The cliff leans out to look at the plain. The duck does the same."
       ],
-      "ageDays": 4,
+      "ageDays": 5,
       "weather": "overcast, 26°C",
       "kmFromStart": 976.8,
       "kmSinceLastEntry": 0.5,
@@ -133,7 +154,7 @@
       "paragraphs": [
         "An old camphor leans over the wall. Its shade arrives before the gate does."
       ],
-      "ageDays": 5,
+      "ageDays": 6,
       "weather": "overcast, 25°C",
       "kmFromStart": 976.3,
       "kmSinceLastEntry": 4.099999999999909,
@@ -154,7 +175,7 @@
       "paragraphs": [
         "Stairs climb the cliff. At the top, more stairs."
       ],
-      "ageDays": 6,
+      "ageDays": 7,
       "weather": "overcast, 23°C",
       "kmFromStart": 972.2,
       "kmSinceLastEntry": 11.300000000000068,
@@ -175,7 +196,7 @@
       "paragraphs": [
         "change your underlying magnetism and you can change your life"
       ],
-      "ageDays": 7,
+      "ageDays": 8,
       "weather": "overcast, 26°C",
       "kmFromStart": 960.9,
       "kmSinceLastEntry": 4.5,
@@ -195,7 +216,7 @@
       "paragraphs": [
         "stay true to an idea to let it guide you on where it wants to go"
       ],
-      "ageDays": 8,
+      "ageDays": 9,
       "weather": "overcast, 25°C",
       "kmFromStart": 956.4,
       "kmSinceLastEntry": 0,
@@ -215,7 +236,7 @@
       "paragraphs": [
         "An empty bowl on the altar. Nothing in it. That is what it holds."
       ],
-      "ageDays": 9,
+      "ageDays": 10,
       "weather": "overcast, 25°C",
       "kmFromStart": 956.4,
       "kmSinceLastEntry": 18.100000000000023,
@@ -236,7 +257,7 @@
       "paragraphs": [
         "Mist goes up the mountain. Rain comes down. The same water, going both ways."
       ],
-      "ageDays": 11,
+      "ageDays": 12,
       "weather": "overcast, 18°C",
       "kmFromStart": 938.3,
       "kmSinceLastEntry": 64.5,
@@ -257,7 +278,7 @@
       "paragraphs": [
         "how you do anything is how you do everything"
       ],
-      "ageDays": 13,
+      "ageDays": 14,
       "weather": "light rain, 26°C",
       "kmFromStart": 873.8,
       "kmSinceLastEntry": 3.199999999999932,
@@ -277,7 +298,7 @@
       "paragraphs": [
         "Marks scratched on the gatepost. Alone, nothing. Strung together, a road."
       ],
-      "ageDays": 14,
+      "ageDays": 15,
       "weather": "overcast, 24°C",
       "kmFromStart": 870.6,
       "kmSinceLastEntry": 1.3999999999999773,
@@ -298,7 +319,7 @@
       "paragraphs": [
         "the more you let go the more you receive"
       ],
-      "ageDays": 15,
+      "ageDays": 16,
       "weather": "overcast, 24°C",
       "kmFromStart": 869.2,
       "kmSinceLastEntry": 1.3000000000000682,
@@ -318,7 +339,7 @@
       "paragraphs": [
         "Wind fills the empty robe on the line. Nothing inside. Still it moves."
       ],
-      "ageDays": 17,
+      "ageDays": 18,
       "weather": "overcast, 23°C",
       "kmFromStart": 867.9,
       "kmSinceLastEntry": 9.600000000000023,
@@ -339,7 +360,7 @@
       "paragraphs": [
         "Fog swallows the mountain. The stone steps climb into it and do not stop."
       ],
-      "ageDays": 18,
+      "ageDays": 19,
       "weather": "light rain, 18°C",
       "kmFromStart": 858.3,
       "kmSinceLastEntry": 33.09999999999991,
@@ -360,7 +381,7 @@
       "paragraphs": [
         "The trail forks. The duck steps off it, into the wet grass."
       ],
-      "ageDays": 20,
+      "ageDays": 21,
       "weather": "light rain, 20°C",
       "kmFromStart": 825.2,
       "kmSinceLastEntry": 5.5,
@@ -381,7 +402,7 @@
       "paragraphs": [
         "Steam off the kettle. It climbs, bends, falls back as rain."
       ],
-      "ageDays": 22,
+      "ageDays": 23,
       "weather": "light rain, 20°C",
       "kmFromStart": 819.7,
       "kmSinceLastEntry": 6.400000000000091,
@@ -402,7 +423,7 @@
       "paragraphs": [
         "liquidity begets more liquidity; energy begets more energy"
       ],
-      "ageDays": 24,
+      "ageDays": 25,
       "weather": "light rain, 26°C",
       "kmFromStart": 813.3,
       "kmSinceLastEntry": 36.89999999999998,
@@ -422,7 +443,7 @@
       "paragraphs": [
         "being honest but fair is the best policy"
       ],
-      "ageDays": 26,
+      "ageDays": 27,
       "weather": "overcast, 21°C",
       "kmFromStart": 776.4,
       "kmSinceLastEntry": 11.199999999999932,
@@ -442,7 +463,7 @@
       "paragraphs": [
         "A stone in a closed hand. The hand opens on its own. The stone stays."
       ],
-      "ageDays": 27,
+      "ageDays": 28,
       "weather": "overcast, 23°C",
       "kmFromStart": 765.2,
       "kmSinceLastEntry": 2.800000000000068,
@@ -463,7 +484,7 @@
       "paragraphs": [
         "Rice cools in the bowl. A sparrow takes a grain. The bowl does not grow lighter."
       ],
-      "ageDays": 28,
+      "ageDays": 29,
       "weather": "overcast, 23°C",
       "kmFromStart": 762.4,
       "kmSinceLastEntry": 1.7999999999999545,
@@ -484,7 +505,7 @@
       "paragraphs": [
         "A seed on the temple step. No hand placed it. Green already in the crack."
       ],
-      "ageDays": 29,
+      "ageDays": 30,
       "weather": "overcast, 22°C",
       "kmFromStart": 760.6,
       "kmSinceLastEntry": 3.2000000000000455,
@@ -505,7 +526,7 @@
       "paragraphs": [
         "Pines stand at the gate. A well holds the sky. The water does not reach for it."
       ],
-      "ageDays": 30,
+      "ageDays": 31,
       "weather": "overcast, 20°C",
       "kmFromStart": 757.4,
       "kmSinceLastEntry": 4.399999999999977,
@@ -526,7 +547,7 @@
       "paragraphs": [
         "A broom leans on the gate. The gravel lies even. No one tends it now."
       ],
-      "ageDays": 31,
+      "ageDays": 32,
       "weather": "overcast, 23°C",
       "kmFromStart": 753,
       "kmSinceLastEntry": 0.8999999999999773,
@@ -547,7 +568,7 @@
       "paragraphs": [
         "i expect nothing; i can handle anything"
       ],
-      "ageDays": 32,
+      "ageDays": 33,
       "weather": "overcast, 21°C",
       "kmFromStart": 752.1,
       "kmSinceLastEntry": 29.5,
@@ -567,7 +588,7 @@
       "paragraphs": [
         "A hall clings to the cliff. The cliff holds the mountain. No one holds the cliff."
       ],
-      "ageDays": 33,
+      "ageDays": 34,
       "weather": "overcast, 17°C",
       "kmFromStart": 722.6,
       "kmSinceLastEntry": 8.399999999999977,
@@ -588,7 +609,7 @@
       "paragraphs": [
         "A cedar holds the slope. It asks the slope for nothing."
       ],
-      "ageDays": 34,
+      "ageDays": 35,
       "weather": "clear, 16°C",
       "kmFromStart": 714.2,
       "kmSinceLastEntry": 67.20000000000005,
@@ -609,7 +630,7 @@
       "paragraphs": [
         "invert, always invert"
       ],
-      "ageDays": 35,
+      "ageDays": 36,
       "weather": "overcast, 16°C",
       "kmFromStart": 647,
       "kmSinceLastEntry": 10.600000000000023,
@@ -629,7 +650,7 @@
       "paragraphs": [
         "Rain on one tile, then the next. The roof does not hurry to finish."
       ],
-      "ageDays": 36,
+      "ageDays": 37,
       "weather": "light rain, 18°C",
       "kmFromStart": 636.4,
       "kmSinceLastEntry": 2.6000000000000227,
@@ -650,7 +671,7 @@
       "paragraphs": [
         "suffering is required; misery is optional"
       ],
-      "ageDays": 37,
+      "ageDays": 38,
       "weather": "clear, 20°C",
       "kmFromStart": 633.8,
       "kmSinceLastEntry": 50.19999999999993,
@@ -670,7 +691,7 @@
       "paragraphs": [
         "Stream meets stream below the gate. Neither asks which is older. The water knows."
       ],
-      "ageDays": 38,
+      "ageDays": 39,
       "weather": "overcast, 23°C",
       "kmFromStart": 583.6,
       "kmSinceLastEntry": 25.800000000000068,
@@ -691,7 +712,7 @@
       "paragraphs": [
         "habit broken doesn't mean habit lost"
       ],
-      "ageDays": 39,
+      "ageDays": 40,
       "weather": "overcast, 21°C",
       "kmFromStart": 557.8,
       "kmSinceLastEntry": 53.099999999999966,
@@ -711,7 +732,7 @@
       "paragraphs": [
         "A lighthouse turns. No ship asks for it. The dark keeps coming."
       ],
-      "ageDays": 40,
+      "ageDays": 41,
       "weather": "unknown",
       "kmFromStart": 504.7,
       "kmSinceLastEntry": 80.69999999999999,
@@ -732,7 +753,7 @@
       "paragraphs": [
         "speed of communication has always been the key in supremacy"
       ],
-      "ageDays": 41,
+      "ageDays": 42,
       "weather": "overcast, 22°C",
       "kmFromStart": 424,
       "kmSinceLastEntry": 58.5,
@@ -752,7 +773,7 @@
       "paragraphs": [
         "Rain falls into the sea. Each drop vanishes where it lands. The sea does not fill."
       ],
-      "ageDays": 42,
+      "ageDays": 43,
       "weather": "rain, 23°C",
       "kmFromStart": 365.5,
       "kmSinceLastEntry": 13.899999999999977,
@@ -773,7 +794,7 @@
       "paragraphs": [
         "The stone step is worn smooth. Each foot finds the hollow the last foot leaves."
       ],
-      "ageDays": 43,
+      "ageDays": 44,
       "weather": "overcast, 20°C",
       "kmFromStart": 351.6,
       "kmSinceLastEntry": 9.800000000000011,
@@ -794,7 +815,7 @@
       "paragraphs": [
         "God works in mysterious and wondrous ways"
       ],
-      "ageDays": 44,
+      "ageDays": 45,
       "weather": "clear, 22°C",
       "kmFromStart": 341.8,
       "kmSinceLastEntry": 6.300000000000011,
@@ -814,7 +835,7 @@
       "paragraphs": [
         "A feather drops on the stones. The wind takes it. Nothing here asks to be carried."
       ],
-      "ageDays": 45,
+      "ageDays": 46,
       "weather": "overcast, 24°C",
       "kmFromStart": 335.5,
       "kmSinceLastEntry": 13.199999999999989,
@@ -835,7 +856,7 @@
       "paragraphs": [
         "Light through bamboo. The shadows move. The bamboo does not."
       ],
-      "ageDays": 47,
+      "ageDays": 48,
       "weather": "overcast, 23°C",
       "kmFromStart": 322.3,
       "kmSinceLastEntry": 5.699999999999989,
@@ -856,7 +877,7 @@
       "paragraphs": [
         "quiet environment brings peace of mind and deep work"
       ],
-      "ageDays": 48,
+      "ageDays": 49,
       "weather": "light rain, 22°C",
       "kmFromStart": 316.6,
       "kmSinceLastEntry": 6.900000000000034,
@@ -876,7 +897,7 @@
       "paragraphs": [
         "Cedar pillars hold the gate. A swallow turns inside the eaves. The wood does not move."
       ],
-      "ageDays": 49,
+      "ageDays": 50,
       "weather": "unknown",
       "kmFromStart": 309.7,
       "kmSinceLastEntry": 9.199999999999989,
@@ -897,7 +918,7 @@
       "paragraphs": [
         "Mist sits on the temple roof. The tiles stay where they are. No one asks them to."
       ],
-      "ageDays": 50,
+      "ageDays": 51,
       "weather": "overcast, 21°C",
       "kmFromStart": 300.5,
       "kmSinceLastEntry": 37.5,
@@ -918,7 +939,7 @@
       "paragraphs": [
         "flash of an image in the mind comes from where?"
       ],
-      "ageDays": 51,
+      "ageDays": 52,
       "weather": "overcast, 18°C",
       "kmFromStart": 263,
       "kmSinceLastEntry": 31.30000000000001,
@@ -938,7 +959,7 @@
       "paragraphs": [
         "Stone steps climb from the harbor. A boat returns. No hand on the tiller."
       ],
-      "ageDays": 53,
+      "ageDays": 54,
       "weather": "overcast, 22°C",
       "kmFromStart": 231.7,
       "kmSinceLastEntry": 6.5,
@@ -959,7 +980,7 @@
       "paragraphs": [
         "one, two, or out"
       ],
-      "ageDays": 54,
+      "ageDays": 55,
       "weather": "overcast, 23°C",
       "kmFromStart": 225.2,
       "kmSinceLastEntry": 75.39999999999998,
@@ -979,7 +1000,7 @@
       "paragraphs": [
         "Rain falls on the healing temple's steps. Coins darken under water. The stairs forget which year is which."
       ],
-      "ageDays": 55,
+      "ageDays": 56,
       "weather": "light rain, 23°C",
       "kmFromStart": 149.8,
       "kmSinceLastEntry": 30.60000000000001,
@@ -1000,7 +1021,7 @@
       "paragraphs": [
         "The cable car hums up the mountain. Empty. The dragon stays in its rock."
       ],
-      "ageDays": 57,
+      "ageDays": 58,
       "weather": "clear, 17°C",
       "kmFromStart": 119.2,
       "kmSinceLastEntry": 6.700000000000003,
@@ -1021,7 +1042,7 @@
       "paragraphs": [
         "transmission of teachings only happens by creating the right situation to receive the teaching"
       ],
-      "ageDays": 58,
+      "ageDays": 59,
       "weather": "clear, 17°C",
       "kmFromStart": 112.5,
       "kmSinceLastEntry": 13.099999999999994,
@@ -1041,7 +1062,7 @@
       "paragraphs": [
         "The river moves. The reflected mountain does not. Both stay where they are."
       ],
-      "ageDays": 59,
+      "ageDays": 60,
       "weather": "overcast, 20°C",
       "kmFromStart": 99.4,
       "kmSinceLastEntry": 4,
@@ -1062,7 +1083,7 @@
       "paragraphs": [
         "drama involves emotions which are delusions"
       ],
-      "ageDays": 60,
+      "ageDays": 61,
       "weather": "clear, 19°C",
       "kmFromStart": 95.4,
       "kmSinceLastEntry": 16.80000000000001,
@@ -1082,7 +1103,7 @@
       "paragraphs": [
         "The bucket goes down. Comes up. Goes down. Comes up. The well keeps it."
       ],
-      "ageDays": 61,
+      "ageDays": 62,
       "weather": "overcast, 20°C",
       "kmFromStart": 78.6,
       "kmSinceLastEntry": 2.799999999999997,
@@ -1103,7 +1124,7 @@
       "paragraphs": [
         "A stone bowl of rainwater. Birds drink, then leave it for the sky."
       ],
-      "ageDays": 62,
+      "ageDays": 63,
       "weather": "overcast, 20°C",
       "kmFromStart": 75.8,
       "kmSinceLastEntry": 1.7999999999999972,
@@ -1124,7 +1145,7 @@
       "paragraphs": [
         "A stone basin. The water inside holds the sky. Nothing else stirs."
       ],
-      "ageDays": 63,
+      "ageDays": 64,
       "weather": "overcast, 20°C",
       "kmFromStart": 74,
       "kmSinceLastEntry": 0.7999999999999972,
@@ -1145,7 +1166,7 @@
       "paragraphs": [
         "The kanji say eternal happiness. The rain says nothing."
       ],
-      "ageDays": 64,
+      "ageDays": 65,
       "weather": "clear, 15°C",
       "kmFromStart": 73.2,
       "kmSinceLastEntry": 2.299999999999997,
@@ -1166,7 +1187,7 @@
       "paragraphs": [
         "whole is greater than the sum of the parts"
       ],
-      "ageDays": 65,
+      "ageDays": 66,
       "kmFromStart": 70.9,
       "kmSinceLastEntry": 0,
       "heardId": "909e3310"
@@ -1185,7 +1206,7 @@
       "paragraphs": [
         "there is nothing you can do wrong"
       ],
-      "ageDays": 66,
+      "ageDays": 67,
       "kmFromStart": 70.9,
       "kmSinceLastEntry": 0,
       "heardId": "bdd941ba"
@@ -1204,7 +1225,7 @@
       "paragraphs": [
         "attention is the beginning of devotion"
       ],
-      "ageDays": 67,
+      "ageDays": 68,
       "kmFromStart": 70.9,
       "kmSinceLastEntry": 0,
       "heardId": "100ac6ee"
@@ -1223,7 +1244,7 @@
       "paragraphs": [
         "connecting the dots is only possible through reflection"
       ],
-      "ageDays": 68,
+      "ageDays": 69,
       "kmFromStart": 70.9,
       "kmSinceLastEntry": 0,
       "heardId": "8c39797a"
@@ -1242,7 +1263,7 @@
       "paragraphs": [
         "mind generates thoughts is akin to God creating everything in His dream"
       ],
-      "ageDays": 69,
+      "ageDays": 70,
       "kmFromStart": 70.9,
       "kmSinceLastEntry": 0,
       "heardId": "c710ee24"
@@ -1261,7 +1282,7 @@
       "paragraphs": [
         "A bell here. A bell there. Same name on both gates."
       ],
-      "ageDays": 70,
+      "ageDays": 71,
       "weather": "overcast, 15°C",
       "kmFromStart": 70.9,
       "kmSinceLastEntry": 20.800000000000004
@@ -1280,7 +1301,7 @@
       "paragraphs": [
         "Stone steps, slick with rain. Moss fills what feet have worn."
       ],
-      "ageDays": 72,
+      "ageDays": 73,
       "weather": "light rain, 18°C",
       "kmFromStart": 50.1,
       "kmSinceLastEntry": 12.899999999999999
@@ -1299,7 +1320,7 @@
       "paragraphs": [
         "Wisteria over the gate. Bees enter, leave, enter again."
       ],
-      "ageDays": 73,
+      "ageDays": 74,
       "weather": "overcast, 18°C",
       "kmFromStart": 37.2,
       "kmSinceLastEntry": 9.300000000000004
@@ -1318,7 +1339,7 @@
       "paragraphs": [
         "Cloth on the bench. The wind lifts one corner."
       ],
-      "ageDays": 74,
+      "ageDays": 75,
       "weather": "overcast, 14°C",
       "kmFromStart": 27.9,
       "kmSinceLastEntry": 3.799999999999997
@@ -1337,7 +1358,7 @@
       "paragraphs": [
         "Rain across the rooftiles. Each tile drinks once and holds nothing."
       ],
-      "ageDays": 75,
+      "ageDays": 76,
       "weather": "rain, 16°C",
       "kmFromStart": 24.1,
       "kmSinceLastEntry": 7.800000000000001
@@ -1356,7 +1377,7 @@
       "paragraphs": [
         "Steam rises from a stone basin. Nothing asks where it goes."
       ],
-      "ageDays": 78,
+      "ageDays": 79,
       "weather": "overcast, 18°C",
       "kmFromStart": 16.3,
       "kmSinceLastEntry": 5.300000000000001
@@ -1375,7 +1396,7 @@
       "paragraphs": [
         "Rain finds the stone lantern. The lantern keeps its shape."
       ],
-      "ageDays": 79,
+      "ageDays": 80,
       "weather": "rain, 14°C",
       "kmFromStart": 11,
       "kmSinceLastEntry": 2
@@ -1394,7 +1415,7 @@
       "paragraphs": [
         "A bell. No wind. The bell waits."
       ],
-      "ageDays": 80,
+      "ageDays": 81,
       "weather": "clear, 15°C",
       "kmFromStart": 9,
       "kmSinceLastEntry": 5
@@ -1413,7 +1434,7 @@
       "paragraphs": [
         "A bucket by the well. The rope is old. The water is older."
       ],
-      "ageDays": 81,
+      "ageDays": 82,
       "weather": "overcast, 15°C",
       "kmFromStart": 4,
       "kmSinceLastEntry": 2.6
@@ -1432,7 +1453,7 @@
       "paragraphs": [
         "Moss on the step. Older than the step."
       ],
-      "ageDays": 82,
+      "ageDays": 83,
       "weather": "overcast, 14°C",
       "kmFromStart": 1.4,
       "kmSinceLastEntry": 1.4
@@ -1451,7 +1472,7 @@
       "paragraphs": [
         "The gate. The gate was always going to be open."
       ],
-      "ageDays": 83,
+      "ageDays": 84,
       "kmFromStart": 0
     }
   ],
