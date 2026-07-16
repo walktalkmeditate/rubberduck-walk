@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 78,
-  "stageName": "Gosho-ji",
+  "stage": 79,
+  "stageName": "Tenno-ji",
   "coords": [
-    133.825,
-    34.307
+    133.883,
+    34.311
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-07-15"
+  "lastAdvancedAt": "2026-07-16"
 }
