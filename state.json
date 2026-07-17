@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 79,
-  "stageName": "Tenno-ji",
+  "stage": 80,
+  "stageName": "Sanuki Kokubun-ji",
   "coords": [
-    133.883,
-    34.311
+    133.944,
+    34.303
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-07-16"
+  "lastAdvancedAt": "2026-07-17"
 }
