@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 80,
-  "stageName": "Sanuki Kokubun-ji",
+  "stage": 81,
+  "stageName": "Shiromine-ji",
   "coords": [
-    133.944,
-    34.303
+    133.927,
+    34.334
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-07-17"
+  "lastAdvancedAt": "2026-07-18"
 }

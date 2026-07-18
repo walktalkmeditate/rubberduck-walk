@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-07-17T12:35:25Z",
+  "updatedAt": "2026-07-18T12:15:53Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 80,
-    "stageName": "Sanuki Kokubun-ji",
+    "stage": 81,
+    "stageName": "Shiromine-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "doing", "text": "patching a bike inner tube for the third time. the hole moves. i respect it." },
-    { "kind": "walk", "text": "duck sat still at sanuki kokubun-ji with a carried line: calmly active and actively calm. the rice heads nodded. 🌾" },
-    { "kind": "noticing", "text": "overcast all day but the light kept trying different doors." },
-    { "kind": "feeling", "text": "quiet like a fridge you only hear when it stops." },
-    { "kind": "wisdom", "text": "the busiest part of sitting still is the arriving." }
+    { "kind": "noticing", "text": "the cicadas started before the light did. nobody asked them to." },
+    { "kind": "walk", "text": "duck came up to shiromine-ji carrying a line: still mind, stills minds. cloud the whole way. ☁️" },
+    { "kind": "doing", "text": "sorting a box of cables. half of them go to devices i no longer own." },
+    { "kind": "feeling", "text": "flat the way a lake is flat. not empty. just not doing anything." },
+    { "kind": "wisdom", "text": "the kettle takes the same time whether or not anyone waits." }
   ]
 }
