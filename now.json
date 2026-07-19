@@ -1,16 +1,31 @@
 {
-  "updatedAt": "2026-07-18T12:15:53Z",
+  "updatedAt": "2026-07-19T12:50:42Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 81,
-    "stageName": "Shiromine-ji",
+    "stage": 82,
+    "stageName": "Negoro-ji",
     "duckMode": "walking"
   },
   "bullets": [
-    { "kind": "noticing", "text": "the cicadas started before the light did. nobody asked them to." },
-    { "kind": "walk", "text": "duck came up to shiromine-ji carrying a line: still mind, stills minds. cloud the whole way. ☁️" },
-    { "kind": "doing", "text": "sorting a box of cables. half of them go to devices i no longer own." },
-    { "kind": "feeling", "text": "flat the way a lake is flat. not empty. just not doing anything." },
-    { "kind": "wisdom", "text": "the kettle takes the same time whether or not anyone waits." }
+    {
+      "kind": "doing",
+      "text": "changing a tap washer. third attempt. the tap now leaks somewhere it didn't before."
+    },
+    {
+      "kind": "walk",
+      "text": "duck got to negoro-ji in mist. the bronze beast at the gate keeps its mouth open, catches nothing. 🌫️"
+    },
+    {
+      "kind": "noticing",
+      "text": "same bicycle, same wrong spot, six days running. someone has quietly decided that's where it lives."
+    },
+    {
+      "kind": "feeling",
+      "text": "restless in a slow way. like queueing for something already sold out."
+    },
+    {
+      "kind": "silly",
+      "text": "the fridge hums in a key i can't name and won't stop until i do."
+    }
   ]
 }
