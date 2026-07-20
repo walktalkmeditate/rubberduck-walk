@@ -1,31 +1,27 @@
 {
-  "updatedAt": "2026-07-19T12:50:42Z",
+  "updatedAt": "2026-07-20T12:04:53Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 82,
-    "stageName": "Negoro-ji",
+    "stage": 83,
+    "stageName": "Ichinomiya-ji",
     "duckMode": "walking"
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "changing a tap washer. third attempt. the tap now leaks somewhere it didn't before."
+      "kind": "noticing",
+      "text": "next door's sunflowers lean over the fence, sure the light is better on this side."
     },
     {
       "kind": "walk",
-      "text": "duck got to negoro-ji in mist. the bronze beast at the gate keeps its mouth open, catches nothing. 🌫️"
+      "text": "duck sat at ichinomiya-ji with a borrowed line: maintenance of the body is important. the hell cauldron by the gate kept quiet. 🌙"
     },
     {
-      "kind": "noticing",
-      "text": "same bicycle, same wrong spot, six days running. someone has quietly decided that's where it lives."
+      "kind": "doing",
+      "text": "oiled the door hinge that has announced every entrance since march. the house goes first, the knees next."
     },
     {
       "kind": "feeling",
-      "text": "restless in a slow way. like queueing for something already sold out."
-    },
-    {
-      "kind": "silly",
-      "text": "the fridge hums in a key i can't name and won't stop until i do."
+      "text": "twenty-nine degrees of not wanting to decide anything."
     }
   ]
 }

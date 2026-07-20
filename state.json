@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 82,
-  "stageName": "Negoro-ji",
+  "stage": 83,
+  "stageName": "Ichinomiya-ji",
   "coords": [
-    133.961,
-    34.345
+    134.027,
+    34.287
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-07-19"
+  "lastAdvancedAt": "2026-07-20"
 }
