@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-20T12:04:53Z",
+  "updatedAt": "2026-07-21T12:22:38Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 83,
-    "stageName": "Ichinomiya-ji",
+    "stage": 84,
+    "stageName": "Yashima-ji",
     "duckMode": "walking"
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "next door's sunflowers lean over the fence, sure the light is better on this side."
+      "kind": "feeling",
+      "text": "overcast at twenty-seven, the kind of grey that makes a cup of coffee last longer."
     },
     {
       "kind": "walk",
-      "text": "duck sat at ichinomiya-ji with a borrowed line: maintenance of the body is important. the hell cauldron by the gate kept quiet. 🌙"
+      "text": "duck reached yashima-ji, eighty-four of eighty-eight, up on the flat lava hill. a bell by the gate, no hand on the rope. 🔔"
     },
     {
       "kind": "doing",
-      "text": "oiled the door hinge that has announced every entrance since march. the house goes first, the knees next."
+      "text": "sorting a box of cables by the door. none of them go to anything i still own."
     },
     {
-      "kind": "feeling",
-      "text": "twenty-nine degrees of not wanting to decide anything."
+      "kind": "noticing",
+      "text": "the neighbor's cat has claimed the warm hood of a car that hasn't moved in a week."
     }
   ]
 }

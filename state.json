@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 83,
-  "stageName": "Ichinomiya-ji",
+  "stage": 84,
+  "stageName": "Yashima-ji",
   "coords": [
-    134.027,
-    34.287
+    134.101,
+    34.358
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-07-20"
+  "lastAdvancedAt": "2026-07-21"
 }
