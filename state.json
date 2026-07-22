@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 84,
-  "stageName": "Yashima-ji",
+  "stage": 85,
+  "stageName": "Yakuri-ji",
   "coords": [
-    134.101,
-    34.358
+    134.14,
+    34.36
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-07-21"
+  "lastAdvancedAt": "2026-07-22"
 }

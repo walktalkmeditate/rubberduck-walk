@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-21T12:22:38Z",
+  "updatedAt": "2026-07-22T12:05:42Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 84,
-    "stageName": "Yashima-ji",
+    "stage": 85,
+    "stageName": "Yakuri-ji",
     "duckMode": "walking"
   },
   "bullets": [
     {
       "kind": "feeling",
-      "text": "overcast at twenty-seven, the kind of grey that makes a cup of coffee last longer."
+      "text": "clear and twenty-eight already, the kind of morning that made its mind up before i did."
     },
     {
       "kind": "walk",
-      "text": "duck reached yashima-ji, eighty-four of eighty-eight, up on the flat lava hill. a bell by the gate, no hand on the rope. 🔔"
+      "text": "duck climbed to yakuri-ji, eighty-five of eighty-eight, under the sword-toothed mountain. a chestnut split open on a stone, no hand near it. 🗻"
     },
     {
       "kind": "doing",
-      "text": "sorting a box of cables by the door. none of them go to anything i still own."
+      "text": "tossing the half-built jigs anyone could rebuild. keeping the odd ones nobody else would bother finishing."
     },
     {
       "kind": "noticing",
-      "text": "the neighbor's cat has claimed the warm hood of a car that hasn't moved in a week."
+      "text": "a wasp mapped the same window frame all morning, patient as a surveyor with nowhere to file it."
     }
   ]
 }
