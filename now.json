@@ -1,27 +1,31 @@
 {
-  "updatedAt": "2026-07-22T12:05:42Z",
+  "updatedAt": "2026-07-23T12:04:31Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 85,
-    "stageName": "Yakuri-ji",
+    "stage": 86,
+    "stageName": "Shido-ji",
     "duckMode": "walking"
   },
   "bullets": [
     {
-      "kind": "feeling",
-      "text": "clear and twenty-eight already, the kind of morning that made its mind up before i did."
+      "kind": "doing",
+      "text": "sanding a drawer that swells shut every july. the wood wins this week. the plane stays sharp regardless."
     },
     {
       "kind": "walk",
-      "text": "duck climbed to yakuri-ji, eighty-five of eighty-eight, under the sword-toothed mountain. a chestnut split open on a stone, no hand near it. 🗻"
+      "text": "duck reached shido-ji, eighty-six of eighty-eight, two temples from the end. carried a line about patience and left it at the gate. ⚇"
     },
     {
-      "kind": "doing",
-      "text": "tossing the half-built jigs anyone could rebuild. keeping the odd ones nobody else would bother finishing."
+      "kind": "feeling",
+      "text": "thirty degrees before noon. the heat unpacked early and acted like it owned the room."
     },
     {
       "kind": "noticing",
-      "text": "a wasp mapped the same window frame all morning, patient as a surveyor with nowhere to file it."
+      "text": "a cat slept across the doorway and waited to be stepped over. it was."
+    },
+    {
+      "kind": "wisdom",
+      "text": "the drawer that won't open still holds what went into it."
     }
   ]
 }

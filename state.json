@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 85,
-  "stageName": "Yakuri-ji",
+  "stage": 86,
+  "stageName": "Shido-ji",
   "coords": [
-    134.14,
-    34.36
+    134.18,
+    34.324
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-07-22"
+  "lastAdvancedAt": "2026-07-23"
 }
