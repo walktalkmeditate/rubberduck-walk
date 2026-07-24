@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 86,
-  "stageName": "Shido-ji",
+  "stage": 87,
+  "stageName": "Nagao-ji",
   "coords": [
-    134.18,
-    34.324
+    134.172,
+    34.267
   ],
   "mode": "walking",
   "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-07-23"
+  "lastAdvancedAt": "2026-07-24"
 }

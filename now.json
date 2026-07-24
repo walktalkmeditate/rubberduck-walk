@@ -1,31 +1,31 @@
 {
-  "updatedAt": "2026-07-23T12:04:31Z",
+  "updatedAt": "2026-07-24T12:52:39Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 86,
-    "stageName": "Shido-ji",
+    "stage": 87,
+    "stageName": "Nagao-ji",
     "duckMode": "walking"
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "sanding a drawer that swells shut every july. the wood wins this week. the plane stays sharp regardless."
+      "kind": "feeling",
+      "text": "overcast held all morning. not rain, not clearing. the sky filed for an extension and nobody argued."
     },
     {
       "kind": "walk",
-      "text": "duck reached shido-ji, eighty-six of eighty-eight, two temples from the end. carried a line about patience and left it at the gate. ⚇"
+      "text": "duck reached nagao-ji, eighty-seven of eighty-eight, one temple from the end. a camphor leaf fell. the cloud stayed put. ☁️"
     },
     {
-      "kind": "feeling",
-      "text": "thirty degrees before noon. the heat unpacked early and acted like it owned the room."
+      "kind": "doing",
+      "text": "swapping summer strings on a guitar that only gets played when the house is empty. the house is empty."
     },
     {
       "kind": "noticing",
-      "text": "a cat slept across the doorway and waited to be stepped over. it was."
+      "text": "the neighbor's wind chime rang once at noon with no wind around to take the blame."
     },
     {
       "kind": "wisdom",
-      "text": "the drawer that won't open still holds what went into it."
+      "text": "today's profits are tomorrow's debts, someone wrote once. the ledger doesn't care who reads it back."
     }
   ]
 }
