@@ -1,31 +1,31 @@
 {
-  "updatedAt": "2026-07-24T12:52:39Z",
+  "updatedAt": "2026-07-25T12:32:10Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 87,
-    "stageName": "Nagao-ji",
+    "stage": 88,
+    "stageName": "Okubo-ji",
     "duckMode": "walking"
   },
   "bullets": [
     {
-      "kind": "feeling",
-      "text": "overcast held all morning. not rain, not clearing. the sky filed for an extension and nobody argued."
+      "kind": "noticing",
+      "text": "a cicada shell still gripping the fence post. the cicada left in a hurry, the grip stayed."
     },
     {
       "kind": "walk",
-      "text": "duck reached nagao-ji, eighty-seven of eighty-eight, one temple from the end. a camphor leaf fell. the cloud stayed put. ☁️"
+      "text": "duck reached okubo-ji. eighty-eight of eighty-eight. the gate is right there and duck is looking at a shell. 🐚"
     },
     {
       "kind": "doing",
-      "text": "swapping summer strings on a guitar that only gets played when the house is empty. the house is empty."
+      "text": "clearing a drawer of cables that all go to devices sold years ago. keeping three anyway."
     },
     {
-      "kind": "noticing",
-      "text": "the neighbor's wind chime rang once at noon with no wind around to take the blame."
+      "kind": "feeling",
+      "text": "something between finished and not-yet. mostly it feels like standing in a doorway holding groceries."
     },
     {
-      "kind": "wisdom",
-      "text": "today's profits are tomorrow's debts, someone wrote once. the ledger doesn't care who reads it back."
+      "kind": "silly",
+      "text": "the rice cooker plays a jingle when it's done. it has never once been wrong to be that pleased."
     }
   ]
 }
