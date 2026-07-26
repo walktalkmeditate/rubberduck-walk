@@ -1,31 +1,31 @@
 {
-  "updatedAt": "2026-07-25T12:32:10Z",
+  "updatedAt": "2026-07-26T12:07:32Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 88,
-    "stageName": "Okubo-ji",
-    "duckMode": "walking"
+    "stage": 1,
+    "stageName": "Tokushima port",
+    "duckMode": "completing"
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "a cicada shell still gripping the fence post. the cicada left in a hurry, the grip stayed."
+      "kind": "doing",
+      "text": "repacking a bag i already packed. same objects, different order, no reason i can name."
     },
     {
       "kind": "walk",
-      "text": "duck reached okubo-ji. eighty-eight of eighty-eight. the gate is right there and duck is looking at a shell. 🐚"
+      "text": "duck turned up at tokushima port. eighty-eight temples behind it, a ferry timetable ahead, nobody checking. 🕊️"
     },
     {
-      "kind": "doing",
-      "text": "clearing a drawer of cables that all go to devices sold years ago. keeping three anyway."
+      "kind": "noticing",
+      "text": "the vending machine got restocked overnight. someone did that at three in the morning and told no one."
     },
     {
       "kind": "feeling",
-      "text": "something between finished and not-yet. mostly it feels like standing in a doorway holding groceries."
+      "text": "overcast, thirty degrees. the kind of heat where standing still starts to feel like a decision."
     },
     {
-      "kind": "silly",
-      "text": "the rice cooker plays a jingle when it's done. it has never once been wrong to be that pleased."
+      "kind": "wisdom",
+      "text": "the ledger doesn't close on the day you want it to."
     }
   ]
 }

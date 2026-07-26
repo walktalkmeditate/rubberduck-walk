@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 88,
-  "stageName": "Okubo-ji",
+  "stage": 1,
+  "stageName": "Tokushima port",
   "coords": [
-    134.207,
-    34.191
+    134.555,
+    34.067
   ],
-  "mode": "walking",
-  "modeEnteredAt": "2026-04-22",
-  "lastAdvancedAt": "2026-07-25"
+  "mode": "completing",
+  "modeEnteredAt": "2026-07-26",
+  "lastAdvancedAt": "2026-07-26"
 }
