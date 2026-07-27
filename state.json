@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 1,
-  "stageName": "Tokushima port",
+  "stage": 2,
+  "stageName": "Wakayama",
   "coords": [
-    134.555,
-    34.067
+    135.17,
+    34.23
   ],
   "mode": "completing",
   "modeEnteredAt": "2026-07-26",
-  "lastAdvancedAt": "2026-07-26"
+  "lastAdvancedAt": "2026-07-27"
 }

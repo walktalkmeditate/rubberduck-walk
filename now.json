@@ -1,31 +1,31 @@
 {
-  "updatedAt": "2026-07-26T12:07:32Z",
+  "updatedAt": "2026-07-27T12:05:09Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 1,
-    "stageName": "Tokushima port",
+    "stage": 2,
+    "stageName": "Wakayama",
     "duckMode": "completing"
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "repacking a bag i already packed. same objects, different order, no reason i can name."
+      "kind": "noticing",
+      "text": "a painted line on the ferry deck that nobody was standing behind. everybody stood behind it anyway."
     },
     {
       "kind": "walk",
-      "text": "duck turned up at tokushima port. eighty-eight temples behind it, a ferry timetable ahead, nobody checking. 🕊️"
+      "text": "duck landed at wakayama. shikoku behind it now, the wake already closing where the boat had been. ⛩️"
     },
     {
-      "kind": "noticing",
-      "text": "the vending machine got restocked overnight. someone did that at three in the morning and told no one."
+      "kind": "doing",
+      "text": "still reading timetables for a crossing that already happened. the numbers are calmer after the fact."
     },
     {
       "kind": "feeling",
-      "text": "overcast, thirty degrees. the kind of heat where standing still starts to feel like a decision."
+      "text": "heat sitting on the back of the neck like a hand. not unfriendly, not leaving."
     },
     {
       "kind": "wisdom",
-      "text": "the ledger doesn't close on the day you want it to."
+      "text": "the current does the carrying. the arms just make it look like work."
     }
   ]
 }
