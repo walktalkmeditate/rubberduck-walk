@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 2,
-  "stageName": "Wakayama",
+  "stage": 3,
+  "stageName": "Hashimoto",
   "coords": [
-    135.17,
-    34.23
+    135.604,
+    34.312
   ],
   "mode": "completing",
   "modeEnteredAt": "2026-07-26",
-  "lastAdvancedAt": "2026-07-27"
+  "lastAdvancedAt": "2026-07-28"
 }

@@ -1,31 +1,31 @@
 {
-  "updatedAt": "2026-07-27T12:05:09Z",
+  "updatedAt": "2026-07-28T12:20:28Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 2,
-    "stageName": "Wakayama",
+    "stage": 3,
+    "stageName": "Hashimoto",
     "duckMode": "completing"
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "a painted line on the ferry deck that nobody was standing behind. everybody stood behind it anyway."
+      "kind": "doing",
+      "text": "sorting a bag that got rained on. everything is fine, everything is slightly heavier."
     },
     {
       "kind": "walk",
-      "text": "duck landed at wakayama. shikoku behind it now, the wake already closing where the boat had been. ⛩️"
+      "text": "duck at hashimoto. rain on the river, cedars leaning uphill like they already know where this ends. 🌧️"
     },
     {
-      "kind": "doing",
-      "text": "still reading timetables for a crossing that already happened. the numbers are calmer after the fact."
+      "kind": "noticing",
+      "text": "a vending machine under an awning selling hot coffee in july. the slot was warm. somebody had bought one."
     },
     {
       "kind": "feeling",
-      "text": "heat sitting on the back of the neck like a hand. not unfriendly, not leaving."
+      "text": "damp all the way through. not cold. wet long enough that it stops being an event."
     },
     {
       "kind": "wisdom",
-      "text": "the current does the carrying. the arms just make it look like work."
+      "text": "the river does not get wetter. the rain keeps arriving anyway."
     }
   ]
 }
