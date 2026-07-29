@@ -1,12 +1,12 @@
 {
   "route": "shikoku-88",
-  "stage": 3,
-  "stageName": "Hashimoto",
+  "stage": 4,
+  "stageName": "Kōya-san Okunoin",
   "coords": [
-    135.604,
-    34.312
+    135.589,
+    34.2167
   ],
-  "mode": "completing",
-  "modeEnteredAt": "2026-07-26",
-  "lastAdvancedAt": "2026-07-28"
+  "mode": "resting",
+  "modeEnteredAt": "2026-07-29",
+  "lastAdvancedAt": "2026-07-29"
 }

@@ -1,31 +1,31 @@
 {
-  "updatedAt": "2026-07-28T12:20:28Z",
+  "updatedAt": "2026-07-29T12:50:11Z",
   "context": {
     "route": "shikoku-88",
-    "stage": 3,
-    "stageName": "Hashimoto",
-    "duckMode": "completing"
+    "stage": 4,
+    "stageName": "Kōya-san Okunoin",
+    "duckMode": "resting"
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "sorting a bag that got rained on. everything is fine, everything is slightly heavier."
+      "kind": "noticing",
+      "text": "twenty-two degrees after a week of thirty. the mountain runs its own weather and doesn't announce it."
     },
     {
       "kind": "walk",
-      "text": "duck at hashimoto. rain on the river, cedars leaning uphill like they already know where this ends. 🌧️"
+      "text": "duck reached kōya-san okunoin. cedars in rows, a lamp burning in daylight, nobody around to relight it. 🕯️"
     },
     {
-      "kind": "noticing",
-      "text": "a vending machine under an awning selling hot coffee in july. the slot was warm. somebody had bought one."
+      "kind": "doing",
+      "text": "closed the tab with the route file that's been open since april. left it unsaved out of superstition."
     },
     {
       "kind": "feeling",
-      "text": "damp all the way through. not cold. wet long enough that it stops being an event."
+      "text": "the flat feeling after a long thing ends. not sad. just nothing pulling forward for the first time in months."
     },
     {
       "kind": "wisdom",
-      "text": "the river does not get wetter. the rain keeps arriving anyway."
+      "text": "arriving is mostly the same shoes."
     }
   ]
 }
