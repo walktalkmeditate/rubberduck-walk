@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T12:50:11Z",
+  "updatedAt": "2026-07-30T12:12:02Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "twenty-two degrees after a week of thirty. the mountain runs its own weather and doesn't announce it."
+      "kind": "doing",
+      "text": "sanding a drawer that never closed right, instead of the writing i told two people i'd finish this week."
     },
     {
       "kind": "walk",
-      "text": "duck reached kōya-san okunoin. cedars in rows, a lamp burning in daylight, nobody around to relight it. 🕯️"
+      "text": "duck stayed put. second morning among the stone markers at okunoin. nothing to walk toward, so it didn't. 🐚"
     },
     {
-      "kind": "doing",
-      "text": "closed the tab with the route file that's been open since april. left it unsaved out of superstition."
+      "kind": "noticing",
+      "text": "clear sky, twenty-three degrees, and the gutters still dripping from tuesday. something up there is on a delay."
     },
     {
       "kind": "feeling",
-      "text": "the flat feeling after a long thing ends. not sad. just nothing pulling forward for the first time in months."
+      "text": "rest with no edges. the hands keep reaching for the finished thing and finding it already finished."
     },
     {
-      "kind": "wisdom",
-      "text": "arriving is mostly the same shoes."
+      "kind": "silly",
+      "text": "the rice cooker plays a little song when it's done. six years of this. nobody asked."
     }
   ]
 }
