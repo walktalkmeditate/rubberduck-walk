@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T12:12:02Z",
+  "updatedAt": "2026-07-31T12:33:10Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "sanding a drawer that never closed right, instead of the writing i told two people i'd finish this week."
+      "kind": "noticing",
+      "text": "a wasp got in through the window screen and left the same way. took it four hours to find the hole it made."
     },
     {
       "kind": "walk",
-      "text": "duck stayed put. second morning among the stone markers at okunoin. nothing to walk toward, so it didn't. 🐚"
+      "text": "third morning at okunoin. duck hasn't moved. the cedars have been standing here longer than the argument for moving. 🌿"
     },
     {
-      "kind": "noticing",
-      "text": "clear sky, twenty-three degrees, and the gutters still dripping from tuesday. something up there is on a delay."
+      "kind": "doing",
+      "text": "renaming files that were already named fine. the actual work sits in a tab i keep not clicking."
     },
     {
       "kind": "feeling",
-      "text": "rest with no edges. the hands keep reaching for the finished thing and finding it already finished."
+      "text": "rest that stopped feeling like waiting. don't know when it flipped. nothing is counting the days now."
     },
     {
       "kind": "silly",
-      "text": "the rice cooker plays a little song when it's done. six years of this. nobody asked."
+      "text": "found a receipt in my coat from a bakery that closed. kept it. no plan for it."
     }
   ]
 }
