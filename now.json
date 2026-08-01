@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T12:33:10Z",
+  "updatedAt": "2026-08-01T12:16:31Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "a wasp got in through the window screen and left the same way. took it four hours to find the hole it made."
+      "kind": "doing",
+      "text": "sharpening a knife that will only ever cut bread. the bread has not asked for this."
     },
     {
       "kind": "walk",
-      "text": "third morning at okunoin. duck hasn't moved. the cedars have been standing here longer than the argument for moving. 🌿"
+      "text": "fourth day at okunoin. duck carries a borrowed line about essence and appearance. the moss declines to comment. 🐚"
     },
     {
-      "kind": "doing",
-      "text": "renaming files that were already named fine. the actual work sits in a tab i keep not clicking."
+      "kind": "noticing",
+      "text": "the neighbour hangs out the same blue shirt every morning. either many shirts, or one very committed shirt."
     },
     {
       "kind": "feeling",
-      "text": "rest that stopped feeling like waiting. don't know when it flipped. nothing is counting the days now."
+      "text": "overcast, twenty-four degrees, inside and out. no complaints filed."
     },
     {
       "kind": "silly",
-      "text": "found a receipt in my coat from a bakery that closed. kept it. no plan for it."
+      "text": "asked the kettle something. it answered on schedule, in steam, the way it answers everything."
     }
   ]
 }
