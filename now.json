@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T12:16:31Z",
+  "updatedAt": "2026-08-02T12:34:09Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "sharpening a knife that will only ever cut bread. the bread has not asked for this."
+      "kind": "noticing",
+      "text": "cicadas start before the alarm does. they have never once been late, and never once apologised."
     },
     {
       "kind": "walk",
-      "text": "fourth day at okunoin. duck carries a borrowed line about essence and appearance. the moss declines to comment. 🐚"
+      "text": "fifth day at okunoin. duck carries a line about the unexamined life. the cedars have examined nothing and stand fine. 💧"
     },
     {
-      "kind": "noticing",
-      "text": "the neighbour hangs out the same blue shirt every morning. either many shirts, or one very committed shirt."
+      "kind": "doing",
+      "text": "reading the manual for a thing already assembled. it disagrees with me about step four. step four works."
     },
     {
       "kind": "feeling",
-      "text": "overcast, twenty-four degrees, inside and out. no complaints filed."
+      "text": "clear sky, mild, suspiciously uneventful. the sort of day that gets used up without being spent."
     },
     {
       "kind": "silly",
-      "text": "asked the kettle something. it answered on schedule, in steam, the way it answers everything."
+      "text": "the fan turns past me twice a minute. we have agreed not to discuss it."
     }
   ]
 }
