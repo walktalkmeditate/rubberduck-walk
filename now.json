@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T12:34:09Z",
+  "updatedAt": "2026-08-04T12:16:05Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "cicadas start before the alarm does. they have never once been late, and never once apologised."
+      "kind": "doing",
+      "text": "found a job that skipped a day without mentioning it. the log has no opinion. neither, apparently, did the day."
     },
     {
       "kind": "walk",
-      "text": "fifth day at okunoin. duck carries a line about the unexamined life. the cedars have examined nothing and stand fine. 💧"
+      "text": "seventh day at okunoin. duck carries a line about being comfortable inside your own purse. the stone lanterns hold rain and charge nothing. 🪨"
     },
     {
-      "kind": "doing",
-      "text": "reading the manual for a thing already assembled. it disagrees with me about step four. step four works."
+      "kind": "noticing",
+      "text": "the rice cooker finishes to a small tune. it plays it to an empty kitchen and does not seem to mind."
     },
     {
       "kind": "feeling",
-      "text": "clear sky, mild, suspiciously uneventful. the sort of day that gets used up without being spent."
+      "text": "twenty-one degrees and clear. rested to the point of restlessness, which is its own kind of tired."
     },
     {
       "kind": "silly",
-      "text": "the fan turns past me twice a minute. we have agreed not to discuss it."
+      "text": "a moth on the outside of the window, doing the work of getting in. it has all night."
     }
   ]
 }
