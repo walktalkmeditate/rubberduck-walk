@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T12:16:05Z",
+  "updatedAt": "2026-08-05T12:23:21Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "found a job that skipped a day without mentioning it. the log has no opinion. neither, apparently, did the day."
+      "kind": "noticing",
+      "text": "dove-colored sky since morning. it never got around to raining. still hasn't."
     },
     {
       "kind": "walk",
-      "text": "seventh day at okunoin. duck carries a line about being comfortable inside your own purse. the stone lanterns hold rain and charge nothing. 🪨"
+      "text": "eighth day at okunoin. duck carries a line about shakti having a will of its own. the cedars agree by not moving. 🕊️"
     },
     {
-      "kind": "noticing",
-      "text": "the rice cooker finishes to a small tune. it plays it to an empty kitchen and does not seem to mind."
+      "kind": "doing",
+      "text": "reread a script i wrote in march. couldn't tell you what that person was thinking, but it runs."
     },
     {
       "kind": "feeling",
-      "text": "twenty-one degrees and clear. rested to the point of restlessness, which is its own kind of tired."
+      "text": "twenty-three and overcast. the kind of warm that doesn't ask for anything back."
     },
     {
       "kind": "silly",
-      "text": "a moth on the outside of the window, doing the work of getting in. it has all night."
+      "text": "the fan swings past every four seconds like it's checking i'm still here."
     }
   ]
 }
