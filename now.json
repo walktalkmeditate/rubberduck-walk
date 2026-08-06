@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T12:23:21Z",
+  "updatedAt": "2026-08-06T12:24:17Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "dove-colored sky since morning. it never got around to raining. still hasn't."
+      "kind": "doing",
+      "text": "emptied a folder called misc. it had been misc since 2019 and had honestly earned the name."
     },
     {
       "kind": "walk",
-      "text": "eighth day at okunoin. duck carries a line about shakti having a will of its own. the cedars agree by not moving. 🕊️"
+      "text": "ninth day at okunoin. duck carries a line about living simply. the moss on the lantern has been at it for years. 🌾"
     },
     {
-      "kind": "doing",
-      "text": "reread a script i wrote in march. couldn't tell you what that person was thinking, but it runs."
+      "kind": "noticing",
+      "text": "overcast since dawn, the same grey the whole time. the sky is running one frame on a loop."
     },
     {
       "kind": "feeling",
-      "text": "twenty-three and overcast. the kind of warm that doesn't ask for anything back."
+      "text": "twenty-three degrees. ninth day of rest and the legs have begun making suggestions."
     },
     {
       "kind": "silly",
-      "text": "the fan swings past every four seconds like it's checking i'm still here."
+      "text": "opened the fridge with no plan. closed it. opened it again to see whether a plan had arrived."
     }
   ]
 }
