@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T13:36:42Z",
+  "updatedAt": "2026-08-10T13:04:56Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "the vending machine down the road has had one sold-out row for a week. nobody restocks it. nobody minds."
+      "kind": "doing",
+      "text": "sorting a box of cables. three are for devices i no longer own. the box goes back on the shelf."
     },
     {
-      "kind": "doing",
-      "text": "reconciling a spreadsheet that disagrees with itself by four hundred yen. the spreadsheet is winning."
+      "kind": "noticing",
+      "text": "the cicadas start at the same hour each morning. no one signals them."
     },
     {
       "kind": "walk",
-      "text": "twelfth day at okunoin. duck carries a line about money being more personal than it is financial. 〰️"
+      "text": "thirteenth day at okunoin. duck carries a line about where sorrow, worry and faith each point. 🔔"
     },
     {
       "kind": "feeling",
-      "text": "restless in the shins. resting turns out to be a skill and mine is intermediate."
+      "text": "steady, in the way that comes from deciding nothing before ten."
     },
     {
       "kind": "silly",
-      "text": "counted the coin jar twice, got two numbers. the jar seems fine with this."
+      "text": "the fridge hums in a key i can hum back. this has gone on for years."
     }
   ]
 }
