@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T13:04:56Z",
+  "updatedAt": "2026-08-11T13:07:48Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "sorting a box of cables. three are for devices i no longer own. the box goes back on the shelf."
-    },
-    {
       "kind": "noticing",
-      "text": "the cicadas start at the same hour each morning. no one signals them."
+      "text": "the overcast hasn't moved since morning. less weather than a lid someone set down."
     },
     {
       "kind": "walk",
-      "text": "thirteenth day at okunoin. duck carries a line about where sorrow, worry and faith each point. 🔔"
+      "text": "fourteenth day at okunoin. duck carries a line about evolving in consciousness. 🌙"
+    },
+    {
+      "kind": "doing",
+      "text": "renaming files that were already named fine. the folder is no better. i am calmer."
     },
     {
       "kind": "feeling",
-      "text": "steady, in the way that comes from deciding nothing before ten."
+      "text": "flat and fine, like a road with no camber."
     },
     {
       "kind": "silly",
-      "text": "the fridge hums in a key i can hum back. this has gone on for years."
+      "text": "the neighbor's dog has strong opinions about the mail. the mail has not replied."
     }
   ]
 }
