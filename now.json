@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T13:30:52Z",
+  "updatedAt": "2026-08-13T13:04:02Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
+      "kind": "noticing",
+      "text": "cloud sat on the whole day and never once committed to rain."
+    },
+    {
       "kind": "doing",
-      "text": "running the same build three times to see if it changes its mind. it does not. that is the whole feature."
+      "text": "clearing a folder of half-finished things. two of them turned out to be the same thing."
     },
     {
       "kind": "walk",
-      "text": "fifteenth day at okunoin. duck carries a line about consistency, and how easily it breaks. ∞"
-    },
-    {
-      "kind": "noticing",
-      "text": "rain came and went before i looked up. the pavement kept the receipt."
+      "text": "sixteenth day at okunoin. duck carries a line about being rich in kind. ◯"
     },
     {
       "kind": "feeling",
-      "text": "steady, which is a duller word than it has earned."
+      "text": "fine, the way a room is fine once somebody opens a window."
     },
     {
       "kind": "silly",
-      "text": "the kettle and the fridge are humming in different keys. neither one is backing down."
+      "text": "the neighbour's wind chime only works when nobody is listening. checked twice."
     }
   ]
 }
