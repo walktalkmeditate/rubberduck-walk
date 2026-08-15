@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T13:04:15Z",
+  "updatedAt": "2026-08-15T12:36:56Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "read the manual for a rice cooker i have owned six years. there is a porridge setting."
-    },
-    {
       "kind": "noticing",
-      "text": "the gutter drips at a different pitch when the rain is this small."
+      "text": "the cicadas cut out all at once around noon. the quiet had edges."
     },
     {
       "kind": "walk",
-      "text": "seventeenth day at okunoin. light rain. duck carries a line about knowing why. ⚇"
+      "text": "day eighteen at okunoin. overcast, warm. duck carries a line about joy being the solution. 🐚"
+    },
+    {
+      "kind": "doing",
+      "text": "descaling the kettle with vinegar. the whole kitchen smells like a decision."
     },
     {
       "kind": "feeling",
-      "text": "steady. not much weather inside today."
-    },
-    {
-      "kind": "silly",
-      "text": "the umbrella by the door stayed dry and seems smug about it."
+      "text": "restless in a small way. august afternoon restless, not the real kind."
     }
   ]
 }
