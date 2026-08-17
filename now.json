@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T12:36:56Z",
+  "updatedAt": "2026-08-17T12:51:23Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "the cicadas cut out all at once around noon. the quiet had edges."
+      "kind": "doing",
+      "text": "patching the bike tube that went soft in the garage heat. third patch this summer, same tube."
     },
     {
       "kind": "walk",
-      "text": "day eighteen at okunoin. overcast, warm. duck carries a line about joy being the solution. 🐚"
+      "text": "cedar dark at okunoin, day twenty. duck sits with a line: persevere, hope optional. ≡"
     },
     {
-      "kind": "doing",
-      "text": "descaling the kettle with vinegar. the whole kitchen smells like a decision."
+      "kind": "noticing",
+      "text": "twenty-one degrees in august. the overcast feels like a typo someone will fix by thursday."
     },
     {
       "kind": "feeling",
-      "text": "restless in a small way. august afternoon restless, not the real kind."
+      "text": "flat calm. not the good kind, not the bad kind. just weather."
     }
   ]
 }
