@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T12:51:23Z",
+  "updatedAt": "2026-08-18T12:24:42Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "patching the bike tube that went soft in the garage heat. third patch this summer, same tube."
+      "kind": "noticing",
+      "text": "the neighbor's laundry has hung on the line four days. no rain, no hurry."
     },
     {
       "kind": "walk",
-      "text": "cedar dark at okunoin, day twenty. duck sits with a line: persevere, hope optional. ≡"
+      "text": "day twenty-one at okunoin. duck holds a line about going first, and goes nowhere. 〰️"
     },
     {
-      "kind": "noticing",
-      "text": "twenty-one degrees in august. the overcast feels like a typo someone will fix by thursday."
+      "kind": "doing",
+      "text": "sharpening the kitchen knife at the wrong angle for ten minutes. the stone said nothing."
     },
     {
       "kind": "feeling",
-      "text": "flat calm. not the good kind, not the bad kind. just weather."
+      "text": "restless in a small way. the kind that reorganizes a drawer instead of a life."
+    },
+    {
+      "kind": "silly",
+      "text": "the rice cooker plays a little song when it finishes. i have started waiting for it."
     }
   ]
 }
