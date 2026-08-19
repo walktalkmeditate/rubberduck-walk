@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T12:24:42Z",
+  "updatedAt": "2026-08-19T12:38:48Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "the neighbor's laundry has hung on the line four days. no rain, no hurry."
+      "kind": "doing",
+      "text": "patching a bike tube in the wrong order, twice. the wrench had no opinion either time."
     },
     {
       "kind": "walk",
-      "text": "day twenty-one at okunoin. duck holds a line about going first, and goes nowhere. 〰️"
+      "text": "day twenty-two at okunoin. duck carries a line about being still, and demonstrates it by not moving. 🐚"
     },
     {
-      "kind": "doing",
-      "text": "sharpening the kitchen knife at the wrong angle for ten minutes. the stone said nothing."
+      "kind": "noticing",
+      "text": "the cicadas stopped at four in the afternoon, all at once, like someone unplugged them."
     },
     {
       "kind": "feeling",
-      "text": "restless in a small way. the kind that reorganizes a drawer instead of a life."
+      "text": "steady in a boring way. nothing to report, which is the report."
     },
     {
-      "kind": "silly",
-      "text": "the rice cooker plays a little song when it finishes. i have started waiting for it."
+      "kind": "wisdom",
+      "text": "the stone is not waiting. that's the whole trick."
     }
   ]
 }
