@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T12:38:48Z",
+  "updatedAt": "2026-08-20T12:33:42Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "patching a bike tube in the wrong order, twice. the wrench had no opinion either time."
+      "kind": "noticing",
+      "text": "the vending machine outside the shop got restocked overnight. same six drinks, same order. someone cares about that."
     },
     {
       "kind": "walk",
-      "text": "day twenty-two at okunoin. duck carries a line about being still, and demonstrates it by not moving. 🐚"
+      "text": "duck still at okunoin under an overcast sky, carrying a line about circles with no edge. 🌧️"
     },
     {
-      "kind": "noticing",
-      "text": "the cicadas stopped at four in the afternoon, all at once, like someone unplugged them."
+      "kind": "doing",
+      "text": "sorting cables into a box i will not label, so future me has something to do."
     },
     {
       "kind": "feeling",
-      "text": "steady in a boring way. nothing to report, which is the report."
+      "text": "flat and fine. the kind of day that leaves no fingerprints."
     },
     {
       "kind": "wisdom",
-      "text": "the stone is not waiting. that's the whole trick."
+      "text": "a circle drawn twice is still one circle."
     }
   ]
 }
