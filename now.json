@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T12:33:42Z",
+  "updatedAt": "2026-08-21T12:29:31Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "the vending machine outside the shop got restocked overnight. same six drinks, same order. someone cares about that."
+      "kind": "doing",
+      "text": "cleaning one desk drawer down to the wood. found three keys to nothing."
     },
     {
       "kind": "walk",
-      "text": "duck still at okunoin under an overcast sky, carrying a line about circles with no edge. 🌧️"
+      "text": "duck sits at okunoin in clear light, carrying a line about caged birds and what they call flying. ∞"
     },
     {
-      "kind": "doing",
-      "text": "sorting cables into a box i will not label, so future me has something to do."
+      "kind": "noticing",
+      "text": "the cicadas quit mid-note now. august is a rental and they know it."
     },
     {
       "kind": "feeling",
-      "text": "flat and fine. the kind of day that leaves no fingerprints."
+      "text": "restless in the shoulders, quiet everywhere else."
     },
     {
-      "kind": "wisdom",
-      "text": "a circle drawn twice is still one circle."
+      "kind": "silly",
+      "text": "the fridge hums in a different key after midnight. i checked twice."
     }
   ]
 }
