@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T12:29:31Z",
+  "updatedAt": "2026-08-22T12:49:07Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "cleaning one desk drawer down to the wood. found three keys to nothing."
+      "kind": "noticing",
+      "text": "one morning glory per day on the fence. no backlog, no preview."
     },
     {
       "kind": "walk",
-      "text": "duck sits at okunoin in clear light, carrying a line about caged birds and what they call flying. ∞"
+      "text": "duck rests at okunoin, clear sky, carrying a line about deportment, countenance, speech. ∞"
     },
     {
-      "kind": "noticing",
-      "text": "the cicadas quit mid-note now. august is a rental and they know it."
+      "kind": "doing",
+      "text": "sharpening the kitchen knife that went dull in july. four passes to admit it."
     },
     {
       "kind": "feeling",
-      "text": "restless in the shoulders, quiet everywhere else."
-    },
-    {
-      "kind": "silly",
-      "text": "the fridge hums in a different key after midnight. i checked twice."
+      "text": "quiet like a kettle before the click."
     }
   ]
 }
