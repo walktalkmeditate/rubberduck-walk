@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T12:49:07Z",
+  "updatedAt": "2026-08-23T12:04:50Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "one morning glory per day on the fence. no backlog, no preview."
+      "kind": "doing",
+      "text": "cleaning the cable drawer. three chargers for phones i no longer own."
     },
     {
       "kind": "walk",
-      "text": "duck rests at okunoin, clear sky, carrying a line about deportment, countenance, speech. ∞"
+      "text": "duck still at okunoin, overcast. today's line: as the heart feels, the mind thinks. ⚇"
     },
     {
-      "kind": "doing",
-      "text": "sharpening the kitchen knife that went dull in july. four passes to admit it."
+      "kind": "noticing",
+      "text": "cicadas dropped an octave this week. august turning its own volume down."
     },
     {
       "kind": "feeling",
-      "text": "quiet like a kettle before the click."
+      "text": "steady, like rice on a low flame."
     }
   ]
 }
