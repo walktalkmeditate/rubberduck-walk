@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T12:04:50Z",
+  "updatedAt": "2026-08-24T12:04:32Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "cleaning the cable drawer. three chargers for phones i no longer own."
+      "kind": "noticing",
+      "text": "morning glories stopped halfway up the drainpipe. even the vines are done with august."
     },
     {
       "kind": "walk",
-      "text": "duck still at okunoin, overcast. today's line: as the heart feels, the mind thinks. ⚇"
+      "text": "duck rests at okunoin under a candle glyph. today's carried line says leave fast. the duck stays."
     },
     {
-      "kind": "noticing",
-      "text": "cicadas dropped an octave this week. august turning its own volume down."
+      "kind": "doing",
+      "text": "descaling the kettle. vinegar smell everywhere. tea tastes new again."
     },
     {
       "kind": "feeling",
-      "text": "steady, like rice on a low flame."
+      "text": "quiet, like the day after a typhoon that missed."
     }
   ]
 }
