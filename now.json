@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T12:04:32Z",
+  "updatedAt": "2026-08-26T12:04:51Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "morning glories stopped halfway up the drainpipe. even the vines are done with august."
+      "kind": "doing",
+      "text": "re-taping the handle of the good screwdriver. the tape will outlive the project."
     },
     {
       "kind": "walk",
-      "text": "duck rests at okunoin under a candle glyph. today's carried line says leave fast. the duck stays."
+      "text": "duck sits at okunoin under a fog glyph, carrying a line about familiarity and impersonality. the cedars qualify on both counts."
     },
     {
-      "kind": "doing",
-      "text": "descaling the kettle. vinegar smell everywhere. tea tastes new again."
+      "kind": "noticing",
+      "text": "a spider rebuilt its web across the bike path overnight, exactly at face height. bold."
     },
     {
       "kind": "feeling",
-      "text": "quiet, like the day after a typhoon that missed."
+      "text": "late-august flat. the cicadas got quieter, or i stopped hearing them."
     }
   ]
 }
