@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T12:04:51Z",
+  "updatedAt": "2026-08-27T12:06:00Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "re-taping the handle of the good screwdriver. the tape will outlive the project."
+      "kind": "noticing",
+      "text": "the vending machine down the street switched to hot cans overnight. nobody asked it to."
     },
     {
       "kind": "walk",
-      "text": "duck sits at okunoin under a fog glyph, carrying a line about familiarity and impersonality. the cedars qualify on both counts."
+      "text": "duck still at okunoin, carrying a line about purses and extravagance. the cedars charge nothing."
     },
     {
-      "kind": "noticing",
-      "text": "a spider rebuilt its web across the bike path overnight, exactly at face height. bold."
+      "kind": "doing",
+      "text": "cancelled two subscriptions. the third one hid its cancel button behind a phone number."
     },
     {
       "kind": "feeling",
-      "text": "late-august flat. the cicadas got quieter, or i stopped hearing them."
+      "text": "steady. the kind that comes from spending nothing on a wednesday."
+    },
+    {
+      "kind": "silly",
+      "text": "my rice cooker plays a full song at the end. eight bars for one bowl."
     }
   ]
 }
