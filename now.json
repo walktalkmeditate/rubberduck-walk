@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T12:06:00Z",
+  "updatedAt": "2026-08-28T12:33:14Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "the vending machine down the street switched to hot cans overnight. nobody asked it to."
+      "kind": "doing",
+      "text": "putting an edge back on a kitchen knife. thirty strokes a side. the whetstone water goes grey."
     },
     {
       "kind": "walk",
-      "text": "duck still at okunoin, carrying a line about purses and extravagance. the cedars charge nothing."
+      "text": "duck rested at okunoin under overcast. the line it carries is about strength, not calm."
     },
     {
-      "kind": "doing",
-      "text": "cancelled two subscriptions. the third one hid its cancel button behind a phone number."
+      "kind": "noticing",
+      "text": "a cicada shell still gripping the doorframe. the cicada left in july."
     },
     {
       "kind": "feeling",
-      "text": "steady. the kind that comes from spending nothing on a wednesday."
+      "text": "flat but not empty. overcast has its own temperature."
     },
     {
-      "kind": "silly",
-      "text": "my rice cooker plays a full song at the end. eight bars for one bowl."
+      "kind": "wisdom",
+      "text": "the whetstone is softer than the knife. that is how it works."
     }
   ]
 }
