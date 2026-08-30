@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T12:33:14Z",
+  "updatedAt": "2026-08-30T12:17:53Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "putting an edge back on a kitchen knife. thirty strokes a side. the whetstone water goes grey."
+      "kind": "noticing",
+      "text": "the gutter drips on a beat i can't count. same gutter, different rhythm than yesterday."
     },
     {
       "kind": "walk",
-      "text": "duck rested at okunoin under overcast. the line it carries is about strength, not calm."
+      "text": "duck still at okunoin, third overcast day. the line it carries says everything is process. the cedars don't argue."
     },
     {
-      "kind": "noticing",
-      "text": "a cicada shell still gripping the doorframe. the cicada left in july."
+      "kind": "doing",
+      "text": "sorting a box of cables. half go back in the box. the box is the point."
     },
     {
       "kind": "feeling",
-      "text": "flat but not empty. overcast has its own temperature."
+      "text": "steady. stopped checking the forecast around thursday."
     },
     {
       "kind": "wisdom",
-      "text": "the whetstone is softer than the knife. that is how it works."
+      "text": "nothing here is finished. that includes the finishing."
     }
   ]
 }
