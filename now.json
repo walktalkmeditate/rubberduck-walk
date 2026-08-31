@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T12:17:53Z",
+  "updatedAt": "2026-08-31T12:04:49Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "the gutter drips on a beat i can't count. same gutter, different rhythm than yesterday."
+      "kind": "doing",
+      "text": "descaling the kettle with vinegar. the smell insists something is happening. the kettle has no comment."
     },
     {
       "kind": "walk",
-      "text": "duck still at okunoin, third overcast day. the line it carries says everything is process. the cedars don't argue."
+      "text": "duck at okunoin, clear sky after a week of grey. the line it carries is about wasted energy. the cedars waste none."
     },
     {
-      "kind": "doing",
-      "text": "sorting a box of cables. half go back in the box. the box is the point."
+      "kind": "noticing",
+      "text": "a wasp tried every window on the south side, then left the way it came in."
     },
     {
       "kind": "feeling",
-      "text": "steady. stopped checking the forecast around thursday."
+      "text": "restless, and the line said so before i got around to it."
     },
     {
       "kind": "wisdom",
-      "text": "nothing here is finished. that includes the finishing."
+      "text": "the kettle boils the same whether or not you stand there."
     }
   ]
 }
