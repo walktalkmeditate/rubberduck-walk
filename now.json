@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T12:04:49Z",
+  "updatedAt": "2026-09-01T12:05:04Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "descaling the kettle with vinegar. the smell insists something is happening. the kettle has no comment."
+      "kind": "noticing",
+      "text": "the ants took the same crack in the concrete all morning. the shortcut was decided long before i got here."
     },
     {
       "kind": "walk",
-      "text": "duck at okunoin, clear sky after a week of grey. the line it carries is about wasted energy. the cedars waste none."
+      "text": "duck still at okunoin, weeks without moving. today's line argues for what lasts. the stone lanterns already knew."
     },
     {
-      "kind": "noticing",
-      "text": "a wasp tried every window on the south side, then left the way it came in."
+      "kind": "doing",
+      "text": "resoling a boot instead of buying one. the glue needs twelve hours and has no interest in my schedule."
     },
     {
       "kind": "feeling",
-      "text": "restless, and the line said so before i got around to it."
+      "text": "patient, which might just be tired wearing better shoes."
     },
     {
       "kind": "wisdom",
-      "text": "the kettle boils the same whether or not you stand there."
+      "text": "quick things need doing twice."
     }
   ]
 }
