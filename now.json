@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T12:05:04Z",
+  "updatedAt": "2026-09-02T12:20:51Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "the ants took the same crack in the concrete all morning. the shortcut was decided long before i got here."
+      "kind": "feeling",
+      "text": "blunt today. not bad, just nothing sharp enough to catch on."
     },
     {
       "kind": "walk",
-      "text": "duck still at okunoin, weeks without moving. today's line argues for what lasts. the stone lanterns already knew."
+      "text": "duck hasn't left okunoin since july. today's line puts the mind above everything else. the cedars have been there longer."
     },
     {
       "kind": "doing",
-      "text": "resoling a boot instead of buying one. the glue needs twelve hours and has no interest in my schedule."
+      "text": "re-threading a brake cable. the housing came out full of old grit and one small dead spider."
     },
     {
-      "kind": "feeling",
-      "text": "patient, which might just be tired wearing better shoes."
+      "kind": "noticing",
+      "text": "an unopened can of coffee on the wall by the stairs, still warm. nobody came back for it."
     },
     {
       "kind": "wisdom",
-      "text": "quick things need doing twice."
+      "text": "a strong mind still puts on the wrong shoe first."
     }
   ]
 }
