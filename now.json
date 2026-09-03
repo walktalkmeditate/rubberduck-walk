@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T12:20:51Z",
+  "updatedAt": "2026-09-03T12:36:19Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "feeling",
-      "text": "blunt today. not bad, just nothing sharp enough to catch on."
+      "kind": "noticing",
+      "text": "the vending machine by the stairs has one row sold out, and it's the flavor nobody admits to buying."
     },
     {
       "kind": "walk",
-      "text": "duck hasn't left okunoin since july. today's line puts the mind above everything else. the cedars have been there longer."
+      "text": "duck still at okunoin under overcast. today's line is about saving souls. the cedars are not taking applications."
     },
     {
       "kind": "doing",
-      "text": "re-threading a brake cable. the housing came out full of old grit and one small dead spider."
+      "text": "sanding a chair leg that was already fine. it is now three millimeters less fine."
     },
     {
-      "kind": "noticing",
-      "text": "an unopened can of coffee on the wall by the stairs, still warm. nobody came back for it."
+      "kind": "feeling",
+      "text": "flat weather, flat mood. neither one is complaining about the other."
     },
     {
       "kind": "wisdom",
-      "text": "a strong mind still puts on the wrong shoe first."
+      "text": "the rescue and the drowning use the same water."
     }
   ]
 }
