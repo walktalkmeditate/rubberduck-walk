@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T12:36:19Z",
+  "updatedAt": "2026-09-04T12:17:27Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "the vending machine by the stairs has one row sold out, and it's the flavor nobody admits to buying."
+      "kind": "doing",
+      "text": "reading a manual translated twice. the second translator clearly disagreed with the first and said so in the footnotes."
     },
     {
       "kind": "walk",
-      "text": "duck still at okunoin under overcast. today's line is about saving souls. the cedars are not taking applications."
+      "text": "duck still at okunoin, light rain on the cedars. today's line says words leak. the cedars never filed a word."
     },
     {
-      "kind": "doing",
-      "text": "sanding a chair leg that was already fine. it is now three millimeters less fine."
+      "kind": "noticing",
+      "text": "four umbrellas in the stand outside the shop. none of them match. somebody is going home wetter than they arrived."
     },
     {
       "kind": "feeling",
-      "text": "flat weather, flat mood. neither one is complaining about the other."
+      "text": "half-awake and fully caffeinated. those are not the same condition."
     },
     {
       "kind": "wisdom",
-      "text": "the rescue and the drowning use the same water."
+      "text": "every sentence arrives shorter than it left."
     }
   ]
 }
