@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T12:17:27Z",
+  "updatedAt": "2026-09-05T12:05:01Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "reading a manual translated twice. the second translator clearly disagreed with the first and said so in the footnotes."
+      "kind": "noticing",
+      "text": "the moss on the north side of the lantern is a different green than the moss on the south side. nobody voted on this."
     },
     {
       "kind": "walk",
-      "text": "duck still at okunoin, light rain on the cedars. today's line says words leak. the cedars never filed a word."
+      "text": "duck at okunoin, overcast, no wind. today's line: a sick man, one wish. the stone lanterns have never wanted anything."
     },
     {
-      "kind": "noticing",
-      "text": "four umbrellas in the stand outside the shop. none of them match. somebody is going home wetter than they arrived."
+      "kind": "doing",
+      "text": "sharpening a pencil with a kitchen knife because the sharpener is in the other bag and the other bag is in the other room."
     },
     {
       "kind": "feeling",
-      "text": "half-awake and fully caffeinated. those are not the same condition."
+      "text": "the kind of tired where the chair does most of the sitting."
     },
     {
-      "kind": "wisdom",
-      "text": "every sentence arrives shorter than it left."
+      "kind": "silly",
+      "text": "the fridge hums in a key i can't name. it has been practicing."
     }
   ]
 }
