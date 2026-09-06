@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T12:05:01Z",
+  "updatedAt": "2026-09-06T07:16:00Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "the moss on the north side of the lantern is a different green than the moss on the south side. nobody voted on this."
+      "kind": "doing",
+      "text": "sorting a drawer of cables. three of them go nowhere. keeping all three."
     },
     {
       "kind": "walk",
-      "text": "duck at okunoin, overcast, no wind. today's line: a sick man, one wish. the stone lanterns have never wanted anything."
+      "text": "duck at okunoin in light rain. today's line: send with third-eye, receive with heart. the cedars took it as weather."
     },
     {
-      "kind": "doing",
-      "text": "sharpening a pencil with a kitchen knife because the sharpener is in the other bag and the other bag is in the other room."
+      "kind": "noticing",
+      "text": "rain finds the one gap in the roof tiles and uses it every time. never bothers looking for a second."
     },
     {
       "kind": "feeling",
-      "text": "the kind of tired where the chair does most of the sitting."
+      "text": "steady. the flat kind, not the good kind, but it holds."
     },
     {
-      "kind": "silly",
-      "text": "the fridge hums in a key i can't name. it has been practicing."
+      "kind": "wisdom",
+      "text": "the umbrella does not stop the rain. it changes whose problem it is."
     }
   ]
 }
