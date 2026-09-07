@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T07:16:00Z",
+  "updatedAt": "2026-09-07T12:13:41Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "sorting a drawer of cables. three of them go nowhere. keeping all three."
+      "kind": "noticing",
+      "text": "the bell rope is worn thin at one spot. nobody agreed on that spot. every hand found it anyway."
     },
     {
       "kind": "walk",
-      "text": "duck at okunoin in light rain. today's line: send with third-eye, receive with heart. the cedars took it as weather."
+      "text": "duck still resting at okunoin, light rain. today's line: wool, titanium, carbon fiber. the cedars are none of those."
     },
     {
-      "kind": "noticing",
-      "text": "rain finds the one gap in the roof tiles and uses it every time. never bothers looking for a second."
+      "kind": "doing",
+      "text": "reading spec sheets for a jacket i am not going to buy. the numbers are gorgeous and beside the point."
     },
     {
       "kind": "feeling",
-      "text": "steady. the flat kind, not the good kind, but it holds."
+      "text": "restless in the way that doesn't actually want anywhere to go."
     },
     {
       "kind": "wisdom",
-      "text": "the umbrella does not stop the rain. it changes whose problem it is."
+      "text": "wool got there first. it just never filed the patent."
     }
   ]
 }
