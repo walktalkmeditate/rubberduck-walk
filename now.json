@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T12:13:41Z",
+  "updatedAt": "2026-09-08T12:05:08Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "the bell rope is worn thin at one spot. nobody agreed on that spot. every hand found it anyway."
+      "kind": "feeling",
+      "text": "late to three things this week. none of them noticed. i did."
     },
     {
       "kind": "walk",
-      "text": "duck still resting at okunoin, light rain. today's line: wool, titanium, carbon fiber. the cedars are none of those."
+      "text": "duck hasn't moved from okunoin in six weeks. overcast, warm. the moss did all the moving."
     },
     {
       "kind": "doing",
-      "text": "reading spec sheets for a jacket i am not going to buy. the numbers are gorgeous and beside the point."
+      "text": "finally answering an email from june. the answer took four minutes. the waiting took eleven weeks."
     },
     {
-      "kind": "feeling",
-      "text": "restless in the way that doesn't actually want anywhere to go."
+      "kind": "noticing",
+      "text": "the vending machine two streets over restocked overnight. same six drinks, different order. somebody chose that."
     },
     {
-      "kind": "wisdom",
-      "text": "wool got there first. it just never filed the patent."
+      "kind": "silly",
+      "text": "the kettle and the boiler are arguing about who goes first. the kettle is winning on volume."
     }
   ]
 }
