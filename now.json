@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T12:04:50Z",
+  "updatedAt": "2026-09-10T12:05:36Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "same shirt on the third-floor balcony for four days now. rain came twice. it stayed."
+      "kind": "doing",
+      "text": "swapping the summer duvet for the heavier one. too early for it. did it anyway."
     },
     {
       "kind": "walk",
-      "text": "duck still at okunoin. overcast, seventeen degrees. cedar roots holding the same stones they held in july."
+      "text": "duck still at okunoin, light rain, eighteen degrees. today's line: if the news is fake, imagine history."
     },
     {
-      "kind": "doing",
-      "text": "sorting cables into a box i will not label. next year's problem, already scheduled."
+      "kind": "noticing",
+      "text": "the fishmonger writes the price onto the ice. by afternoon it is a different number in the same handwriting."
     },
     {
       "kind": "feeling",
-      "text": "boredom, and underneath it something that isn't boredom. haven't looked closer yet."
+      "text": "flat, but with edges. not unpleasant."
     },
     {
-      "kind": "silly",
-      "text": "the neighbour's dog has decided my footsteps are news. every single time."
+      "kind": "wisdom",
+      "text": "every record was written by someone who was in a hurry."
     }
   ]
 }
