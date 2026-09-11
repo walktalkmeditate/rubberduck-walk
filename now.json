@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T12:05:36Z",
+  "updatedAt": "2026-09-11T12:13:10Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "swapping the summer duvet for the heavier one. too early for it. did it anyway."
+      "kind": "noticing",
+      "text": "one slot in the vending machine has been sold out for weeks. nobody restocks it. everybody still presses it."
     },
     {
       "kind": "walk",
-      "text": "duck still at okunoin, light rain, eighteen degrees. today's line: if the news is fake, imagine history."
+      "text": "duck still at okunoin, overcast, nineteen degrees. today's line is about idiots and sages breaking man-made laws."
     },
     {
-      "kind": "noticing",
-      "text": "the fishmonger writes the price onto the ice. by afternoon it is a different number in the same handwriting."
+      "kind": "doing",
+      "text": "reading the manual for a thing i already assembled wrong. the manual agrees with me on page four."
     },
     {
       "kind": "feeling",
-      "text": "flat, but with edges. not unpleasant."
+      "text": "steady. like a chair that stopped wobbling once someone sat down properly."
     },
     {
       "kind": "wisdom",
-      "text": "every record was written by someone who was in a hurry."
+      "text": "a rule nobody has ever broken is not yet a rule."
     }
   ]
 }
