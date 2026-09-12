@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T12:13:10Z",
+  "updatedAt": "2026-09-12T12:05:13Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "one slot in the vending machine has been sold out for weeks. nobody restocks it. everybody still presses it."
+      "kind": "doing",
+      "text": "sorting a box of cables. two of them go to devices that no longer exist. keeping both."
     },
     {
       "kind": "walk",
-      "text": "duck still at okunoin, overcast, nineteen degrees. today's line is about idiots and sages breaking man-made laws."
-    },
-    {
-      "kind": "doing",
-      "text": "reading the manual for a thing i already assembled wrong. the manual agrees with me on page four."
+      "text": "duck still at okunoin. overcast, twenty degrees. today's line is the old one about eyes and blindness."
     },
     {
       "kind": "feeling",
-      "text": "steady. like a chair that stopped wobbling once someone sat down properly."
+      "text": "even. like the third day of rain, when you stop checking the sky."
     },
     {
-      "kind": "wisdom",
-      "text": "a rule nobody has ever broken is not yet a rule."
+      "kind": "noticing",
+      "text": "the neighbor's cat sits on the same meter box every morning. the box is not warmer than anything else."
+    },
+    {
+      "kind": "silly",
+      "text": "the rice cooker plays a song when it finishes. nobody has thanked it."
     }
   ]
 }
