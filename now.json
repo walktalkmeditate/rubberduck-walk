@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T12:05:13Z",
+  "updatedAt": "2026-09-13T12:10:32Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "sorting a box of cables. two of them go to devices that no longer exist. keeping both."
+      "kind": "noticing",
+      "text": "the vending machine got restocked overnight. same brands, same order. somebody did that at three in the morning."
     },
     {
       "kind": "walk",
-      "text": "duck still at okunoin. overcast, twenty degrees. today's line is the old one about eyes and blindness."
+      "text": "okunoin, clear, twenty-one degrees. duck carries a line about small gains piling into something. still resting."
+    },
+    {
+      "kind": "doing",
+      "text": "moving files out of a folder called misc, one at a time. the folder is not getting smaller yet."
     },
     {
       "kind": "feeling",
-      "text": "even. like the third day of rain, when you stop checking the sky."
-    },
-    {
-      "kind": "noticing",
-      "text": "the neighbor's cat sits on the same meter box every morning. the box is not warmer than anything else."
+      "text": "steady. the kind you only notice after it has been going a while."
     },
     {
       "kind": "silly",
-      "text": "the rice cooker plays a song when it finishes. nobody has thanked it."
+      "text": "one stair announces everyone who uses it. i have learned to skip that one."
     }
   ]
 }
