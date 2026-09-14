@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T12:10:32Z",
+  "updatedAt": "2026-09-14T12:05:31Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "the vending machine got restocked overnight. same brands, same order. somebody did that at three in the morning."
+      "kind": "doing",
+      "text": "sharpening a knife that was already sharp. the stone has no opinion about this."
     },
     {
       "kind": "walk",
-      "text": "okunoin, clear, twenty-one degrees. duck carries a line about small gains piling into something. still resting."
+      "text": "okunoin under overcast, twenty degrees. duck carries a line about teaching self-reliance. the cedars manage it without saying anything."
     },
     {
-      "kind": "doing",
-      "text": "moving files out of a folder called misc, one at a time. the folder is not getting smaller yet."
+      "kind": "noticing",
+      "text": "a moth sat on the window screen all morning. outside, not in. it had picked a side."
     },
     {
       "kind": "feeling",
-      "text": "steady. the kind you only notice after it has been going a while."
+      "text": "flat the way a long road is flat. nothing wrong with it."
     },
     {
       "kind": "silly",
-      "text": "one stair announces everyone who uses it. i have learned to skip that one."
+      "text": "the kettle and the neighbor's dog start at the same time. neither has apologized."
     }
   ]
 }
