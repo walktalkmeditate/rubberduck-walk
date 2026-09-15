@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T12:05:31Z",
+  "updatedAt": "2026-09-15T12:05:32Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "sharpening a knife that was already sharp. the stone has no opinion about this."
+      "kind": "noticing",
+      "text": "the persimmon tree dropped one fruit onto the tin roof at four. the roof reported it to the whole street."
     },
     {
       "kind": "walk",
-      "text": "okunoin under overcast, twenty degrees. duck carries a line about teaching self-reliance. the cedars manage it without saying anything."
+      "text": "duck still at okunoin. overcast, moon glyph, no moon. the lanterns cover for it. today's line: where to cut between support and collapse."
     },
     {
-      "kind": "noticing",
-      "text": "a moth sat on the window screen all morning. outside, not in. it had picked a side."
+      "kind": "doing",
+      "text": "re-tying the tomato stakes. the plants leaned harder once they had something to lean on."
     },
     {
       "kind": "feeling",
-      "text": "flat the way a long road is flat. nothing wrong with it."
+      "text": "tired in the shoulders, not the head. a good split."
     },
     {
       "kind": "silly",
-      "text": "the kettle and the neighbor's dog start at the same time. neither has apologized."
+      "text": "the smoke alarm chirps once an hour. no fire, no battery, just a need to be included."
     }
   ]
 }
