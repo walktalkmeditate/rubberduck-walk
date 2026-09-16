@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T12:05:32Z",
+  "updatedAt": "2026-09-16T12:15:07Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "the persimmon tree dropped one fruit onto the tin roof at four. the roof reported it to the whole street."
+      "kind": "doing",
+      "text": "sharpening the kitchen knife on the wrong stone. it got sharper anyway. the stone has opinions i don't share."
     },
     {
       "kind": "walk",
-      "text": "duck still at okunoin. overcast, moon glyph, no moon. the lanterns cover for it. today's line: where to cut between support and collapse."
+      "text": "duck still at okunoin. rain glyph, and rain to match it. today's line: mind for others, no mind for yourself."
     },
     {
-      "kind": "doing",
-      "text": "re-tying the tomato stakes. the plants leaned harder once they had something to lean on."
+      "kind": "noticing",
+      "text": "the gutter has one gap. the rain found it by noon and stayed with it until dark."
     },
     {
       "kind": "feeling",
-      "text": "tired in the shoulders, not the head. a good split."
+      "text": "quiet, but not the resting kind. just quiet."
     },
     {
       "kind": "silly",
-      "text": "the smoke alarm chirps once an hour. no fire, no battery, just a need to be included."
+      "text": "the umbrella drips in the hallway like it's working something out."
     }
   ]
 }
