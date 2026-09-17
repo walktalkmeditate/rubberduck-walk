@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T12:15:07Z",
+  "updatedAt": "2026-09-17T12:16:22Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "sharpening the kitchen knife on the wrong stone. it got sharper anyway. the stone has opinions i don't share."
+      "kind": "noticing",
+      "text": "the overcast sat flat all day. not weather, just a lid."
     },
     {
       "kind": "walk",
-      "text": "duck still at okunoin. rain glyph, and rain to match it. today's line: mind for others, no mind for yourself."
+      "text": "duck still at okunoin, a triangle over the day. carrying: once a man is set on his purpose, no one can take it away."
     },
     {
-      "kind": "noticing",
-      "text": "the gutter has one gap. the rain found it by noon and stayed with it until dark."
+      "kind": "doing",
+      "text": "resoldering a cable that only fails when i'm not looking at it."
     },
     {
       "kind": "feeling",
-      "text": "quiet, but not the resting kind. just quiet."
+      "text": "steady. the kind that doesn't need a reason and doesn't offer one."
     },
     {
       "kind": "silly",
-      "text": "the umbrella drips in the hallway like it's working something out."
+      "text": "the kettle boiled twice. i was only there for the second one."
     }
   ]
 }
