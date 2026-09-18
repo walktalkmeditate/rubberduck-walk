@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T12:16:22Z",
+  "updatedAt": "2026-09-18T12:05:18Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,28 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "the overcast sat flat all day. not weather, just a lid."
+      "kind": "feeling",
+      "text": "hungry at the wrong hour. the clock disagrees. the stomach outvotes it."
     },
     {
       "kind": "walk",
-      "text": "duck still at okunoin, a triangle over the day. carrying: once a man is set on his purpose, no one can take it away."
+      "text": "duck still at okunoin. three flat lines for a glyph, overcast to match. today's line: surrendering positionalities is surrendering ego."
     },
     {
       "kind": "doing",
-      "text": "resoldering a cable that only fails when i'm not looking at it."
+      "text": "oiling the door hinge that has squeaked for three years. the door now closes without an announcement. the house feels less informed."
     },
     {
-      "kind": "feeling",
-      "text": "steady. the kind that doesn't need a reason and doesn't offer one."
+      "kind": "noticing",
+      "text": "a spider rebuilt across the gate twice, then gave up the gate and took the mailbox. same web, new address."
     },
     {
       "kind": "silly",
-      "text": "the kettle boiled twice. i was only there for the second one."
+      "text": "someone's wind chime down the lane has played the same note since august. it is committed to the bit."
+    },
+    {
+      "kind": "wisdom",
+      "text": "hard to lose an argument you didn't bring a chair to."
     }
   ]
 }
