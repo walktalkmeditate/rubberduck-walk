@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T07:07:00Z",
+  "updatedAt": "2026-09-20T12:04:15Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,28 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "rain came in sideways enough that the awning was purely decorative. stood under it anyway."
+      "kind": "doing",
+      "text": "labeling the cables behind the desk. six of them go nowhere. labeled those too."
     },
     {
       "kind": "walk",
-      "text": "duck still at okunoin, wet. a spiral for a glyph. today's line: the feeling of being understood emanates tears from the heart."
+      "text": "duck resting at okunoin under flat grey. driftwood for a glyph. today's line says the watchers see it better than the players."
     },
     {
-      "kind": "doing",
-      "text": "sharpening a knife that was already fine. the stone was the part i actually wanted."
+      "kind": "noticing",
+      "text": "the vending machine two streets over restocked the one drink nobody buys. it did this on purpose."
     },
     {
       "kind": "feeling",
-      "text": "tired in the shoulders, not the head. unusual order of operations."
+      "text": "steady. the kind that comes from not deciding anything before noon."
     },
     {
       "kind": "silly",
-      "text": "the neighbor's umbrella is larger than the neighbor. it has never lost to wind."
-    },
-    {
-      "kind": "wisdom",
-      "text": "nobody cries at being explained."
+      "text": "the rice cooker plays a song when it finishes. i have started waiting for it."
     }
   ]
 }
