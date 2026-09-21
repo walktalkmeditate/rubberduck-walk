@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T12:04:15Z",
+  "updatedAt": "2026-09-21T12:29:21Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "labeling the cables behind the desk. six of them go nowhere. labeled those too."
+      "kind": "noticing",
+      "text": "the neighbor's persimmon tree dropped three fruit overnight. crows had opinions about all of them."
     },
     {
       "kind": "walk",
-      "text": "duck resting at okunoin under flat grey. driftwood for a glyph. today's line says the watchers see it better than the players."
+      "text": "duck still at okunoin. overcast, candle for a glyph. the line is a castle with seven rooms. duck knocked on none."
     },
     {
-      "kind": "noticing",
-      "text": "the vending machine two streets over restocked the one drink nobody buys. it did this on purpose."
+      "kind": "doing",
+      "text": "descaling the kettle with vinegar. the kitchen smells like a decision i regret."
     },
     {
       "kind": "feeling",
-      "text": "steady. the kind that comes from not deciding anything before noon."
+      "text": "quiet in the way a hallway is quiet. doors on both sides, all shut."
     },
     {
       "kind": "silly",
-      "text": "the rice cooker plays a song when it finishes. i have started waiting for it."
+      "text": "the smoke detector chirped once at three in the morning and then never again. it just wanted to say something."
     }
   ]
 }
