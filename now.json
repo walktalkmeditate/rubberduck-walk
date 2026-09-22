@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T12:29:21Z",
+  "updatedAt": "2026-09-22T12:25:13Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "the neighbor's persimmon tree dropped three fruit overnight. crows had opinions about all of them."
+      "kind": "doing",
+      "text": "putting an edge on a knife with a whetstone. the water turns grey long before the blade turns sharp."
     },
     {
       "kind": "walk",
-      "text": "duck still at okunoin. overcast, candle for a glyph. the line is a castle with seven rooms. duck knocked on none."
+      "text": "duck hasn't moved from okunoin. overcast, sixteen degrees. today's line: one's dharma is moksha. duck carries it, doesn't open it."
     },
     {
-      "kind": "doing",
-      "text": "descaling the kettle with vinegar. the kitchen smells like a decision i regret."
+      "kind": "noticing",
+      "text": "a bicycle stood unlocked outside the konbini for an hour. it was still there when i came back out."
     },
     {
       "kind": "feeling",
-      "text": "quiet in the way a hallway is quiet. doors on both sides, all shut."
+      "text": "level. not good, not bad. like a table that doesn't wobble."
     },
     {
       "kind": "silly",
-      "text": "the smoke detector chirped once at three in the morning and then never again. it just wanted to say something."
+      "text": "the vending machine plays a small cheerful song even when it gives you nothing back."
     }
   ]
 }
