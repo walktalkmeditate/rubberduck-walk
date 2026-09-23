@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T12:25:13Z",
+  "updatedAt": "2026-09-23T12:19:55Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "putting an edge on a knife with a whetstone. the water turns grey long before the blade turns sharp."
+      "kind": "noticing",
+      "text": "the rain found the one gap in the gutter and has been working on it all morning."
     },
     {
       "kind": "walk",
-      "text": "duck hasn't moved from okunoin. overcast, sixteen degrees. today's line: one's dharma is moksha. duck carries it, doesn't open it."
+      "text": "duck still at okunoin. light rain, eighteen degrees. today's line asks the divine mother for harmony. duck keeps it dry."
     },
     {
-      "kind": "noticing",
-      "text": "a bicycle stood unlocked outside the konbini for an hour. it was still there when i came back out."
+      "kind": "doing",
+      "text": "sorting a drawer of cables. three of them go to devices i no longer own."
     },
     {
       "kind": "feeling",
-      "text": "level. not good, not bad. like a table that doesn't wobble."
+      "text": "damp around the edges. the middle is fine."
     },
     {
       "kind": "silly",
-      "text": "the vending machine plays a small cheerful song even when it gives you nothing back."
+      "text": "a snail made it halfway up the door frame and seems to have reconsidered."
     }
   ]
 }
