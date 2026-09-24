@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T12:19:55Z",
+  "updatedAt": "2026-09-24T12:04:00Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "the rain found the one gap in the gutter and has been working on it all morning."
+      "kind": "feeling",
+      "text": "dry for the first time this week. slightly suspicious of it."
     },
     {
       "kind": "walk",
-      "text": "duck still at okunoin. light rain, eighteen degrees. today's line asks the divine mother for harmony. duck keeps it dry."
+      "text": "duck still at okunoin. clear, sixteen degrees, three bars for a glyph. the line says stop cherishing opinions. duck never had any to drop."
+    },
+    {
+      "kind": "noticing",
+      "text": "first clear morning in days. every balcony on the street had a futon hanging out by nine."
     },
     {
       "kind": "doing",
-      "text": "sorting a drawer of cables. three of them go to devices i no longer own."
-    },
-    {
-      "kind": "feeling",
-      "text": "damp around the edges. the middle is fine."
+      "text": "re-potting a basil that outgrew its pot back in july. the roots had already made other plans."
     },
     {
       "kind": "silly",
-      "text": "a snail made it halfway up the door frame and seems to have reconsidered."
+      "text": "the umbrella by the door looks a little offended to be left behind."
     }
   ]
 }
