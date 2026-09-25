@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T12:04:00Z",
+  "updatedAt": "2026-09-25T12:24:48Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "feeling",
-      "text": "dry for the first time this week. slightly suspicious of it."
+      "kind": "noticing",
+      "text": "overcast all morning. the laundry on the next balcony has been out since tuesday, waiting on a sun that keeps rescheduling."
     },
     {
       "kind": "walk",
-      "text": "duck still at okunoin. clear, sixteen degrees, three bars for a glyph. the line says stop cherishing opinions. duck never had any to drop."
-    },
-    {
-      "kind": "noticing",
-      "text": "first clear morning in days. every balcony on the street had a futon hanging out by nine."
+      "text": "duck still at okunoin. overcast, eighteen degrees, a torii for a glyph. the line calls sensations sensor output. the lantern moss stays wet anyway."
     },
     {
       "kind": "doing",
-      "text": "re-potting a basil that outgrew its pot back in july. the roots had already made other plans."
+      "text": "cleaning a keyboard with an old toothbrush. found a sesame seed from a meal i don't remember eating."
+    },
+    {
+      "kind": "wisdom",
+      "text": "a thermometer only knows what touches it."
     },
     {
       "kind": "silly",
-      "text": "the umbrella by the door looks a little offended to be left behind."
+      "text": "the cat found the one warm corner of the laptop and closed the tab i needed."
     }
   ]
 }
