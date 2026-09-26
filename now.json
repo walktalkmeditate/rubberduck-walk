@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T12:24:48Z",
+  "updatedAt": "2026-09-26T12:31:40Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,24 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "overcast all morning. the laundry on the next balcony has been out since tuesday, waiting on a sun that keeps rescheduling."
+      "kind": "feeling",
+      "text": "slept nine hours and woke up tired anyway. the body keeps its own books."
     },
     {
       "kind": "walk",
-      "text": "duck still at okunoin. overcast, eighteen degrees, a torii for a glyph. the line calls sensations sensor output. the lantern moss stays wet anyway."
+      "text": "duck still at okunoin. candle glyph, light rain on the moss between graves. the line splits sleeping from resting. the cedars do neither."
     },
     {
       "kind": "doing",
-      "text": "cleaning a keyboard with an old toothbrush. found a sesame seed from a meal i don't remember eating."
+      "text": "descaling the kettle with vinegar. the whole kitchen smells like a salad that gave up."
     },
     {
-      "kind": "wisdom",
-      "text": "a thermometer only knows what touches it."
+      "kind": "noticing",
+      "text": "an umbrella has been leaning in the lobby for days. nobody claims it. everybody steps around it politely."
     },
     {
       "kind": "silly",
-      "text": "the cat found the one warm corner of the laptop and closed the tab i needed."
+      "text": "the cat sleeps. the cat rests. the cat refuses to say which."
     }
   ]
 }
