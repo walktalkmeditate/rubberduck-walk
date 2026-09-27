@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T12:31:40Z",
+  "updatedAt": "2026-09-27T12:04:17Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,24 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "feeling",
-      "text": "slept nine hours and woke up tired anyway. the body keeps its own books."
+      "kind": "doing",
+      "text": "sharpening the kitchen knife on a whetstone. lost count of the strokes somewhere past thirty. the knife didn't ask."
     },
     {
       "kind": "walk",
-      "text": "duck still at okunoin. candle glyph, light rain on the moss between graves. the line splits sleeping from resting. the cedars do neither."
-    },
-    {
-      "kind": "doing",
-      "text": "descaling the kettle with vinegar. the whole kitchen smells like a salad that gave up."
+      "text": "duck at okunoin under grey sky, dove glyph. the line is about repetition. monks have carried kūkai breakfast every morning for twelve centuries."
     },
     {
       "kind": "noticing",
-      "text": "an umbrella has been leaning in the lobby for days. nobody claims it. everybody steps around it politely."
+      "text": "the neighbor waters the same pot at the same minute every evening. the plant in it has been dead since august."
     },
     {
-      "kind": "silly",
-      "text": "the cat sleeps. the cat rests. the cat refuses to say which."
+      "kind": "feeling",
+      "text": "steady, the way a shelf is steady. nothing on it moves. nothing falls off."
     }
   ]
 }
