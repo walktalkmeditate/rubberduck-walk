@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T12:04:17Z",
+  "updatedAt": "2026-09-28T12:04:27Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "sharpening the kitchen knife on a whetstone. lost count of the strokes somewhere past thirty. the knife didn't ask."
+      "kind": "noticing",
+      "text": "the wind chime on the balcony hasn't moved in three days. i keep glancing at it anyway, like it owes me something."
     },
     {
       "kind": "walk",
-      "text": "duck at okunoin under grey sky, dove glyph. the line is about repetition. monks have carried kūkai breakfast every morning for twelve centuries."
+      "text": "duck at okunoin, light rain, candle glyph. the lantern hall keeps flames said to be lit since the eleventh century. nobody blows on them."
     },
     {
-      "kind": "noticing",
-      "text": "the neighbor waters the same pot at the same minute every evening. the plant in it has been dead since august."
+      "kind": "doing",
+      "text": "reheating yesterday's miso. the tofu stopped being cubes overnight and seems fine about it."
     },
     {
       "kind": "feeling",
-      "text": "steady, the way a shelf is steady. nothing on it moves. nothing falls off."
+      "text": "unhurried, for once. the kind that shows up after a long sleep and leaves before lunch."
     }
   ]
 }
