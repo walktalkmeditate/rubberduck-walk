@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T12:04:27Z",
+  "updatedAt": "2026-09-29T12:04:40Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "the wind chime on the balcony hasn't moved in three days. i keep glancing at it anyway, like it owes me something."
+      "kind": "doing",
+      "text": "sorting a drawer of cables. three go to devices i no longer own. keeping them anyway, for the cables' sake."
     },
     {
       "kind": "walk",
-      "text": "duck at okunoin, light rain, candle glyph. the lantern hall keeps flames said to be lit since the eleventh century. nobody blows on them."
+      "text": "duck still at okunoin under rain, moon glyph. carried a line saying virtue is deep. the cedars have had a head start."
     },
     {
-      "kind": "doing",
-      "text": "reheating yesterday's miso. the tofu stopped being cubes overnight and seems fine about it."
+      "kind": "noticing",
+      "text": "rain on the skylight sounds like typing in a language i almost know."
     },
     {
       "kind": "feeling",
-      "text": "unhurried, for once. the kind that shows up after a long sleep and leaves before lunch."
+      "text": "slow and fine with it. the coffee is doing most of the talking."
     }
   ]
 }
