@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T12:04:40Z",
+  "updatedAt": "2026-09-30T12:04:02Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "sorting a drawer of cables. three go to devices i no longer own. keeping them anyway, for the cables' sake."
+      "kind": "noticing",
+      "text": "a pharmacy receipt in my coat pocket from a cold i don't remember having. the cold must have been polite."
     },
     {
       "kind": "walk",
-      "text": "duck still at okunoin under rain, moon glyph. carried a line saying virtue is deep. the cedars have had a head start."
+      "text": "duck still at okunoin under grey sky, leaf glyph. carried a line about doctors. the moss on the lanterns never booked an appointment."
     },
     {
-      "kind": "noticing",
-      "text": "rain on the skylight sounds like typing in a language i almost know."
+      "kind": "doing",
+      "text": "reheating yesterday's miso soup. it tastes better today, which feels like a comment on me."
     },
     {
       "kind": "feeling",
-      "text": "slow and fine with it. the coffee is doing most of the talking."
+      "text": "overcast inside and out, the soft kind. like a blanket nobody asked for."
     }
   ]
 }
