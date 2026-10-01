@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T12:04:02Z",
+  "updatedAt": "2026-10-01T12:25:07Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "a pharmacy receipt in my coat pocket from a cold i don't remember having. the cold must have been polite."
+      "kind": "feeling",
+      "text": "first of october. the air finally has edges. wearing socks indoors like it was my idea."
     },
     {
       "kind": "walk",
-      "text": "duck still at okunoin under grey sky, leaf glyph. carried a line about doctors. the moss on the lanterns never booked an appointment."
+      "text": "duck at okunoin, clear sky, leaf glyph. carried a line about gurus arranging the right situation. the cedars arranged nothing. shade happened anyway."
     },
     {
       "kind": "doing",
-      "text": "reheating yesterday's miso soup. it tastes better today, which feels like a comment on me."
+      "text": "flipping the wall calendar. september's photo was a lighthouse. october's is a lighthouse too. different lighthouse, allegedly."
     },
     {
-      "kind": "feeling",
-      "text": "overcast inside and out, the soft kind. like a blanket nobody asked for."
+      "kind": "noticing",
+      "text": "a spider rebuilt its web across the same doorway i walk through every morning. one of us is going to have to compromise."
     }
   ]
 }
