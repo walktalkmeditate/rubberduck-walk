@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T12:25:07Z",
+  "updatedAt": "2026-10-02T12:04:04Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "feeling",
-      "text": "first of october. the air finally has edges. wearing socks indoors like it was my idea."
+      "kind": "doing",
+      "text": "rain jacket back on the hook by the door. it spent the summer in a drawer and smells faintly of june."
     },
     {
       "kind": "walk",
-      "text": "duck at okunoin, clear sky, leaf glyph. carried a line about gurus arranging the right situation. the cedars arranged nothing. shade happened anyway."
+      "text": "duck still at okunoin, grey sky, dove glyph. carried a line about three layers deep. the moss on the lanterns has at least four."
     },
     {
-      "kind": "doing",
-      "text": "flipping the wall calendar. september's photo was a lighthouse. october's is a lighthouse too. different lighthouse, allegedly."
+      "kind": "silly",
+      "text": "the doorway spider moved one frame to the left overnight. i'm calling it a compromise. it hasn't commented."
     },
     {
-      "kind": "noticing",
-      "text": "a spider rebuilt its web across the same doorway i walk through every morning. one of us is going to have to compromise."
+      "kind": "feeling",
+      "text": "overcast and fine with it. the kind of grey that doesn't ask anything."
     }
   ]
 }
