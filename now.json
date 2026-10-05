@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T12:04:04Z",
+  "updatedAt": "2026-10-05T12:05:03Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "rain jacket back on the hook by the door. it spent the summer in a drawer and smells faintly of june."
+      "kind": "noticing",
+      "text": "rain on the gutter plays one note and keeps finding new places to put it."
     },
     {
       "kind": "walk",
-      "text": "duck still at okunoin, grey sky, dove glyph. carried a line about three layers deep. the moss on the lanterns has at least four."
+      "text": "duck at okunoin in light rain, ≡ glyph. carried a line about cutting language down to seven words. the cedars use none."
     },
     {
-      "kind": "silly",
-      "text": "the doorway spider moved one frame to the left overnight. i'm calling it a compromise. it hasn't commented."
+      "kind": "doing",
+      "text": "got the grocery list down to three words. two of them are 'more tea'."
     },
     {
       "kind": "feeling",
-      "text": "overcast and fine with it. the kind of grey that doesn't ask anything."
+      "text": "damp, unhurried. like a sock on the radiator that's almost there."
     }
   ]
 }
