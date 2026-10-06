@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T12:05:03Z",
+  "updatedAt": "2026-10-06T12:04:26Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "rain on the gutter plays one note and keeps finding new places to put it."
+      "kind": "doing",
+      "text": "re-gluing the handle on a mug that has already been re-glued twice. the mug seems fine with this."
     },
     {
       "kind": "walk",
-      "text": "duck at okunoin in light rain, ≡ glyph. carried a line about cutting language down to seven words. the cedars use none."
+      "text": "duck at okunoin under a clear sky, 🌿 glyph. carried a line about interest over reason. the lanterns made no argument either way."
     },
     {
-      "kind": "doing",
-      "text": "got the grocery list down to three words. two of them are 'more tea'."
+      "kind": "noticing",
+      "text": "first cold morning. the neighbor's cat has moved from the wall to the warm hood of a parked car."
     },
     {
       "kind": "feeling",
-      "text": "damp, unhurried. like a sock on the radiator that's almost there."
+      "text": "clear-headed until about eleven, then mostly snack."
     }
   ]
 }
