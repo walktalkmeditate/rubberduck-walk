@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T12:04:26Z",
+  "updatedAt": "2026-10-07T12:06:18Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "re-gluing the handle on a mug that has already been re-glued twice. the mug seems fine with this."
+      "kind": "feeling",
+      "text": "unhurried. like the second cup, not the first."
     },
     {
       "kind": "walk",
-      "text": "duck at okunoin under a clear sky, 🌿 glyph. carried a line about interest over reason. the lanterns made no argument either way."
+      "text": "clear and cold at okunoin. duck carried a 🌀 and a line about old karma surfacing. a cedar root is still lifting the same stone."
     },
     {
-      "kind": "noticing",
-      "text": "first cold morning. the neighbor's cat has moved from the wall to the warm hood of a parked car."
+      "kind": "doing",
+      "text": "swapping the summer duvet for the winter one. the corners never agree on which corner they are."
     },
     {
-      "kind": "feeling",
-      "text": "clear-headed until about eleven, then mostly snack."
+      "kind": "silly",
+      "text": "found a receipt from march in a coat pocket. two onigiri and a battery. no memory of the battery."
     }
   ]
 }
