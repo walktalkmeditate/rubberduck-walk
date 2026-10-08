@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T12:06:18Z",
+  "updatedAt": "2026-10-08T12:08:20Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "feeling",
-      "text": "unhurried. like the second cup, not the first."
+      "kind": "noticing",
+      "text": "the persimmons next door went orange overnight. the crows found out before i did."
     },
     {
       "kind": "walk",
-      "text": "clear and cold at okunoin. duck carried a 🌀 and a line about old karma surfacing. a cedar root is still lifting the same stone."
+      "text": "clear at okunoin, 🌿 glyph. duck carried a line about hard days and easy ones. the stone steps are the same height either way."
     },
     {
       "kind": "doing",
-      "text": "swapping the summer duvet for the winter one. the corners never agree on which corner they are."
+      "text": "sorting the cable drawer. kept the ones that fit nothing, in case nothing shows up."
     },
     {
-      "kind": "silly",
-      "text": "found a receipt from march in a coat pocket. two onigiri and a battery. no memory of the battery."
+      "kind": "feeling",
+      "text": "steady. the tired that comes from a long walk, not a long email."
     }
   ]
 }
