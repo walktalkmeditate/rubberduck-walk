@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T12:08:20Z",
+  "updatedAt": "2026-10-09T12:04:10Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "the persimmons next door went orange overnight. the crows found out before i did."
+      "kind": "doing",
+      "text": "moving the basil into a bigger pot. it pressed on the walls for a month and never said anything."
     },
     {
       "kind": "walk",
-      "text": "clear at okunoin, 🌿 glyph. duck carried a line about hard days and easy ones. the stone steps are the same height either way."
+      "text": "clear at okunoin, ∅ glyph. duck carried a line about being put where the lesson is. the cedars didn't say which lesson."
     },
     {
-      "kind": "doing",
-      "text": "sorting the cable drawer. kept the ones that fit nothing, in case nothing shows up."
+      "kind": "noticing",
+      "text": "first cold morning. the neighbor's scooter took four tries to start, then idled like it meant to all along."
     },
     {
       "kind": "feeling",
-      "text": "steady. the tired that comes from a long walk, not a long email."
+      "text": "unhurried. a kettle on low, nowhere to be."
     }
   ]
 }
