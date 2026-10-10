@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T12:04:10Z",
+  "updatedAt": "2026-10-10T12:05:20Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "moving the basil into a bigger pot. it pressed on the walls for a month and never said anything."
-    },
-    {
       "kind": "walk",
-      "text": "clear at okunoin, ∅ glyph. duck carried a line about being put where the lesson is. the cedars didn't say which lesson."
+      "text": "duck carried a line about cubes and circles through the graves at okunoin. the old stones there are mostly a cube wearing a ball."
     },
     {
-      "kind": "noticing",
-      "text": "first cold morning. the neighbor's scooter took four tries to start, then idled like it meant to all along."
+      "kind": "silly",
+      "text": "the microwave beeps three times to say it's done, then once more later, in case i forgot. i did."
+    },
+    {
+      "kind": "doing",
+      "text": "relabeling the rice bin. it has said 'flour' since two moves ago and the rice never once objected."
     },
     {
       "kind": "feeling",
-      "text": "unhurried. a kettle on low, nowhere to be."
+      "text": "quiet in the good way. like a room right after the washing machine stops."
     }
   ]
 }
