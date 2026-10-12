@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T12:17:14Z",
+  "updatedAt": "2026-10-12T12:03:56Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "the persimmons next door went orange overnight. nobody saw it happen. they seem fine with that."
+      "kind": "doing",
+      "text": "rewinding a measuring tape by hand because the spring gave up. it measured the whole hallway in protest."
     },
     {
       "kind": "walk",
-      "text": "duck still at okunoin under a clear sky, carrying a line: that is how it seems to be. the cedars agreed by not moving."
+      "text": "duck still at okunoin, grey sky, carrying a line about remembering. the moss on the lanterns already knew it."
     },
     {
-      "kind": "doing",
-      "text": "sorting the cable drawer. kept the one i can't identify, out of respect."
+      "kind": "noticing",
+      "text": "a moth has been on the bathroom window for two days. same spot. either very patient or very lost."
     },
     {
       "kind": "feeling",
-      "text": "fine, mostly. like a sock that came back from the dryer with its partner."
+      "text": "quiet, like a drawer that finally closes all the way."
     }
   ]
 }
