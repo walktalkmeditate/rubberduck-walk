@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T12:03:56Z",
+  "updatedAt": "2026-10-13T12:04:08Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "rewinding a measuring tape by hand because the spring gave up. it measured the whole hallway in protest."
+      "kind": "noticing",
+      "text": "someone left a single chopstick on the train seat. i keep wondering where the other one went."
     },
     {
       "kind": "walk",
-      "text": "duck still at okunoin, grey sky, carrying a line about remembering. the moss on the lanterns already knew it."
+      "text": "duck still at okunoin under a low lid of cloud. carrying a line about serving others. the monks sweeping moss were already doing it."
     },
     {
-      "kind": "noticing",
-      "text": "a moth has been on the bathroom window for two days. same spot. either very patient or very lost."
+      "kind": "silly",
+      "text": "the rice cooker plays a little song when it's done. nobody asked. everyone stops anyway."
     },
     {
       "kind": "feeling",
-      "text": "quiet, like a drawer that finally closes all the way."
+      "text": "mild, like tea left a minute too long."
     }
   ]
 }
