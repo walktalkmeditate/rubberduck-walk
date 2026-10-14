@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T12:04:08Z",
+  "updatedAt": "2026-10-14T12:38:56Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "someone left a single chopstick on the train seat. i keep wondering where the other one went."
+      "kind": "doing",
+      "text": "sanding a cedar shelf that was fine yesterday. now it is less fine and much smoother."
     },
     {
       "kind": "walk",
-      "text": "duck still at okunoin under a low lid of cloud. carrying a line about serving others. the monks sweeping moss were already doing it."
+      "text": "duck still at okunoin, twelve degrees and grey. carrying a line about karma and moksha. a cedar log by the lantern path keeps not deciding."
     },
     {
-      "kind": "silly",
-      "text": "the rice cooker plays a little song when it's done. nobody asked. everyone stops anyway."
+      "kind": "wisdom",
+      "text": "toward and away are the same road, depending which way the shoes point."
     },
     {
       "kind": "feeling",
-      "text": "mild, like tea left a minute too long."
+      "text": "steady, with a pebble in one sock."
     }
   ]
 }
