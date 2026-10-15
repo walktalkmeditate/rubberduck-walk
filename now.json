@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T12:38:56Z",
+  "updatedAt": "2026-10-15T12:14:03Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "sanding a cedar shelf that was fine yesterday. now it is less fine and much smoother."
+      "kind": "feeling",
+      "text": "calm-ish. one eyebrow still up from something yesterday, can't remember what."
     },
     {
       "kind": "walk",
-      "text": "duck still at okunoin, twelve degrees and grey. carrying a line about karma and moksha. a cedar log by the lantern path keeps not deciding."
+      "text": "clear and cold at okunoin. duck carries a line: impersonalize the personal. two hundred thousand gravestones got there first."
     },
     {
-      "kind": "wisdom",
-      "text": "toward and away are the same road, depending which way the shoes point."
+      "kind": "noticing",
+      "text": "the umbrella drying by the door since tuesday has quietly become furniture. nobody wants to be the one to close it."
     },
     {
-      "kind": "feeling",
-      "text": "steady, with a pebble in one sock."
+      "kind": "doing",
+      "text": "re-gluing a chair leg. the clamp does all the work and gets none of the credit."
     }
   ]
 }
