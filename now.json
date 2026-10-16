@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T12:14:03Z",
+  "updatedAt": "2026-10-16T12:04:11Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "feeling",
-      "text": "calm-ish. one eyebrow still up from something yesterday, can't remember what."
+      "kind": "noticing",
+      "text": "the persimmon tree next door is down to three fruit. the crows are in no hurry about it."
     },
     {
       "kind": "walk",
-      "text": "clear and cold at okunoin. duck carries a line: impersonalize the personal. two hundred thousand gravestones got there first."
-    },
-    {
-      "kind": "noticing",
-      "text": "the umbrella drying by the door since tuesday has quietly become furniture. nobody wants to be the one to close it."
+      "text": "overcast at okunoin, fourteen degrees. duck carries a line: always be receptive to life. a stone basin by the gate holds whatever falls in."
     },
     {
       "kind": "doing",
-      "text": "re-gluing a chair leg. the clamp does all the work and gets none of the credit."
+      "text": "oiling a squeaky door hinge. now it opens without comment, which feels like losing an argument."
+    },
+    {
+      "kind": "feeling",
+      "text": "loose in the shoulders. the coffee went cold and nobody filed a complaint."
     }
   ]
 }
