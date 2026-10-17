@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T12:04:11Z",
+  "updatedAt": "2026-10-17T12:04:50Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "the persimmon tree next door is down to three fruit. the crows are in no hurry about it."
+      "kind": "silly",
+      "text": "the washing machine finished an hour ago and is still beeping about it. very proud of one load."
     },
     {
       "kind": "walk",
-      "text": "overcast at okunoin, fourteen degrees. duck carries a line: always be receptive to life. a stone basin by the gate holds whatever falls in."
+      "text": "clear at okunoin, twelve degrees. duck carries a line about what matters most. the stone lanterns stay put; the leaves keep arriving."
     },
     {
       "kind": "doing",
-      "text": "oiling a squeaky door hinge. now it opens without comment, which feels like losing an argument."
+      "text": "sorting a drawer of old keys. most of them open nothing now. all of them made the cut."
     },
     {
       "kind": "feeling",
-      "text": "loose in the shoulders. the coffee went cold and nobody filed a complaint."
+      "text": "clear-headed until lunch. after that, mostly rice."
     }
   ]
 }
