@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T12:04:50Z",
+  "updatedAt": "2026-10-19T12:04:13Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "silly",
-      "text": "the washing machine finished an hour ago and is still beeping about it. very proud of one load."
+      "kind": "noticing",
+      "text": "the umbrella by the door has been open since thursday. nobody wants to be the one to fold it."
     },
     {
       "kind": "walk",
-      "text": "clear at okunoin, twelve degrees. duck carries a line about what matters most. the stone lanterns stay put; the leaves keep arriving."
-    },
-    {
-      "kind": "doing",
-      "text": "sorting a drawer of old keys. most of them open nothing now. all of them made the cut."
+      "text": "light rain at okunoin. duck carries a line about self-centered thinking. moss on the cedar roots doesn't seem to mind either way."
     },
     {
       "kind": "feeling",
-      "text": "clear-headed until lunch. after that, mostly rice."
+      "text": "ninety-nine percent about me, apparently. working on the other one percent. it's mostly soup."
+    },
+    {
+      "kind": "doing",
+      "text": "rereading a paperback with someone else's pencil notes in the margins. they underlined all the wrong parts. i'm enjoying theirs more."
     }
   ]
 }
