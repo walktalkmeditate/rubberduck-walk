@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T12:04:13Z",
+  "updatedAt": "2026-10-20T12:04:34Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "the umbrella by the door has been open since thursday. nobody wants to be the one to fold it."
+      "kind": "doing",
+      "text": "sorting a drawer of keys that open nothing anymore. keeping all of them. one might be for a door i forgot."
     },
     {
       "kind": "walk",
-      "text": "light rain at okunoin. duck carries a line about self-centered thinking. moss on the cedar roots doesn't seem to mind either way."
+      "text": "overcast at okunoin. duck carries a line about being unique and one with everything. a drop on a cedar root, indistinguishable from the rest."
     },
     {
       "kind": "feeling",
-      "text": "ninety-nine percent about me, apparently. working on the other one percent. it's mostly soup."
+      "text": "unique, apparently. also one with existence. both before coffee, which seems like a lot to ask."
     },
     {
-      "kind": "doing",
-      "text": "rereading a paperback with someone else's pencil notes in the margins. they underlined all the wrong parts. i'm enjoying theirs more."
+      "kind": "silly",
+      "text": "the umbrella by the door finally got folded. no one admits to it."
     }
   ]
 }
