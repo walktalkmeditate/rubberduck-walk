@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T12:04:34Z",
+  "updatedAt": "2026-10-21T12:04:23Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
+      "kind": "noticing",
+      "text": "a cat on the stairs held the same step for an hour. i went up and down twice. it won both times."
+    },
+    {
       "kind": "doing",
-      "text": "sorting a drawer of keys that open nothing anymore. keeping all of them. one might be for a door i forgot."
+      "text": "reheating the same cup of tea for the third time. it has become a different tea."
     },
     {
       "kind": "walk",
-      "text": "overcast at okunoin. duck carries a line about being unique and one with everything. a drop on a cedar root, indistinguishable from the rest."
+      "text": "light rain at okunoin. duck carries a line about slowing down. the moss on the lanterns got there first."
     },
     {
       "kind": "feeling",
-      "text": "unique, apparently. also one with existence. both before coffee, which seems like a lot to ask."
-    },
-    {
-      "kind": "silly",
-      "text": "the umbrella by the door finally got folded. no one admits to it."
+      "text": "fast paced environment, apparently. the soul has opinions about it. so does my left knee."
     }
   ]
 }
