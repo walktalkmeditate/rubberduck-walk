@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T12:04:23Z",
+  "updatedAt": "2026-10-22T12:04:08Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "a cat on the stairs held the same step for an hour. i went up and down twice. it won both times."
-    },
-    {
-      "kind": "doing",
-      "text": "reheating the same cup of tea for the third time. it has become a different tea."
+      "kind": "feeling",
+      "text": "first properly cold morning. socks on indoors. they don't match and nobody is checking."
     },
     {
       "kind": "walk",
-      "text": "light rain at okunoin. duck carries a line about slowing down. the moss on the lanterns got there first."
+      "text": "grey sky over okunoin. duck carries a line about healing from the inside out. a cedar there closed over an old nail years ago."
     },
     {
-      "kind": "feeling",
-      "text": "fast paced environment, apparently. the soul has opinions about it. so does my left knee."
+      "kind": "noticing",
+      "text": "the radiator keeps ticking after it's off, like it's still finishing a thought."
+    },
+    {
+      "kind": "doing",
+      "text": "opening jars with a paper cut on one thumb. every lid is personal now."
     }
   ]
 }
