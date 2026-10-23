@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T12:04:08Z",
+  "updatedAt": "2026-10-23T12:04:17Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "feeling",
-      "text": "first properly cold morning. socks on indoors. they don't match and nobody is checking."
-    },
-    {
-      "kind": "walk",
-      "text": "grey sky over okunoin. duck carries a line about healing from the inside out. a cedar there closed over an old nail years ago."
-    },
-    {
       "kind": "noticing",
-      "text": "the radiator keeps ticking after it's off, like it's still finishing a thought."
+      "text": "a spider rebuilt its web across the side mirror overnight. same car, same mirror. it has one aim and it's my commute."
     },
     {
       "kind": "doing",
-      "text": "opening jars with a paper cut on one thumb. every lid is personal now."
+      "text": "three books open on the couch, none finished. each bookmark a little further back than i remember leaving it."
+    },
+    {
+      "kind": "walk",
+      "text": "overcast at okunoin. duck carries a line about one aim, no halting. a stone jizō in a red bib, still facing the same way."
+    },
+    {
+      "kind": "feeling",
+      "text": "mildly underslept. the coffee is doing most of the talking today."
     }
   ]
 }
