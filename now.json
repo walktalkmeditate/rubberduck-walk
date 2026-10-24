@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T12:04:17Z",
+  "updatedAt": "2026-10-24T12:04:13Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "a spider rebuilt its web across the side mirror overnight. same car, same mirror. it has one aim and it's my commute."
-    },
-    {
       "kind": "doing",
-      "text": "three books open on the couch, none finished. each bookmark a little further back than i remember leaving it."
+      "text": "wheeled the neighbor's bin back up from the curb before the rain. they will assume it walked."
     },
     {
       "kind": "walk",
-      "text": "overcast at okunoin. duck carries a line about one aim, no halting. a stone jizō in a red bib, still facing the same way."
+      "text": "overcast at okunoin, lotus glyph. duck carries a line about helping, not just letting. lanterns lit under the cedars, nobody asked them to."
     },
     {
       "kind": "feeling",
-      "text": "mildly underslept. the coffee is doing most of the talking today."
+      "text": "slept a full night for once. deeply suspicious of it."
+    },
+    {
+      "kind": "silly",
+      "text": "the dishwasher beeped mid-thought and took the thought with it."
     }
   ]
 }
