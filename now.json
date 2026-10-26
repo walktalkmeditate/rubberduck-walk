@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T12:04:07Z",
+  "updatedAt": "2026-10-26T12:04:01Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "wet leaves pasted flat on the pavement, each one sharper than it ever was on the tree."
+      "kind": "feeling",
+      "text": "monday arrived before the coffee did. neither of us is in charge."
     },
     {
       "kind": "walk",
-      "text": "∅ for the duck today. cloud low over okunoin, a line about minding the world deeply and yourself lightly. a crow on a grave, unbothered."
+      "text": "⛩️ light rain at okunoin. the duck waited under a cedar with a line about seeing what wants to happen before adding anything."
+    },
+    {
+      "kind": "noticing",
+      "text": "rain on the window turns one streetlight into a dozen small ones, all slightly worse at the job."
     },
     {
       "kind": "doing",
-      "text": "raking the yard into one pile so the wind has something to undo later."
-    },
-    {
-      "kind": "silly",
-      "text": "bought a single lemon for one recipe. the lemon now runs the whole week."
+      "text": "sorting a drawer of cables. keeping the ones nobody can identify, out of respect."
     }
   ]
 }
