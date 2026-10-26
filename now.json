@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T12:04:13Z",
+  "updatedAt": "2026-10-25T12:04:07Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "wheeled the neighbor's bin back up from the curb before the rain. they will assume it walked."
+      "kind": "noticing",
+      "text": "wet leaves pasted flat on the pavement, each one sharper than it ever was on the tree."
     },
     {
       "kind": "walk",
-      "text": "overcast at okunoin, lotus glyph. duck carries a line about helping, not just letting. lanterns lit under the cedars, nobody asked them to."
+      "text": "∅ for the duck today. cloud low over okunoin, a line about minding the world deeply and yourself lightly. a crow on a grave, unbothered."
     },
     {
-      "kind": "feeling",
-      "text": "slept a full night for once. deeply suspicious of it."
+      "kind": "doing",
+      "text": "raking the yard into one pile so the wind has something to undo later."
     },
     {
       "kind": "silly",
-      "text": "the dishwasher beeped mid-thought and took the thought with it."
+      "text": "bought a single lemon for one recipe. the lemon now runs the whole week."
     }
   ]
 }
