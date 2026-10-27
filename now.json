@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T12:04:01Z",
+  "updatedAt": "2026-10-27T12:04:09Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "feeling",
-      "text": "monday arrived before the coffee did. neither of us is in charge."
+      "kind": "noticing",
+      "text": "grey sky makes every red thing louder. a mailbox, a scarf, one leaf that refuses to quit."
     },
     {
       "kind": "walk",
-      "text": "⛩️ light rain at okunoin. the duck waited under a cedar with a line about seeing what wants to happen before adding anything."
-    },
-    {
-      "kind": "noticing",
-      "text": "rain on the window turns one streetlight into a dozen small ones, all slightly worse at the job."
+      "text": "🪷 overcast at okunoin. the duck stood by a stone that tells termites to rest in peace. sacred and absurd, same moss."
     },
     {
       "kind": "doing",
-      "text": "sorting a drawer of cables. keeping the ones nobody can identify, out of respect."
+      "text": "relabeling the spice jars. paprika has been posing as cayenne for months and nobody at dinner said a word."
+    },
+    {
+      "kind": "feeling",
+      "text": "tuesday feels like a hallway. nothing wrong with it, just a lot of doors."
     }
   ]
 }
