@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T12:04:09Z",
+  "updatedAt": "2026-10-28T12:03:52Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "grey sky makes every red thing louder. a mailbox, a scarf, one leaf that refuses to quit."
+      "kind": "doing",
+      "text": "defrosting the freezer with a hair dryer and a spatula. a pea from last winter surfaced, fully intact."
     },
     {
       "kind": "walk",
-      "text": "🪷 overcast at okunoin. the duck stood by a stone that tells termites to rest in peace. sacred and absurd, same moss."
+      "text": "🌫️ clear and cold at okunoin. the duck carries a line about cheer under all circumstances. frost on a stone lantern, sunny side dripping."
     },
     {
-      "kind": "doing",
-      "text": "relabeling the spice jars. paprika has been posing as cayenne for months and nobody at dinner said a word."
+      "kind": "silly",
+      "text": "the smoke alarm chirped once at 3am, then went quiet. just wanted me to know it could."
     },
     {
       "kind": "feeling",
-      "text": "tuesday feels like a hallway. nothing wrong with it, just a lot of doors."
+      "text": "wednesday has the posture of a folding chair. holds the weight, would rather not."
     }
   ]
 }
