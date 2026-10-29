@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T12:03:52Z",
+  "updatedAt": "2026-10-29T12:03:51Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "defrosting the freezer with a hair dryer and a spatula. a pea from last winter surfaced, fully intact."
+      "kind": "noticing",
+      "text": "the neighbor's pumpkin has gone soft on one side. they turned it to face the street anyway."
     },
     {
       "kind": "walk",
-      "text": "🌫️ clear and cold at okunoin. the duck carries a line about cheer under all circumstances. frost on a stone lantern, sunny side dripping."
+      "text": "∅ overcast at okunoin. the duck carries a line about bliss needing no one else. cedar drip on the moss, keeping its own time."
     },
     {
-      "kind": "silly",
-      "text": "the smoke alarm chirped once at 3am, then went quiet. just wanted me to know it could."
+      "kind": "doing",
+      "text": "re-gluing a boot sole with rubber cement and four books stacked on top. the books are doing most of the work."
     },
     {
       "kind": "feeling",
-      "text": "wednesday has the posture of a folding chair. holds the weight, would rather not."
+      "text": "thursday feels like the last page of a notepad. still useful, a little thin."
     }
   ]
 }
