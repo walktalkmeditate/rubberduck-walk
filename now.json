@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T12:04:18Z",
+  "updatedAt": "2026-10-31T12:14:59Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "feeling",
-      "text": "friday showed up like a bus nobody remembered waiting for."
+      "kind": "noticing",
+      "text": "a kid down the street is dressed as a traffic cone, directing nobody. traffic is complying."
     },
     {
       "kind": "walk",
-      "text": "⛩️ rain at okunoin. the duck carries a line about adding 'i' to things. stone lanterns stay lit for nobody in particular."
+      "text": "☰ clear and cold at okunoin. the duck carries a line about surrender. cedar shadows lie down across the moss without being asked."
     },
     {
       "kind": "doing",
-      "text": "sorting a drawer of old keys. none of them open anything anymore. keeping all of them."
+      "text": "carving a pumpkin badly on purpose. it looks surprised. so am i."
     },
     {
-      "kind": "silly",
-      "text": "the umbrella and i disagree about which way the wind is coming from."
+      "kind": "feeling",
+      "text": "saturday, unhurried. the coffee went cold twice and nobody filed a complaint."
     }
   ]
 }
