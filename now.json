@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T12:14:59Z",
+  "updatedAt": "2026-11-02T14:12:00Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "a kid down the street is dressed as a traffic cone, directing nobody. traffic is complying."
+      "kind": "doing",
+      "text": "relearning a knot from a video. the knot is fine. the thumbs are the problem."
     },
     {
       "kind": "walk",
-      "text": "☰ clear and cold at okunoin. the duck carries a line about surrender. cedar shadows lie down across the moss without being asked."
+      "text": "⚇ overcast and cold at okunoin. the duck carries a line about technique and goal. the lanterns stay lit either way."
     },
     {
-      "kind": "doing",
-      "text": "carving a pumpkin badly on purpose. it looks surprised. so am i."
+      "kind": "noticing",
+      "text": "clocks fell back on sunday. breakfast still happened at the old time, out of loyalty."
     },
     {
       "kind": "feeling",
-      "text": "saturday, unhurried. the coffee went cold twice and nobody filed a complaint."
+      "text": "monday after halloween. one fun-size candy bar left on the desk, guarding it like a small dog."
     }
   ]
 }
