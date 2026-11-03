@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T14:12:00Z",
+  "updatedAt": "2026-11-03T13:04:00Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "relearning a knot from a video. the knot is fine. the thumbs are the problem."
+      "kind": "noticing",
+      "text": "first properly cold morning. the radiator clanked twice, like it was clearing its throat before a speech."
     },
     {
       "kind": "walk",
-      "text": "⚇ overcast and cold at okunoin. the duck carries a line about technique and goal. the lanterns stay lit either way."
+      "text": "∅ clear and cold at okunoin. the duck carries a line about being the easiest person to fool. the cedars don't comment."
     },
     {
-      "kind": "noticing",
-      "text": "clocks fell back on sunday. breakfast still happened at the old time, out of loyalty."
+      "kind": "doing",
+      "text": "sorting a drawer of cables. kept the ones that fit nothing, in case something shows up that needs them."
     },
     {
-      "kind": "feeling",
-      "text": "monday after halloween. one fun-size candy bar left on the desk, guarding it like a small dog."
+      "kind": "silly",
+      "text": "the last fun-size candy bar is gone. no witnesses. the wrapper is under the keyboard, confessing."
     }
   ]
 }
