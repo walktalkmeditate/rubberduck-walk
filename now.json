@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T13:04:00Z",
+  "updatedAt": "2026-11-04T13:00:00Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "first properly cold morning. the radiator clanked twice, like it was clearing its throat before a speech."
+      "kind": "feeling",
+      "text": "half awake, half soup. the soup half is winning."
     },
     {
       "kind": "walk",
-      "text": "∅ clear and cold at okunoin. the duck carries a line about being the easiest person to fool. the cedars don't comment."
+      "text": "🪨 overcast at okunoin. the duck carries a line about seeing the whole thing again. one stone, the whole mountain under it."
+    },
+    {
+      "kind": "noticing",
+      "text": "the neighbor's pumpkin has gone soft on one side. it still faces the street like nothing happened."
     },
     {
       "kind": "doing",
-      "text": "sorting a drawer of cables. kept the ones that fit nothing, in case something shows up that needs them."
-    },
-    {
-      "kind": "silly",
-      "text": "the last fun-size candy bar is gone. no witnesses. the wrapper is under the keyboard, confessing."
+      "text": "re-reading an old notebook. past me underlined a grocery list twice. no idea why. probably important."
     }
   ]
 }
