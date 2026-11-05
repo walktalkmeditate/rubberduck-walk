@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T13:00:00Z",
+  "updatedAt": "2026-11-05T13:03:50Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "feeling",
-      "text": "half awake, half soup. the soup half is winning."
+      "kind": "silly",
+      "text": "the rice cooker played its little song at six. nobody clapped. it waited a beat, like it expected an encore."
     },
     {
       "kind": "walk",
-      "text": "🪨 overcast at okunoin. the duck carries a line about seeing the whole thing again. one stone, the whole mountain under it."
-    },
-    {
-      "kind": "noticing",
-      "text": "the neighbor's pumpkin has gone soft on one side. it still faces the street like nothing happened."
+      "text": "❂ overcast at okunoin. the duck carries a line about the measure of the universe. a cedar keeps its own count, in rings."
     },
     {
       "kind": "doing",
-      "text": "re-reading an old notebook. past me underlined a grocery list twice. no idea why. probably important."
+      "text": "measuring a shelf for the third time. the shelf hasn't changed. the tape measure is starting to doubt me."
+    },
+    {
+      "kind": "noticing",
+      "text": "leaves in the gutter. the rain found another way down, mostly onto my left shoe."
     }
   ]
 }
