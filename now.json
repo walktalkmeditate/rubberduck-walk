@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T13:03:50Z",
+  "updatedAt": "2026-11-06T13:04:02Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "silly",
-      "text": "the rice cooker played its little song at six. nobody clapped. it waited a beat, like it expected an encore."
+      "kind": "noticing",
+      "text": "first frost on the car windshield. scraped it with a library card. the library would not approve."
     },
     {
       "kind": "walk",
-      "text": "❂ overcast at okunoin. the duck carries a line about the measure of the universe. a cedar keeps its own count, in rings."
+      "text": "🌙 overcast at okunoin, nine degrees. the duck carries a line about smiles and bread. a stone lantern wears a moss cap."
     },
     {
       "kind": "doing",
-      "text": "measuring a shelf for the third time. the shelf hasn't changed. the tape measure is starting to doubt me."
+      "text": "feeding a sourdough starter that has outlived two houseplants and one phone."
     },
     {
-      "kind": "noticing",
-      "text": "leaves in the gutter. the rain found another way down, mostly onto my left shoe."
+      "kind": "feeling",
+      "text": "soft. like the middle of a loaf, not the crust."
     }
   ]
 }
