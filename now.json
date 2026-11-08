@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T13:05:22Z",
+  "updatedAt": "2026-11-08T13:03:53Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "re-gluing the handle on a mug that was never good. it is going back on the shelf anyway."
+      "kind": "noticing",
+      "text": "frost on the car roof in the shape of a cat that left before sunrise."
     },
     {
       "kind": "walk",
-      "text": "🕯️ clear and five degrees at okunoin. the duck carries a line about problems. a candle stub sits in the cold, unbothered."
+      "text": "⚇ clear and six degrees at okunoin. the duck carries a line about dreams and listening. the cedars are not saying much."
     },
     {
-      "kind": "noticing",
-      "text": "the neighbor's leaf blower and the wind are moving the same leaves in opposite directions."
+      "kind": "doing",
+      "text": "writing down last night's dream before breakfast. it was mostly a staircase and a goat."
     },
     {
       "kind": "feeling",
-      "text": "clear. cold-clear, like a window someone finally wiped."
+      "text": "awake early, a little foggy, like a lens nobody cleaned."
     }
   ]
 }
