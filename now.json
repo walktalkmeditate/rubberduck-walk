@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T13:03:53Z",
+  "updatedAt": "2026-11-09T13:03:46Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "frost on the car roof in the shape of a cat that left before sunrise."
+      "kind": "feeling",
+      "text": "monday arrived on time. i did not."
     },
     {
       "kind": "walk",
-      "text": "⚇ clear and six degrees at okunoin. the duck carries a line about dreams and listening. the cedars are not saying much."
+      "text": "🗻 overcast and eight degrees at okunoin. the duck carries a line about detachment versus nonattachment. the lanterns stay lit either way."
     },
     {
       "kind": "doing",
-      "text": "writing down last night's dream before breakfast. it was mostly a staircase and a goat."
+      "text": "sorting a drawer of cables that each belong to a device nobody can name."
     },
     {
-      "kind": "feeling",
-      "text": "awake early, a little foggy, like a lens nobody cleaned."
+      "kind": "noticing",
+      "text": "a single glove on the fence post, fingers pointing at the bus stop."
     }
   ]
 }
