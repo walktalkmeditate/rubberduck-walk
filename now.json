@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T13:03:55Z",
+  "updatedAt": "2026-11-11T13:09:31Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "rewinding a cassette with a pencil because the deck eats tapes and the pencil does not."
+      "kind": "noticing",
+      "text": "a crow dropped a walnut on the road and waited for a car. the car was me."
     },
     {
       "kind": "walk",
-      "text": "☰ clear and three degrees at okunoin. the duck carries a line about making things and letting go of them. the cedars keep nothing either."
+      "text": "🗻 okunoin under a clear sky. three words today, all starting with h. the duck sits on a root, which starts with r."
+    },
+    {
+      "kind": "doing",
+      "text": "descaling the kettle with vinegar. the kitchen now smells like a decision."
     },
     {
       "kind": "feeling",
-      "text": "cold hands, warm opinion about soup."
-    },
-    {
-      "kind": "noticing",
-      "text": "the mail carrier waved at a dog that was not there yet. it arrived a second later, on schedule."
+      "text": "one sock warmer than the other. undecided about which one is right."
     }
   ]
 }
