@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T13:09:31Z",
+  "updatedAt": "2026-11-12T13:04:35Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "a crow dropped a walnut on the road and waited for a car. the car was me."
+      "kind": "doing",
+      "text": "sweeping leaves off the step. the wind has a different plan and more staff."
+    },
+    {
+      "kind": "silly",
+      "text": "the maps app offered a route four minutes faster. it goes through a pond."
     },
     {
       "kind": "walk",
-      "text": "🗻 okunoin under a clear sky. three words today, all starting with h. the duck sits on a root, which starts with r."
-    },
-    {
-      "kind": "doing",
-      "text": "descaling the kettle with vinegar. the kitchen now smells like a decision."
+      "text": "≡ okunoin, clear and ten degrees. the duck carries a line about shortcuts. the lantern road stays exactly as long as it is."
     },
     {
       "kind": "feeling",
-      "text": "one sock warmer than the other. undecided about which one is right."
+      "text": "impatient with the bread, which is rising at the speed of bread."
     }
   ]
 }
