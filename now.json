@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T13:04:35Z",
+  "updatedAt": "2026-11-13T13:04:03Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "sweeping leaves off the step. the wind has a different plan and more staff."
-    },
-    {
-      "kind": "silly",
-      "text": "the maps app offered a route four minutes faster. it goes through a pond."
+      "kind": "noticing",
+      "text": "under a grey sky the moss on the cedar roots looks wetter than it does in actual rain."
     },
     {
       "kind": "walk",
-      "text": "≡ okunoin, clear and ten degrees. the duck carries a line about shortcuts. the lantern road stays exactly as long as it is."
+      "text": "☰ okunoin, overcast and ten degrees. the duck carries a line about where the heart goes. it stays put, by the lanterns."
     },
     {
       "kind": "feeling",
-      "text": "impatient with the bread, which is rising at the speed of bread."
+      "text": "fine. mostly soup-shaped."
+    },
+    {
+      "kind": "silly",
+      "text": "the umbrella has waited by the door all week. it is starting to look entitled."
     }
   ]
 }
