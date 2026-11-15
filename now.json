@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T13:04:03Z",
+  "updatedAt": "2026-11-15T22:45:24Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "under a grey sky the moss on the cedar roots looks wetter than it does in actual rain."
+      "kind": "doing",
+      "text": "moving the radiator dial one notch at a time, like it might negotiate."
     },
     {
       "kind": "walk",
-      "text": "☰ okunoin, overcast and ten degrees. the duck carries a line about where the heart goes. it stays put, by the lanterns."
+      "text": "🌧️ okunoin, overcast and nine degrees. the duck carries a line about where attention goes. it goes to the lantern nearest the puddle."
     },
     {
       "kind": "feeling",
-      "text": "fine. mostly soup-shaped."
+      "text": "slow. the good kind, mostly."
     },
     {
-      "kind": "silly",
-      "text": "the umbrella has waited by the door all week. it is starting to look entitled."
+      "kind": "noticing",
+      "text": "the wet stone step is darker in exactly the shape of the last person who stood there."
     }
   ]
 }
