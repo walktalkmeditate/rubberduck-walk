@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T22:45:24Z",
+  "updatedAt": "2026-11-16T13:04:09Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "moving the radiator dial one notch at a time, like it might negotiate."
+      "kind": "noticing",
+      "text": "the kettle's steam fogs only the bottom third of the window. the top third still has yesterday in it."
     },
     {
       "kind": "walk",
-      "text": "🌧️ okunoin, overcast and nine degrees. the duck carries a line about where attention goes. it goes to the lantern nearest the puddle."
+      "text": "∞ still okunoin, overcast, six degrees. today's line is three words long. the duck sits under a cedar and gives all three to a crow."
     },
     {
       "kind": "feeling",
-      "text": "slow. the good kind, mostly."
+      "text": "cold feet, warm tea, no opinions before noon."
     },
     {
-      "kind": "noticing",
-      "text": "the wet stone step is darker in exactly the shape of the last person who stood there."
+      "kind": "silly",
+      "text": "two socks on one foot by accident. kept them. the foot seems promoted."
     }
   ]
 }
