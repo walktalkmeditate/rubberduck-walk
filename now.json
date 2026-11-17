@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T13:04:09Z",
+  "updatedAt": "2026-11-17T13:04:23Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "the kettle's steam fogs only the bottom third of the window. the top third still has yesterday in it."
+      "kind": "doing",
+      "text": "sewing a button back onto a raincoat with dental floss. it is now the strongest part of the coat."
     },
     {
       "kind": "walk",
-      "text": "∞ still okunoin, overcast, six degrees. today's line is three words long. the duck sits under a cedar and gives all three to a crow."
+      "text": "≡ okunoin in light rain, nine degrees. the duck isn't on a road at all. a snail keeps it company anyway."
+    },
+    {
+      "kind": "noticing",
+      "text": "rain on the neighbour's tin roof keeps better time than the wall clock."
     },
     {
       "kind": "feeling",
-      "text": "cold feet, warm tea, no opinions before noon."
-    },
-    {
-      "kind": "silly",
-      "text": "two socks on one foot by accident. kept them. the foot seems promoted."
+      "text": "damp at the cuffs. otherwise unbothered."
     }
   ]
 }
