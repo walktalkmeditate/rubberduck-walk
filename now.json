@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T13:04:23Z",
+  "updatedAt": "2026-11-18T13:13:05Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "sewing a button back onto a raincoat with dental floss. it is now the strongest part of the coat."
+      "kind": "noticing",
+      "text": "the bakery switched to winter loaves. same price, darker crust, nobody announced it."
     },
     {
       "kind": "walk",
-      "text": "≡ okunoin in light rain, nine degrees. the duck isn't on a road at all. a snail keeps it company anyway."
+      "text": "∞ still at okunoin. light rain again, nine degrees. the duck lets the lanterns do the walking today."
     },
     {
-      "kind": "noticing",
-      "text": "rain on the neighbour's tin roof keeps better time than the wall clock."
+      "kind": "doing",
+      "text": "returning library books i didn't finish. the slot takes them without asking questions."
     },
     {
       "kind": "feeling",
-      "text": "damp at the cuffs. otherwise unbothered."
+      "text": "cold toes, warm tea. calling it even."
     }
   ]
 }
