@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T13:13:05Z",
+  "updatedAt": "2026-11-19T13:03:54Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "the bakery switched to winter loaves. same price, darker crust, nobody announced it."
+      "kind": "silly",
+      "text": "the wall clock runs four minutes fast. it has been confident about this for a year."
     },
     {
       "kind": "walk",
-      "text": "∞ still at okunoin. light rain again, nine degrees. the duck lets the lanterns do the walking today."
+      "text": "🌫️ okunoin under low cloud, three degrees. the duck carries a line about clocks past stones that never owned one."
     },
     {
       "kind": "doing",
-      "text": "returning library books i didn't finish. the slot takes them without asking questions."
+      "text": "darning a sock with the wrong colour thread. the heel doesn't mind."
     },
     {
       "kind": "feeling",
-      "text": "cold toes, warm tea. calling it even."
+      "text": "slow morning, heavy blanket, no complaints filed."
     }
   ]
 }
