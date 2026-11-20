@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T13:03:54Z",
+  "updatedAt": "2026-11-20T13:04:05Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "silly",
-      "text": "the wall clock runs four minutes fast. it has been confident about this for a year."
+      "kind": "noticing",
+      "text": "the inkstone on the shelf has gone dry. it looks more dignified this way."
     },
     {
       "kind": "walk",
-      "text": "🌫️ okunoin under low cloud, three degrees. the duck carries a line about clocks past stones that never owned one."
+      "text": "💧 okunoin, two degrees and overcast. the duck carries a line about black being lucky, past cedars that went dark centuries ago."
     },
     {
       "kind": "doing",
-      "text": "darning a sock with the wrong colour thread. the heel doesn't mind."
+      "text": "simmering black beans long enough that the kitchen windows gave up."
     },
     {
       "kind": "feeling",
-      "text": "slow morning, heavy blanket, no complaints filed."
+      "text": "cold hands, warm tea, mood undecided."
     }
   ]
 }
