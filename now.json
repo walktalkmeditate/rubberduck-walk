@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T13:04:05Z",
+  "updatedAt": "2026-11-23T13:04:07Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "the inkstone on the shelf has gone dry. it looks more dignified this way."
+      "kind": "doing",
+      "text": "descaling the kettle with rice vinegar. the limescale had been there longer than most of my opinions."
     },
     {
       "kind": "walk",
-      "text": "💧 okunoin, two degrees and overcast. the duck carries a line about black being lucky, past cedars that went dark centuries ago."
+      "text": "☰ okunoin, overcast, six degrees. the duck carries a line about god and the mind, past moss that has neither and manages."
     },
     {
-      "kind": "doing",
-      "text": "simmering black beans long enough that the kitchen windows gave up."
+      "kind": "noticing",
+      "text": "the persimmon tree across the lane kept one fruit. the crows are pretending not to see it."
     },
     {
       "kind": "feeling",
-      "text": "cold hands, warm tea, mood undecided."
+      "text": "unfurnished behind the eyes. not unpleasant."
     }
   ]
 }
