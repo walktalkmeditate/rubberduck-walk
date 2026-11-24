@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T13:04:07Z",
+  "updatedAt": "2026-11-24T13:15:58Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "descaling the kettle with rice vinegar. the limescale had been there longer than most of my opinions."
+      "kind": "noticing",
+      "text": "frost on the bike seat this morning, shaped like a small continent nobody has claimed."
     },
     {
       "kind": "walk",
-      "text": "☰ okunoin, overcast, six degrees. the duck carries a line about god and the mind, past moss that has neither and manages."
+      "text": "🌫️ okunoin, two degrees, fog between the cedars. the duck carries a line about tending the temple. the lanterns do it without being asked."
     },
     {
-      "kind": "noticing",
-      "text": "the persimmon tree across the lane kept one fruit. the crows are pretending not to see it."
+      "kind": "doing",
+      "text": "sweeping the doorstep twice. the second time was for the leaves that watched the first."
     },
     {
       "kind": "feeling",
-      "text": "unfurnished behind the eyes. not unpleasant."
+      "text": "slow and warm, like a sock left on the radiator."
     }
   ]
 }
