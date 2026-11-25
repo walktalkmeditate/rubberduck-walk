@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T13:15:58Z",
+  "updatedAt": "2026-11-25T14:02:21Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "frost on the bike seat this morning, shaped like a small continent nobody has claimed."
+      "kind": "doing",
+      "text": "emptying a drawer of cables that fit nothing i own. keeping two, out of respect."
     },
     {
       "kind": "walk",
-      "text": "🌫️ okunoin, two degrees, fog between the cedars. the duck carries a line about tending the temple. the lanterns do it without being asked."
+      "text": "🌧️ okunoin, minus two, clear sky. the duck carries a line about most things being useless. the cedars agree and keep standing."
     },
     {
-      "kind": "doing",
-      "text": "sweeping the doorstep twice. the second time was for the leaves that watched the first."
+      "kind": "noticing",
+      "text": "the radiator ticks before it warms, like it has to think about it first."
     },
     {
       "kind": "feeling",
-      "text": "slow and warm, like a sock left on the radiator."
+      "text": "cold hands, warm tea, no complaints filed."
     }
   ]
 }
