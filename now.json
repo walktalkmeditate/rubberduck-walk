@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T14:02:21Z",
+  "updatedAt": "2026-11-26T13:03:41Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "doing",
-      "text": "emptying a drawer of cables that fit nothing i own. keeping two, out of respect."
+      "kind": "feeling",
+      "text": "a thought arrived before coffee and left before i could write it down. fair trade."
     },
     {
       "kind": "walk",
-      "text": "🌧️ okunoin, minus two, clear sky. the duck carries a line about most things being useless. the cedars agree and keep standing."
+      "text": "△ okunoin under a grey lid, seven degrees. today's line says existence is a thought. the stone lanterns have not been told."
     },
     {
-      "kind": "noticing",
-      "text": "the radiator ticks before it warms, like it has to think about it first."
+      "kind": "doing",
+      "text": "oiling the hinge on the back gate. it now opens in complete secrecy, which is worse."
     },
     {
-      "kind": "feeling",
-      "text": "cold hands, warm tea, no complaints filed."
+      "kind": "silly",
+      "text": "the fridge hums one note all night. still hasn't found the second."
     }
   ]
 }
