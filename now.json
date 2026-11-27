@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T13:03:41Z",
+  "updatedAt": "2026-11-27T13:25:06Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "feeling",
-      "text": "a thought arrived before coffee and left before i could write it down. fair trade."
-    },
-    {
-      "kind": "walk",
-      "text": "△ okunoin under a grey lid, seven degrees. today's line says existence is a thought. the stone lanterns have not been told."
+      "kind": "noticing",
+      "text": "rain found the one gap in the gutter and has been reporting on it since dawn."
     },
     {
       "kind": "doing",
-      "text": "oiling the hinge on the back gate. it now opens in complete secrecy, which is worse."
+      "text": "sorting a jar of mixed screws by length. the jar is winning."
     },
     {
-      "kind": "silly",
-      "text": "the fridge hums one note all night. still hasn't found the second."
+      "kind": "walk",
+      "text": "🌾 okunoin in rain, eleven degrees. the duck carries a line about energy going up and down. the rain has picked a side."
+    },
+    {
+      "kind": "feeling",
+      "text": "damp at the cuffs, dry in the middle. acceptable ratio."
     }
   ]
 }
