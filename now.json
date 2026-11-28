@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T13:25:06Z",
+  "updatedAt": "2026-11-28T13:16:40Z",
   "context": {
     "route": "shikoku-88",
     "stage": 4,
@@ -8,20 +8,20 @@
   },
   "bullets": [
     {
-      "kind": "noticing",
-      "text": "rain found the one gap in the gutter and has been reporting on it since dawn."
-    },
-    {
-      "kind": "doing",
-      "text": "sorting a jar of mixed screws by length. the jar is winning."
+      "kind": "feeling",
+      "text": "cold hands, warm opinions. trying to keep it that way round."
     },
     {
       "kind": "walk",
-      "text": "🌾 okunoin in rain, eleven degrees. the duck carries a line about energy going up and down. the rain has picked a side."
+      "text": "◯ okunoin under grey cloud, six degrees. the duck carries a line about teaching what it hasn't learned. the lanterns stay quiet on it."
     },
     {
-      "kind": "feeling",
-      "text": "damp at the cuffs, dry in the middle. acceptable ratio."
+      "kind": "doing",
+      "text": "explaining the dishwasher to a houseguest. halfway through, realised i don't know how it works either."
+    },
+    {
+      "kind": "noticing",
+      "text": "the radiator ticks twice before it decides to be warm. every morning, same hesitation."
     }
   ]
 }
